@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from controller.data_preparation import dataEncode, dataScale, dimensionReduction
-from view.detail import viewDetails
+from controller.data_preparation import DataPreparation
+from view.detail_dp import viewDetailDpWithFE, viewDetailDpWithoutFE
 
 
 if 'dataPreparation' in st.session_state:
@@ -18,28 +18,26 @@ if 'dataPreparation' in st.session_state:
         ('Standard Scaler', 'Min Max Scaler', 'Max Abs Scaler', 'Robust Scaler'))
         encode = st.radio(
             "Data encoding method:",
-            ('One Hot Encoding', 'Label Encoding', 'Ordinal Encoding'))
+            ('One Hot Encoding', 'Label Encoding', 'Ordinal Encoding'), index=1)
     
     with col2:
-        check = st.checkbox("Disabled feature extraction", value=1)
+        check = st.checkbox("Disabled feature extraction", value=0)
         extract = st.radio(
             "Feature extraction method:",
-            ('PCA', 'UMAP'), disabled=check)
+            ('PCA', 'T-SNE'), disabled=check)
         dimension = st.slider(
-        'Select number dimension reduction:', 1, len(df.axes[1]), 2, disabled=check)
+        # 'Select number dimension reduction:', 1, len(df.axes[1]), 2, disabled=check)
+        'Select number of dimension:', 1, 3, 2, disabled=check)
     
         
     with col3:
-    # st.write('Encoding method:', encode)
-    # st.write('Scaling method:', scale)
-    # st.write('Dimension reduction:', extract)
-    # st.success('This is a success message!', icon="✅")
-
         st.text('Method')
         if check:
             method = {
             'encode' : encode,
             'scale' : scale,
+            'extraction' : False,
+            'dimension' : False
             }
         else:
             method = {
@@ -55,16 +53,30 @@ if 'dataPreparation' in st.session_state:
     run = st.button('Run')
 
     if run:
-        if len(method) == 4:
-            enResult= dataEncode(method, df)
-            seResult = dataScale(method, enResult)
-            reResult = dimensionReduction(method, seResult)
+        try:
+            with st.spinner('Wait for it...'):
+                if method['extraction'] != False:
+                    dp = DataPreparation(method, data)
 
-            reResult
+                    result, timeExe = dp.executeWithFE()
+                    st.session_state['clusteringData'] = result
+                    st.session_state['dpTimeProcessing'] = timeExe
+                                    
+                    viewDetailDpWithFE(timeExe, method, result)
                     
-            # viewDetails(reResult)
-        else:
-            st.write('R')
+
+                else:
+                    dp = DataPreparation(method, data)
+
+                    result, timeExe = dp.executeWithoutFe()
+                    st.session_state['clusteringData'] = result
+                    st.session_state['dpTimeProcessing'] = timeExe
+
+                    viewDetailDpWithoutFE(timeExe, method, result)
+            st.success('Done!')
+
+        except:
+            st.error('Something wrong!')
 
 else:
     st.subheader('Empty data')
