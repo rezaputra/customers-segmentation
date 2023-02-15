@@ -1,7 +1,7 @@
 # Import library
 import pandas as pd
 import streamlit as st
-from view.detail_dp import viewDetailHome
+from components.detail_df import detailDf
 
 
 # Set page info
@@ -33,7 +33,7 @@ if 'dataFrame' in st.session_state:
         st.session_state['dataPreparation'] = df[attributes].copy()
         x =  st.session_state['dataPreparation']
 
-        viewDetailHome(x)
+        detailDf(x)
             
     
 

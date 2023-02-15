@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from controller.data_preparation import DataPreparation
-from view.detail_dp import viewDetailDpWithFE, viewDetailDpWithoutFE
+from components.detail_dp import viewDetailDpWithFE, viewDetailDpWithoutFE
 
 
 if 'dataPreparation' in st.session_state:
@@ -10,7 +10,7 @@ if 'dataPreparation' in st.session_state:
 
     st.markdown('### Choose Data Preparation Method')
 
-    col1, col2, col3 = st.columns([1.4,1,1])
+    col1, col2, col3 = st.columns([1.2,1,1])
 
     with col1:
         scale = st.selectbox(
@@ -31,7 +31,6 @@ if 'dataPreparation' in st.session_state:
     
         
     with col3:
-        st.text('Method')
         if check:
             method = {
             'encode' : encode,
@@ -46,6 +45,7 @@ if 'dataPreparation' in st.session_state:
             'extraction' : extract,
             'dimension' : dimension
             }
+        st.text('Method')
         st.write(method)
 
 
@@ -60,20 +60,21 @@ if 'dataPreparation' in st.session_state:
 
                     result, timeExe = dp.executeWithFE()
                     st.session_state['clusteringData'] = result
+                    st.session_state['dpMethod'] = method
                     st.session_state['dpTimeProcessing'] = timeExe
                                     
                     viewDetailDpWithFE(timeExe, method, result)
-                    
 
-                else:
+                else:                    
                     dp = DataPreparation(method, data)
 
                     result, timeExe = dp.executeWithoutFe()
                     st.session_state['clusteringData'] = result
+                    st.session_state['dpMethod'] = method
                     st.session_state['dpTimeProcessing'] = timeExe
 
                     viewDetailDpWithoutFE(timeExe, method, result)
-            st.success('Done!')
+                st.success('Done!')
 
         except:
             st.error('Something wrong!')

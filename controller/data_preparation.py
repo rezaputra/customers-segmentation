@@ -13,26 +13,23 @@ class DataPreparation:
         self.method = m
         self.data = d
 
+    @st.cache
     def executeWithFE(self):
         startClean = time.time()
         cResult= self.__dataClean()
-        endClean = time.time()
-        timeClean = endClean - startClean
+        timeClean = time.time() - startClean
 
         startEncode = time.time()
         eResult= self.__dataEncode(cResult)
-        endEncode = time.time()
-        timeEncode = endEncode - startEncode
+        timeEncode = time.time() - startEncode
 
         startScale = time.time()
         sResult = self.__dataScale(eResult)
-        endScale = time.time()
-        timeScale = endScale - startScale
+        timeScale = time.time() - startScale
 
         startFE = time.time()
         feResult = self.__featuresExtraction(sResult)
-        endFE = time.time()
-        timeFE =  endFE - startFE
+        timeFE =  time.time() - startFE
 
         timeExecute = {
             'Clean' : timeClean,
@@ -43,21 +40,19 @@ class DataPreparation:
 
         return feResult, timeExecute
     
+    @st.cache
     def executeWithoutFe(self):
         startClean = time.time()
         cResult= self.__dataClean()
-        endClean = time.time()
-        timeClean = endClean - startClean
+        timeClean = time.time() - startClean
 
         startEncode = time.time()
         eResult= self.__dataEncode(cResult)
-        endEncode = time.time()
-        timeEncode = endEncode - startEncode
+        timeEncode = time.time() - startEncode
 
         startScale = time.time()
         sResult = self.__dataScale(eResult)
-        endScale = time.time()
-        timeScale = endScale - startScale
+        timeScale = time.time() - startScale
 
         timeExecute = {
             'Clean' : timeClean,
