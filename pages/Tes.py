@@ -1,5 +1,5 @@
 import streamlit as st
-from components.detail_df import detailDf
+from components.detail_dataframe import detailDf
 from method.clean import Clean
 import pandas as pd
 

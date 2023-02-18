@@ -1,7 +1,7 @@
 # Import library
 import pandas as pd
 import streamlit as st
-from components.detail_df import detailDf
+from components.detail_dataframe import detailDf
 
 
 # Set page info

@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from controller.data_preparation import DataPreparation
-from components.detail_dp import viewDetailDpWithFE, viewDetailDpWithoutFE
+from controller.data_preparation_controller import DataPreparation
+from components.detail_data_preparation import viewDetailDpWithFE, viewDetailDpWithoutFE
 
 
 if 'dataPreparation' in st.session_state:

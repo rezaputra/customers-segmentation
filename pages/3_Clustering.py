@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
 from components.algo_parameter import *
-
-
-# def parameter():
-#     st.write("a")
+from controller.clustering_controller import ClusteringController
 
 
 if 'clusteringData' in st.session_state:
@@ -20,7 +17,7 @@ if 'clusteringData' in st.session_state:
 
     with columnInputAlgorithm:
         algorithm = st.radio("Select Clustering Algorithm",
-            ["K-Means", "LTKC", "FCM","DBSCAN", "HDBSCAN", "Single Linkage"],
+            ["K-Means", "LTKC", "Agglomerative","DBSCAN", "HDBSCAN", "Affinity Propagation"],
             index=1, key="input_algo")
         
         st.caption(algorithm)
@@ -39,8 +36,8 @@ if 'clusteringData' in st.session_state:
                     ltkc_p = ltkc_parameter()
                     st.session_state['algorithm parameter'] = ltkc_p
 
-                case 'FCM':
-                    fcm_p = fcm_parameter()
+                case 'Agglomerative':
+                    fcm_p = am_parameter()
                     st.session_state['algorithm parameter'] = fcm_p
 
                 case 'DBSCAN':
@@ -51,15 +48,15 @@ if 'clusteringData' in st.session_state:
                     hdbscan_p = hdbscan_parameter()
                     st.session_state['algorithm parameter'] = hdbscan_p
 
-                case 'Single Linkage':
-                    sl_p = single_linkage_parameter()
-                    st.session_state['algorithm parameter'] = sl_p
+                case 'Affinity Propagation':
+                    ap_p = affinity_propagation_parameter()
+                    st.session_state['algorithm parameter'] = ap_p
 
                 case _:
                     st.warning("Error")
         
         with columnParams:
-            st.text('Method')
+            st.text('Algorithm')
             st.write(st.session_state['algorithm parameter'])
 
 
@@ -67,8 +64,14 @@ if 'clusteringData' in st.session_state:
     select = st.button("Run")
 
     if select:
-        parameter = st.session_state['algorithm parameter']
-        st.write(parameter)
+        algo = st.session_state['algorithm parameter']
+        st.write(algo)
+
+        cc = ClusteringController(data, algo)
+
+        result  = cc.execute_clustering()
+
+        st.write(result)
 
 
 
