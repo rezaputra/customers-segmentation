@@ -19,12 +19,12 @@ def ltkc_parameter():
         return params
 
 def am_parameter():
-        matrix = st.selectbox('Which linkage criterion to use',
+        linkage = st.selectbox('Which linkage criterion to use',
                 ('ward', 'average', 'complete', 'single'))
         n_cluster = st.slider('The number of clusters to find', 2, 10, 2)
         params = {
                 'algorithm' : 'Agglomerative',
-                'matrix' : matrix,
+                'linkage' : linkage,
                 'n_cluster' : n_cluster,
         }
         return params

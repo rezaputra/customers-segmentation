@@ -6,7 +6,7 @@ class ClusteringController:
          self.data = d
          self.algo = a
 
-    
+    @st.cache
     def execute_clustering(self):
         clustering  = Clustering(self.data)
         match self.algo['algorithm']:
@@ -20,7 +20,7 @@ class ClusteringController:
                 return ltkc
 
             case 'Agglomerative':
-                agglo = clustering.agglomerative(self.algo['n_cluster'], self.algo['matrix'])
+                agglo = clustering.agglomerative(self.algo['n_cluster'], self.algo['linkage'])
                 return agglo
 
             case 'DBSCAN':

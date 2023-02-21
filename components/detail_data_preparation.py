@@ -11,7 +11,6 @@ def viewDetailDpWithFE(e, m, d):
     data = pd.DataFrame(d)
     method = m
     column = data.columns.values.tolist()
-    total = sum(e.values())
 
     tabShowData, tabPlot = st.tabs(['🗃 Result', 'ℹ Plotting'])
 
@@ -29,7 +28,7 @@ def viewDetailDpWithFE(e, m, d):
             st.write(method['encode'] + " : ", round(e['encode'], 4))              
             st.write(method['scale'] + " : ", round(e['scale'], 4))              
             st.write(method['extraction'] + " : ", round(e['extraction'], 4))    
-            st.write( "Total time: ", round(total, 4))  
+            st.write( "Total time: ", round(e['total'], 4))  
 
     with tabPlot:
         match method['dimension']:
@@ -68,7 +67,6 @@ def viewDetailDpWithFE(e, m, d):
 def viewDetailDpWithoutFE(e, m, d):
     data = pd.DataFrame(d)
     method = m
-    total = sum(e.values())
 
     tabShowData, tabDetail = st.tabs(['🗃 Result', 'ℹ Time'])
     with tabShowData:
@@ -84,6 +82,6 @@ def viewDetailDpWithoutFE(e, m, d):
             st.write("Clean : ", round(e['Clean'], 4))                
             st.write(method['encode'] + " : ", round(e['encode'], 4))              
             st.write(method['scale'] + " : ", round(e['scale'], 4))              
-            st.write( "Total time: ", round(total, 4))  
+            st.write( "Total time: ", round(e['total'], 4))  
 
 

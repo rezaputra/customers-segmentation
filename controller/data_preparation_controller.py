@@ -31,11 +31,14 @@ class DataPreparation:
         feResult = self.__featuresExtraction(sResult)
         timeFE =  time.time() - startFE
 
+        total = timeClean + timeEncode + timeScale + timeFE
+
         timeExecute = {
             'Clean' : timeClean,
             'encode' : timeEncode,
             'scale' : timeScale,
-            'extraction' : timeFE
+            'extraction' : timeFE,
+            'total' : total
         }
 
         return feResult, timeExecute
@@ -54,11 +57,14 @@ class DataPreparation:
         sResult = self.__dataScale(eResult)
         timeScale = time.time() - startScale
 
+        total = timeClean + timeEncode + timeScale
+
         timeExecute = {
             'Clean' : timeClean,
             'encode' : timeEncode,
             'scale' : timeScale,
-            'extraction' : False
+            'extraction' : False,
+            'total' : total
         }
 
         return sResult, timeExecute

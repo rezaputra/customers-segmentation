@@ -4,13 +4,13 @@ from controller.data_preparation_controller import DataPreparation
 from components.detail_data_preparation import viewDetailDpWithFE, viewDetailDpWithoutFE
 
 
-if 'dataPreparation' in st.session_state:
-    data = st.session_state['dataPreparation']
+if 'dataFrame' in st.session_state:
+    data = st.session_state['dataFrame']
     df = pd.DataFrame(data)
 
     st.markdown('### Choose Data Preparation Method')
 
-    col1, col2, col3 = st.columns([1.2,1,1])
+    col1, col2, col3 = st.columns([1.2,1,1], gap='large')
 
     with col1:
         scale = st.selectbox(
@@ -45,11 +45,12 @@ if 'dataPreparation' in st.session_state:
             'extraction' : extract,
             'dimension' : dimension
             }
-        st.text('Method')
+        st.text('Data preparation info')
         st.write(method)
 
 
-    st.subheader('Data preparation')
+    st.markdown('### ')
+    st.markdown('### Data preparation')
     run = st.button('Run')
 
     if run:
@@ -59,7 +60,7 @@ if 'dataPreparation' in st.session_state:
                     dp = DataPreparation(method, data)
 
                     result, timeExe = dp.executeWithFE()
-                    st.session_state['clusteringData'] = result
+                    st.session_state['dataPreparation'] = result
                     st.session_state['dpMethod'] = method
                     st.session_state['dpTimeProcessing'] = timeExe
                                     
@@ -69,7 +70,7 @@ if 'dataPreparation' in st.session_state:
                     dp = DataPreparation(method, data)
 
                     result, timeExe = dp.executeWithoutFe()
-                    st.session_state['clusteringData'] = result
+                    st.session_state['dataPreparation'] = result
                     st.session_state['dpMethod'] = method
                     st.session_state['dpTimeProcessing'] = timeExe
 

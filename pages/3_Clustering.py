@@ -1,22 +1,22 @@
 import streamlit as st
 import pandas as pd
-from components.algo_parameter import *
+from components.get_clustering_parameter import *
+from components.detail_clustering_result import *
 from controller.clustering_controller import ClusteringController
+import time
 
 
-if 'clusteringData' in st.session_state:
-    data = st.session_state['clusteringData']
+if 'dataPreparation' in st.session_state:
+    data = st.session_state['dataPreparation']
     dpTime = st.session_state['dpTimeProcessing']
     dpMethod = st.session_state['dpMethod']
     df = pd.DataFrame(data)
 
-    st.markdown('### Choose Clustering Algorithm')
-
-
-    columnInputAlgorithm, columnInputParameter, empty, columnParams = st.columns([1,1,0.25,1])
+    st.markdown('### Clustering Algorithm Options')
+    columnInputAlgorithm, columnInputParameter, columnParams = st.columns([1,1,1], gap='large')
 
     with columnInputAlgorithm:
-        algorithm = st.radio("Select Clustering Algorithm",
+        algorithm = st.radio("Please select clustering algorithm will be use to cluster the dataset",
             ["K-Means", "LTKC", "Agglomerative","DBSCAN", "HDBSCAN", "Affinity Propagation"],
             index=1, key="input_algo")
         
@@ -56,23 +56,41 @@ if 'clusteringData' in st.session_state:
                     st.warning("Error")
         
         with columnParams:
-            st.text('Algorithm')
+            st.text('Algorithm info')
             st.write(st.session_state['algorithm parameter'])
 
 
+    st.markdown('### ')
     st.markdown('### Clustering')
     select = st.button("Run")
 
     if select:
-        algo = st.session_state['algorithm parameter']
-        st.write(algo)
+        cc = ClusteringController(data, st.session_state['algorithm parameter'])
+        result = cc.execute_clustering()
+        
+        dimension = st.session_state['dpMethod']['dimension']
 
-        cc = ClusteringController(data, algo)
+        tabShowPlot, tabDetailResult = st.tabs(['🗃 Plotting', 'ℹ Details'])
 
-        result  = cc.execute_clustering()
+        with tabShowPlot:
+            match dimension:
+                case 1:
+                    st.write(dimension) 
+                    st.write(st.session_state['algorithm parameter']) 
+                    
+                case 2:
+                    st.write(dimension) 
+                    st.write(st.session_state['algorithm parameter']) 
+                    
+                case 3:
+                    st.warning('gg')
 
-        st.write(result)
-
+        
+        with tabDetailResult:
+            match result['algorithm']:
+                case 'K-Means':
+                    kmeans_result_detail(result)
+                    
 
 
 
