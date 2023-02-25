@@ -84,12 +84,21 @@ if 'dataPreparation' in st.session_state:
                     
                 case 3:
                     st.warning('gg')
-
-        
+                    
+   
         with tabDetailResult:
+            st.caption('')
             match result['algorithm']:
                 case 'K-Means':
                     kmeans_result_detail(result)
+                case 'Agglomerative':
+                    agglomerative_result_detail(result)
+                case 'DBSCAN':
+                    dbscan_detail(result)
+                case 'HDBSCAN':
+                    hdbscan_detail(result)
+                case 'Affinity Propagation':
+                    affinity_propagation_detail(result)
                     
 
 

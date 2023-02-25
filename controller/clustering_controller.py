@@ -6,7 +6,7 @@ class ClusteringController:
          self.data = d
          self.algo = a
 
-    @st.cache
+    @st.cache(allow_output_mutation=True)
     def execute_clustering(self):
         clustering  = Clustering(self.data)
         match self.algo['algorithm']:
