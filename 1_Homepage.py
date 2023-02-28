@@ -19,9 +19,8 @@ unique_columns = []
 dataset_id = ''
 
 if uploaded_file is not None:
-    with st.spinner('Uploading data...'):
-        st.session_state['rawData'] = pd.read_csv(uploaded_file)
-            
+    st.session_state['rawData'] = pd.read_csv(uploaded_file)
+    
 
 if 'rawData' in st.session_state:
     df = pd.DataFrame(st.session_state['rawData'])
