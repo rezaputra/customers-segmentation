@@ -15,26 +15,47 @@ st.header("Welcome")
 st.text("Please input your data below:")
 
 uploaded_file = st.file_uploader("Choose a file", type=["csv"], help="Only csv files allowed")
-
+unique_columns = []
+dataset_id = ''
 
 if uploaded_file is not None:
-    st.session_state['rawData'] = pd.read_csv(uploaded_file)
-    
+    with st.spinner('Uploading data...'):
+        st.session_state['rawData'] = pd.read_csv(uploaded_file)
+            
 
 if 'rawData' in st.session_state:
-    df = st.session_state['rawData']
-
+    df = pd.DataFrame(st.session_state['rawData'])
     column_headers = list(df.columns.values)
-    attributes = st.multiselect('Select Attributes Below:', column_headers, column_headers)
+
+    for column in st.session_state['rawData']:
+        if st.session_state['rawData'][column].is_unique:
+            unique_columns.append(column)
+
+    st.caption('')
+    if unique_columns:
+        select_id = st.selectbox('Which id to identifier the data sample from dataset:', unique_columns)
+        st.caption('The ID is :  ' + select_id)
+        dataset_id = select_id
+    else:
+        df['id'] = df.index + 1
+        st.warning('Warning: Dataset does not contain unique column as id for identifier, The id will generate automatically')
+        dataset_id = 'id'
+    column_headers.remove(dataset_id)
+
+    st.caption('')
+    st.caption('')
+    attributes = st.multiselect('Please select attributes from dataset to use for clustering:', column_headers, column_headers)
+    st.caption('Total selected attributes :  ' + str(len(attributes)))
+
+    attributes.insert(0, dataset_id)
 
     btnGetData = st.button('Select')
     
-    if btnGetData:
-        st.session_state['dataFrame'] = df[attributes].copy()
+    if btnGetData and df[dataset_id].is_unique:
+        st.session_state['dataFrame'] = df[attributes]
+        st.session_state['idName'] = dataset_id
 
         detailDf(st.session_state['dataFrame'])
-            
-    
 
     
 

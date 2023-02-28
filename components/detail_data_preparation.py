@@ -19,6 +19,8 @@ def viewDetailDpWithFE(e, m, d):
         with colShowData:
             st.caption("Dataset")         
             st.write(data)
+            # st.write(st.session_state['datasetId'])
+
         with colDetail:
             st.caption("Detail")          
             st.write(data.describe(percentiles = perc, include = inc))

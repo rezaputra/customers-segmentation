@@ -8,6 +8,7 @@ inc = ['object', 'float', 'int']
 
 def detailDf(d):
     data = pd.DataFrame(d)
+    # data.pop(st.session_state['idName'])
     s = (data.dtypes == "object")
     t = (data.dtypes != "object")
 
@@ -17,7 +18,7 @@ def detailDf(d):
 
     tabShowData, tabDetail = st.tabs(['🗃 Dataset', 'ℹ Details'])
     with tabShowData:
-        st.write(data)        
+        st.write(data.head(100))        
 
     with tabDetail:
         colCleanDetails1, colCleanDetails2 = st.columns([3,1])

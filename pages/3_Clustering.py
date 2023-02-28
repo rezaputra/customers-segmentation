@@ -3,13 +3,12 @@ import pandas as pd
 from components.get_clustering_parameter import *
 from components.detail_clustering_result import *
 from controller.clustering_controller import ClusteringController
-import time
-
 
 if 'dataPreparation' in st.session_state:
-    data = st.session_state['dataPreparation']
-    dpTime = st.session_state['dpTimeProcessing']
-    dpMethod = st.session_state['dpMethod']
+    data = st.session_state['dataPreparation'].copy()
+    dpTime = st.session_state['dpTimeProcessing'].copy()
+    dpMethod = st.session_state['dpMethod'].copy()
+    id = st.session_state['datasetId'].copy()
     df = pd.DataFrame(data)
 
     st.markdown('### Clustering Algorithm Options')

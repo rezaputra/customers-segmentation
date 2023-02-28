@@ -2,16 +2,19 @@ import streamlit as st
 import pandas as pd
 
 
+
 def kmeans_result_detail(d):
     data = d
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
+    id = pd.DataFrame(st.session_state['datasetId'].copy())
 
     with col1:
         st.caption('Clustering Result') 
-        if 'CLUSTER' not in dfResult.columns:
-            dfResult.insert(loc=len(dfResult.columns), column='CLUSTER' ,value=data['result'].labels_)
+        dfResult['CLUSTER'] = data['result'].labels_
+        if 'ID' not in dfResult.columns:
+            dfResult.insert(loc=0, column='ID', value=id.values)
         st.write(dfResult) 
 
     with col2:
@@ -38,11 +41,14 @@ def agglomerative_result_detail(d):
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
+    id = pd.DataFrame(st.session_state['datasetId'].copy())
+
 
     with col1:
         st.caption('Clustering Result') 
-        if 'CLUSTER' not in dfResult.columns:
-            dfResult.insert(loc=len(dfResult.columns), column='CLUSTER' ,value=data['result'].labels_)
+        dfResult['CLUSTER'] = data['result'].labels_
+        if 'ID' not in dfResult.columns:
+            dfResult.insert(loc=0, column='ID', value=id.values)
         st.write(dfResult) 
 
     with col2:
@@ -68,11 +74,14 @@ def dbscan_detail(d):
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
+    id = pd.DataFrame(st.session_state['datasetId'].copy())
+
 
     with col1:
         st.caption('Clustering Result') 
-        if 'CLUSTER' not in dfResult.columns:
-            dfResult.insert(loc=len(dfResult.columns), column='CLUSTER' ,value=data['result'].labels_)
+        dfResult['CLUSTER'] = data['result'].labels_
+        if 'ID' not in dfResult.columns:
+            dfResult.insert(loc=0, column='ID', value=id.values)
         st.write(dfResult) 
 
     with col2:
@@ -96,11 +105,14 @@ def hdbscan_detail(d):
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
+    id = pd.DataFrame(st.session_state['datasetId'].copy())
+
 
     with col1:
         st.caption('Clustering Result') 
-        if 'CLUSTER' not in dfResult.columns:
-            dfResult.insert(loc=len(dfResult.columns), column='CLUSTER' ,value=data['result'].labels_)
+        dfResult['CLUSTER'] = data['result'].labels_
+        if 'ID' not in dfResult.columns:
+            dfResult.insert(loc=0, column='ID', value=id.values)
         st.write(dfResult) 
 
     with col2:
@@ -125,11 +137,13 @@ def affinity_propagation_detail(d):
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
+    id = pd.DataFrame(st.session_state['datasetId'].copy())
 
     with col1:
         st.caption('Clustering Result') 
-        if 'CLUSTER' not in dfResult.columns:
-            dfResult.insert(loc=len(dfResult.columns), column='CLUSTER' ,value=data['result'].labels_)
+        dfResult['CLUSTER'] = data['result'].labels_
+        if 'ID' not in dfResult.columns:
+            dfResult.insert(loc=0, column='ID', value=id.values)
         st.write(dfResult) 
 
     with col2:

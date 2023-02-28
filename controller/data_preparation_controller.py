@@ -6,14 +6,14 @@ import time
 import streamlit as st
 
 
-@st.cache
+# @st.cache
 class DataPreparation:
 
     def __init__(self, m, d):
         self.method = m
         self.data = d
 
-    @st.cache
+    # @st.cache
     def executeWithFE(self):
         startClean = time.time()
         cResult= self.__dataClean()
@@ -43,7 +43,7 @@ class DataPreparation:
 
         return feResult, timeExecute
     
-    @st.cache
+    # @st.cache
     def executeWithoutFe(self):
         startClean = time.time()
         cResult= self.__dataClean()
@@ -71,9 +71,17 @@ class DataPreparation:
         
     def __dataClean(self):
         clean = Clean()
-        data = clean.cleanDf(self.data)
+        result = clean.cleanDf(self.data)
+        column_headers = list(result.columns.values)
 
-        return data
+        id = result[st.session_state['idName']].copy()
+
+        if st.session_state['idName'] in column_headers:
+            result.pop(st.session_state['idName'])
+
+        st.session_state['datasetId'] = id
+
+        return result
     
 
     def __dataEncode(self, c):
