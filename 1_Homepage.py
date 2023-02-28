@@ -20,7 +20,7 @@ uploaded_file = st.file_uploader("Choose a file", type=["csv"], help="Only csv f
 if uploaded_file is not None:
     st.session_state['rawData'] = pd.read_csv(uploaded_file)
     
-
+    st.write('gg')
 if 'rawData' in st.session_state:
     df = st.session_state['rawData']
 
