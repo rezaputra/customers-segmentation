@@ -25,4 +25,4 @@ class Encode:
         encoded = pd.DataFrame(oe.fit_transform(self.data[self.ctg_cols]).toarray(), columns=oe.get_feature_names_out())
         data = pd.concat([self.num, encoded], axis=1, join='inner')
 
-        return data
+        return 

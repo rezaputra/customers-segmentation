@@ -6,14 +6,14 @@ import time
 import streamlit as st
 
 
-# @st.cache
+@st.cache
 class DataPreparation:
 
     def __init__(self, m, d):
         self.method = m
         self.data = d
 
-    # @st.cache
+    @st.cache
     def executeWithFE(self):
         startClean = time.time()
         cResult= self.__dataClean()
@@ -43,7 +43,7 @@ class DataPreparation:
 
         return feResult, timeExecute
     
-    # @st.cache
+    @st.cache
     def executeWithoutFe(self):
         startClean = time.time()
         cResult= self.__dataClean()
@@ -146,9 +146,3 @@ class DataPreparation:
             
             case _:
                 return 'failed'
-
-    
-
-
-
-
