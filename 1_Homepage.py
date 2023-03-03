@@ -55,7 +55,3 @@ if 'rawData' in st.session_state:
         st.session_state['idName'] = dataset_id
 
         detailDf(st.session_state['dataFrame'])
-
-    
-
-    

@@ -5,7 +5,7 @@ from components.detail_data_preparation import viewDetailDpWithFE, viewDetailDpW
 
 
 if 'dataFrame' in st.session_state:
-    data = pd.DataFrame(st.session_state['dataFrame'])
+    data = pd.DataFrame(st.session_state['dataFrame'].copy())
 
     st.markdown('### Choose Data Preparation Method')
 
@@ -53,11 +53,10 @@ if 'dataFrame' in st.session_state:
     run = st.button('Run')
 
     if run:
-        # try:
+        try:
             with st.spinner('Wait for it...'):
                 if method['extraction'] != False:
                     dp = DataPreparation(method, data)
-
                     result, timeExe = dp.executeWithFE()
                     st.session_state['dataPreparation'] = result
                     st.session_state['dpMethod'] = method
@@ -76,8 +75,8 @@ if 'dataFrame' in st.session_state:
                     viewDetailDpWithoutFE(timeExe, method, result)
                 st.success('Done!')
 
-        # except:
-        #     st.error('Something wrong!')
+        except:
+            st.error('Something wrong!')
 
 else:
     st.subheader('Empty data')
