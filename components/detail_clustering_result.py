@@ -4,7 +4,7 @@ import pandas as pd
 
 
 def kmeans_result_detail(d):
-    data = d
+    data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
@@ -37,7 +37,7 @@ def kmeans_result_detail(d):
 
 
 def agglomerative_result_detail(d):
-    data = d
+    data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
@@ -70,7 +70,7 @@ def agglomerative_result_detail(d):
 
 
 def dbscan_detail(d):
-    data = d
+    data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
@@ -101,7 +101,7 @@ def dbscan_detail(d):
 
 
 def hdbscan_detail(d):
-    data = d
+    data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)
@@ -133,7 +133,7 @@ def hdbscan_detail(d):
 
 
 def affinity_propagation_detail(d):
-    data = d
+    data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
     x = st.session_state['dataPreparation'].copy()
     dfResult = pd.DataFrame(x)

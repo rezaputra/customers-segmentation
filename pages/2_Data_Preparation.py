@@ -18,15 +18,23 @@ if 'dataFrame' in st.session_state:
         encode = st.radio(
             "Data encoding method:",
             ('One Hot Encoding', 'Label Encoding', 'Ordinal Encoding'), index=1)
+        
+        
     
     with col2:
         check = st.checkbox("Disabled feature extraction", value=0)
         extract = st.radio(
             "Feature extraction method:",
             ('PCA', 'T-SNE'), disabled=check)
-        dimension = st.slider(
-        # 'Select number dimension reduction:', 1, len(df.axes[1]), 2, disabled=check)
-        'Select number of dimension:', 1, 3, 2, disabled=check)
+        # dimension = st.slider(
+        # 'Select number of dimension:', 2, 3, 2, disabled=check)
+        selectD = st.select_slider(
+        'Select number of dimension', options=['2D', '3D'], disabled=check)
+
+        if selectD == '3D':
+            dimension = 3
+        else:
+            dimension = 2
     
         
     with col3:

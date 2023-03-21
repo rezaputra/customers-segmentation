@@ -13,7 +13,7 @@ class DataPreparation:
         self.method = m
         self.data = d
 
-    @st.cache
+    @st.cache(allow_output_mutation=True)
     def executeWithFE(self):
         startClean = time.time()
         cResult= self.__dataClean()

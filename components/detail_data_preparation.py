@@ -1,16 +1,20 @@
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
-import altair as alt
+import seaborn as sns
 
 perc = [0.20, 0.40, 0.60, 0.80]
 inc = ['object', 'float', 'int']
 
 
 def viewDetailDpWithFE(e, m, d):
-    data = pd.DataFrame(d)
+    data = pd.DataFrame(d.copy())
     method = m
     column = data.columns.values.tolist()
+    id = pd.DataFrame(st.session_state['datasetId'].copy())
+
+    if 'ID' not in data.columns:
+        data.insert(loc=0, column='ID', value=id.values)
 
     tabShowData, tabPlot = st.tabs(['🗃 Result', 'ℹ Plotting'])
 
@@ -19,7 +23,6 @@ def viewDetailDpWithFE(e, m, d):
         with colShowData:
             st.caption("Dataset")         
             st.write(data)
-            # st.write(st.session_state['datasetId'])
 
         with colDetail:
             st.caption("Detail")          
@@ -33,19 +36,14 @@ def viewDetailDpWithFE(e, m, d):
             st.write( "Total time: ", round(e['total'], 4))  
 
     with tabPlot:
-        match method['dimension']:
-            case 1:
-                st.caption("Plotting 1D")
-                st.bar_chart(data)
-
+        match method['dimension']:                
             case 2:
-                chart = alt.Chart(data=data).mark_circle().encode(
-                    x = column[0],
-                    y = column[1],
-
-                )
                 st.caption("Plotting 2D")
-                st.altair_chart(chart, theme="streamlit", use_container_width=True)
+                twoPlot = sns.stripplot(data=data, x=data[column[0]], y=data[column[1]])
+                twoFig = twoPlot.get_figure()
+                twoFig.savefig('img/dp_plot2d.png')
+
+                st.image('img/dp_plot2d.png')
 
             case 3:
                 fig = plt.figure(figsize = (10,10))
@@ -67,8 +65,12 @@ def viewDetailDpWithFE(e, m, d):
 
 
 def viewDetailDpWithoutFE(e, m, d):
-    data = pd.DataFrame(d)
+    data = pd.DataFrame(d.copy())
     method = m
+    id = pd.DataFrame(st.session_state['datasetId'].copy())
+
+    if 'ID' not in data.columns:
+        data.insert(loc=0, column='ID', value=id.values)
 
     tabShowData, tabDetail = st.tabs(['🗃 Result', 'ℹ Time'])
     with tabShowData:
@@ -85,5 +87,4 @@ def viewDetailDpWithoutFE(e, m, d):
             st.write(method['encode'] + " : ", round(e['encode'], 4))              
             st.write(method['scale'] + " : ", round(e['scale'], 4))              
             st.write( "Total time: ", round(e['total'], 4))  
-
 

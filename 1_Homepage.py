@@ -19,7 +19,7 @@ unique_columns = []
 dataset_id = ''
 
 if uploaded_file is not None:
-    st.session_state['rawData'] = pd.read_csv(uploaded_file)
+    st.session_state['rawData'] = pd.read_csv(uploaded_file, low_memory=False)
     
 
 if 'rawData' in st.session_state:
@@ -50,7 +50,7 @@ if 'rawData' in st.session_state:
 
     btnGetData = st.button('Select')
     
-    if btnGetData and df[dataset_id].is_unique:
+    if btnGetData:
         st.session_state['dataFrame'] = df[attributes]
         st.session_state['idName'] = dataset_id
 

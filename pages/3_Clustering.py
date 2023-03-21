@@ -2,7 +2,9 @@ import streamlit as st
 import pandas as pd
 from components.get_clustering_parameter import *
 from components.detail_clustering_result import *
+from components.plotting_cluster import *
 from controller.clustering_controller import ClusteringController
+
 
 if 'dataPreparation' in st.session_state:
     data = st.session_state['dataPreparation'].copy()
@@ -19,7 +21,10 @@ if 'dataPreparation' in st.session_state:
             ["K-Means", "LTKC", "Agglomerative","DBSCAN", "HDBSCAN", "Affinity Propagation"],
             index=1, key="input_algo")
         
-        st.caption(algorithm)
+        
+        isPlot = st.checkbox('Plot ' + algorithm, value=0)
+        
+        # st.caption(algorithm)
 
     with columnInputParameter:
         if 'input_algo' in st.session_state:
@@ -61,31 +66,52 @@ if 'dataPreparation' in st.session_state:
 
     st.markdown('### ')
     st.markdown('### Clustering')
-    select = st.button("Run")
+    # select = st.button("Run")
 
-    if select:
-        cc = ClusteringController(data, st.session_state['algorithm parameter'])
-        result = cc.execute_clustering()
-        
-        dimension = st.session_state['dpMethod']['dimension']
+    if st.button("Run"):
+        if isPlot:
+            cc = ClusteringController(data, st.session_state['algorithm parameter'])
+            result = cc.execute_clustering()
 
-        tabShowPlot, tabDetailResult = st.tabs(['🗃 Plotting', 'ℹ Details'])
+            tabShowPlot, tabDetailResult = st.tabs(['🗃 Plotting', 'ℹ Details'])
 
-        with tabShowPlot:
-            match dimension:
-                case 1:
-                    st.write(dimension) 
-                    st.write(st.session_state['algorithm parameter']) 
-                    
-                case 2:
-                    st.write(dimension) 
-                    st.write(st.session_state['algorithm parameter']) 
-                    
-                case 3:
-                    st.warning('gg')
-                    
-   
-        with tabDetailResult:
+            with tabShowPlot:
+                match result['algorithm']:
+                    case 'K-Means':
+                        kmPlot = PlottingKMeans(result)
+                        kmPlot.execute_plotting()
+                        
+                    case 'Agglomerative':
+                        st.write(st.session_state['algorithm parameter']) 
+                        
+                    case 'DBSCAN':
+                        st.warning('gg')
+
+                    case 'HDBSCAN':
+                        st.warning('gg')
+
+                    case 'Affinity Propagation':
+                        st.warning('gg')
+                        
+    
+            with tabDetailResult:
+                st.caption('')
+                match result['algorithm']:
+                    case 'K-Means':
+                        kmeans_result_detail(result)
+                    case 'Agglomerative':
+                        agglomerative_result_detail(result)
+                    case 'DBSCAN':
+                        dbscan_detail(result)
+                    case 'HDBSCAN':
+                        hdbscan_detail(result)
+                    case 'Affinity Propagation':
+                        affinity_propagation_detail(result)
+
+        else:
+            cc = ClusteringController(data, st.session_state['algorithm parameter'])
+            result = cc.execute_clustering()
+
             st.caption('')
             match result['algorithm']:
                 case 'K-Means':
@@ -98,8 +124,7 @@ if 'dataPreparation' in st.session_state:
                     hdbscan_detail(result)
                 case 'Affinity Propagation':
                     affinity_propagation_detail(result)
-                    
 
 
-
+# st.write(st.session_state['dataPreparation'])
     
