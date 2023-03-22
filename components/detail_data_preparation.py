@@ -1,7 +1,7 @@
 import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
-import seaborn as sns
+from components.plotting import dp_two_dimension, dp_three_dimension
 
 perc = [0.20, 0.40, 0.60, 0.80]
 inc = ['object', 'float', 'int']
@@ -38,30 +38,10 @@ def viewDetailDpWithFE(e, m, d):
     with tabPlot:
         match method['dimension']:                
             case 2:
-                st.caption("Plotting 2D")
-                twoPlot = sns.stripplot(data=data, x=data[column[0]], y=data[column[1]])
-                twoFig = twoPlot.get_figure()
-                twoFig.savefig('img/dp_plot2d.png')
-
-                st.image('img/dp_plot2d.png')
+                dp_two_dimension(data, column)
 
             case 3:
-                fig = plt.figure(figsize = (10,10))
-                ax = plt.axes(projection='3d')
-                ax.grid()
-
-                ax.scatter(data[column[0]], data[column[1]], data[column[2]])
-                ax.set_title('3D Scatter Plot')
-
-                ax.set_xlabel(column[0], labelpad=20)
-                ax.set_ylabel(column[1], labelpad=20)
-                ax.set_zlabel(column[2], labelpad=20)
-
-                plt.savefig('img/dp_plot3d.png')
-                st.caption("Plotting 3D")
-                st.image('img/dp_plot3d.png', width=800, caption='Features Extraction Result')
-
-
+                dp_three_dimension(data, column)
 
 
 def viewDetailDpWithoutFE(e, m, d):
