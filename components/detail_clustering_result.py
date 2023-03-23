@@ -1,21 +1,26 @@
 import streamlit as st
 import pandas as pd
 
+def download_with_label(d):
+    data = pd.DataFrame(d.copy())
+    df = data.to_csv(index=False).encode('utf-8')
+
+    st.download_button(
+        label="Download",
+        data=df,
+        file_name='clustering_result.csv',
+        mime='text/csv',
+        )
 
 
 def kmeans_result_detail(d):
     data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
-    x = st.session_state['dataPreparation'].copy()
-    dfResult = pd.DataFrame(x)
-    id = pd.DataFrame(st.session_state['datasetId'].copy())
 
     with col1:
         st.caption('Clustering Result') 
-        dfResult['CLUSTER'] = data['result'].labels_
-        if 'ID' not in dfResult.columns:
-            dfResult.insert(loc=0, column='ID', value=id.values)
-        st.write(dfResult) 
+        st.write(data['labeled']) 
+
 
     with col2:
         st.caption('Cluster Center')
@@ -34,22 +39,20 @@ def kmeans_result_detail(d):
         st.write('Sum of squared distances of samples :', round(data['result'].inertia_, 0))
         st.write('Silhouette score :', round(data['score'], 4)) 
 
+        st.caption('')
+        st.caption('')
+        st.caption('Download Results')
+        download_with_label(data['labeled'])
+
 
 
 def agglomerative_result_detail(d):
     data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
-    x = st.session_state['dataPreparation'].copy()
-    dfResult = pd.DataFrame(x)
-    id = pd.DataFrame(st.session_state['datasetId'].copy())
-
 
     with col1:
         st.caption('Clustering Result') 
-        dfResult['CLUSTER'] = data['result'].labels_
-        if 'ID' not in dfResult.columns:
-            dfResult.insert(loc=0, column='ID', value=id.values)
-        st.write(dfResult) 
+        st.write(data['labeled']) 
 
     with col2:
          st.caption('Children of each non-leaf node')
@@ -67,22 +70,20 @@ def agglomerative_result_detail(d):
         st.write('Number of leaves in the hierarchical tree :', data['result'].n_leaves_)
         st.write('Silhouette score :', round(data['score'], 4))
 
+        st.caption('')
+        st.caption('')
+        st.caption('Download Results')
+        download_with_label(data['labeled'])
+
 
 
 def dbscan_detail(d):
     data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
-    x = st.session_state['dataPreparation'].copy()
-    dfResult = pd.DataFrame(x)
-    id = pd.DataFrame(st.session_state['datasetId'].copy())
-
 
     with col1:
         st.caption('Clustering Result') 
-        dfResult['CLUSTER'] = data['result'].labels_
-        if 'ID' not in dfResult.columns:
-            dfResult.insert(loc=0, column='ID', value=id.values)
-        st.write(dfResult) 
+        st.write(data['labeled']) 
 
     with col2:
          st.caption('Components', )
@@ -99,21 +100,19 @@ def dbscan_detail(d):
         st.caption('More Information')
         st.write('Silhouette score :', round(data['score'], 4))
 
+        st.caption('')
+        st.caption('')
+        st.caption('Download Results')
+        download_with_label(data['labeled'])
+
 
 def hdbscan_detail(d):
     data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
-    x = st.session_state['dataPreparation'].copy()
-    dfResult = pd.DataFrame(x)
-    id = pd.DataFrame(st.session_state['datasetId'].copy())
-
 
     with col1:
         st.caption('Clustering Result') 
-        dfResult['CLUSTER'] = data['result'].labels_
-        if 'ID' not in dfResult.columns:
-            dfResult.insert(loc=0, column='ID', value=id.values)
-        st.write(dfResult) 
+        st.write(data['labeled']) 
 
     with col2:
          st.caption('Strength of each sample', )
@@ -130,21 +129,20 @@ def hdbscan_detail(d):
         st.caption('More Information')
         st.write('Silhouette score :', round(data['score'], 4))
 
+        st.caption('')
+        st.caption('')
+        st.caption('Download Results')
+        download_with_label(data['labeled'])
+
 
 
 def affinity_propagation_detail(d):
     data = d.copy()
     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
-    x = st.session_state['dataPreparation'].copy()
-    dfResult = pd.DataFrame(x)
-    id = pd.DataFrame(st.session_state['datasetId'].copy())
 
     with col1:
         st.caption('Clustering Result') 
-        dfResult['CLUSTER'] = data['result'].labels_
-        if 'ID' not in dfResult.columns:
-            dfResult.insert(loc=0, column='ID', value=id.values)
-        st.write(dfResult) 
+        st.write(data['labeled']) 
 
     with col2:
          st.caption('Cluster centers', )
@@ -161,4 +159,9 @@ def affinity_propagation_detail(d):
         st.caption('More Information')
         st.write('Number of iterations run :', round(data['result'].n_iter_, 4))
         st.write('Silhouette score :', round(data['score'], 4))
+
+        st.caption('')
+        st.caption('')
+        st.caption('Download Results')
+        download_with_label(data['labeled'])
 

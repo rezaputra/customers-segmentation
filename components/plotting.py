@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+
 def dp_two_dimension(d, c):
     data = d.copy()
     column = c.copy()
@@ -17,7 +18,7 @@ def dp_two_dimension(d, c):
 
     plt.savefig('img/dp_plot2d.png')
     st.caption("Scatter 2D Plotting")
-    st.image('img/dp_plot2d.png', width=800, caption='2D Plotting')
+    st.image('img/dp_plot2d.png', width=800)
 
 
 
@@ -38,10 +39,19 @@ def dp_three_dimension(d, c):
 
     plt.savefig('img/dp_plot3d.png')
     st.caption("Data Preparation 3D Plotting")
-    st.image('img/dp_plot3d.png', width=800, caption='3D Plotting')
+    st.image('img/dp_plot3d.png', width=800)
 
 
-def clustering_result_two_dimension(d, c):
+def clustering_result_two_dimension(d):
     data = d.copy()
-    column = c.copy()
+    column = data.columns.values.tolist()
+    column.pop(0)
+    u_labels = pd.unique(data['CLUSTER'])
+
+    plt.figure(figsize = (10,10))
+    plt.scatter(x = data[column[0]], y = data[column[1]], c=data[column[2]], alpha = 0.8, label = [1,2,3,4])
+    plt.grid()
+    plt.title("2D CLuster")
+
+    plt.savefig('img/cluster_plot2d.png')
     
