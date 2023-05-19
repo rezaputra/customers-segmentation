@@ -19,7 +19,7 @@ def viewDetailDpWithFE(e, m, d):
     tabShowData, tabPlot = st.tabs(['🗃 Result', 'ℹ Plotting'])
 
     with tabShowData:
-        colShowData, colDetail ,colTimeExecute = st.columns([1,1,1])
+        colShowData, colDetail ,colTimeExecute = st.columns([1,1,1], gap="medium")
         with colShowData:
             st.caption("Dataset")         
             st.write(data)
@@ -57,7 +57,7 @@ def viewDetailDpWithoutFE(e, m, d):
         st.caption("Dataset")         
         st.write(data)
     with tabDetail:
-        colDetail ,colTimeExecute = st.columns([2,1])
+        colDetail ,colTimeExecute = st.columns([2,1],gap="medium")
         with colDetail:
             st.caption("Detail")          
             st.write(data.describe(percentiles = perc, include = inc))

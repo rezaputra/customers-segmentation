@@ -14,12 +14,13 @@ if 'dataPreparation' in st.session_state:
     id = pd.DataFrame(st.session_state['datasetId'].copy())
 
     st.markdown('### Clustering Algorithm Options')
+    # st.write(st.session_state['fileName'])
     columnInputAlgorithm, columnInputParameter, columnParams = st.columns([1,1,1], gap='large')
 
     with columnInputAlgorithm:
         algorithm = st.radio("Please select clustering algorithm ",
-            ["K-Means", "LTKC", "Agglomerative","DBSCAN", "HDBSCAN", "Affinity Propagation"],
-            index=1, key="input_algo")
+            ["K-Means", "Agglomerative","DBSCAN", "HDBSCAN", "Affinity Propagation"],
+            index=0, key="input_algo")
         
         
         isPlot = st.checkbox('Plot ' + algorithm, value=1)
@@ -36,9 +37,9 @@ if 'dataPreparation' in st.session_state:
                     km_p = k_kmean_parameter()
                     st.session_state['algorithm parameter'] = km_p
                     
-                case 'LTKC':
-                    ltkc_p = ltkc_parameter()
-                    st.session_state['algorithm parameter'] = ltkc_p
+                # case 'LTKC':
+                #     ltkc_p = ltkc_parameter()
+                #     st.session_state['algorithm parameter'] = ltkc_p
 
                 case 'Agglomerative':
                     fcm_p = am_parameter()
@@ -99,8 +100,8 @@ if 'dataPreparation' in st.session_state:
                             st.caption('')
                             st.caption('')
                             st.caption('Recaps')
-                            st.write('Computation time :',round(result['time'], 4))
                             st.write('Total cluster :', max(result['result'].labels_) + 1)    
+                            st.write('Computation time :',round(result['time'], 4))
                             st.write('Silhouette score :', round(result['score'], 4))    
                         
                     case 2:

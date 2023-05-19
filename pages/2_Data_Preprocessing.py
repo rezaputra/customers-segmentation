@@ -8,16 +8,17 @@ if 'dataFrame' in st.session_state:
     data = pd.DataFrame(st.session_state['dataFrame'].copy())
 
     st.markdown('### Choose Data Preparation Method')
+    st.caption('')
 
     col1, col2, col3 = st.columns([1.2,1,1], gap='large')
 
     with col1:
-        scale = st.selectbox(
-        'Data scaling method:',
-        ('Standard Scaler', 'Min Max Scaler', 'Max Abs Scaler', 'Robust Scaler'))
         encode = st.radio(
             "Data encoding method:",
             ('One Hot Encoding', 'Label Encoding', 'Ordinal Encoding'), index=1)
+        scale = st.selectbox(
+        'Data scaling method:',
+        ('Standard Scaler', 'Min Max Scaler', 'Max Abs Scaler', 'Robust Scaler'))
         
         
     
@@ -57,7 +58,7 @@ if 'dataFrame' in st.session_state:
 
 
     st.markdown('### ')
-    st.markdown('### Data preparation')
+    st.markdown('### Data Preprocessing')
     run = st.button('Run')
 
     if run:

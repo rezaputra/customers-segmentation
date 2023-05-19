@@ -26,3 +26,6 @@ class Encode:
         data = pd.concat([self.num, encoded], axis=1, join='inner')
 
         return 
+    
+
+    

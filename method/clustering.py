@@ -1,6 +1,6 @@
-import streamlit as st
 import pandas as pd
 import time
+import streamlit as st
 from hdbscan import HDBSCAN
 from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, AffinityPropagation
 from sklearn.metrics import silhouette_score
@@ -10,6 +10,27 @@ from sklearn.metrics import silhouette_score
 class Clustering:
     def __init__(self, d):
         self.data = pd.DataFrame(d)
+        # self.rawData = st.session_state['dataPreparation']
+
+
+
+    def hdbscan(self, min_samples, min_cluster_size, algorithm='boruvka_kdtree'):
+        startTime = time.time()
+        hdb = HDBSCAN(min_samples=min_samples, min_cluster_size=min_cluster_size)
+        fit = hdb.fit(self.data)
+        endTime = time.time() - startTime
+
+        score = silhouette_score(self.data, fit.labels_)
+
+        result = {
+            'algorithm' : 'HDBSCAN',
+            'result' : fit,
+            'score' : score,
+            'time' : endTime
+        }
+
+        return result
+
 
 
     def kMeans(self, n_cluster, max_iter):
@@ -30,16 +51,6 @@ class Clustering:
         return result
     
 
-    def ltkc(self, k_value):
-        result = {
-            'algorithm' : 'LTKC',
-            'result' : False,
-            'score' : False,
-            'time' : False
-        }
-
-        return result
-    
     
     def agglomerative(self, n_cluster, linkage):
         startTime = time.time()
@@ -77,23 +88,6 @@ class Clustering:
         return result
     
     
-    def hdbscan(self, min_samples, min_cluster_size):
-        startTime = time.time()
-        hdb = HDBSCAN(min_samples=min_samples, min_cluster_size=min_cluster_size)
-        fit = hdb.fit(self.data)
-        endTime = time.time() - startTime
-
-        score = silhouette_score(self.data, fit.labels_)
-
-        result = {
-            'algorithm' : 'HDBSCAN',
-            'result' : fit,
-            'score' : score,
-            'time' : endTime
-        }
-
-        return result
-    
     
     def affinity_propagation(self, damping, max_iter):
         startTime = time.time()
@@ -111,3 +105,15 @@ class Clustering:
         }
 
         return result
+    
+
+    # def ltkc(self, k_value):
+    #     result = {
+    #         'algorithm' : 'LTKC',
+    #         'result' : False,
+    #         'score' : False,
+    #         'time' : False
+    #     }
+
+    #     return result
+    
