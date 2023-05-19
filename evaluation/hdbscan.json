@@ -1,1 +1,87 @@
-[]
+[
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.07452796033408092,
+        "time": 0.4667525291442871,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": -0.13570903962642006,
+        "time": 0.07283639907836914,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": -0.13570903962642006,
+        "time": 0.07779121398925781,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": -0.13570903962642006,
+        "time": 0.06382989883422852,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.07452796033408092,
+        "time": 0.47074174880981445,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    }
+]

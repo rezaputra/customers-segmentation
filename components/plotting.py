@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
 
 
 
@@ -49,9 +50,35 @@ def clustering_result_two_dimension(d):
     u_labels = pd.unique(data['CLUSTER'])
 
     plt.figure(figsize = (10,10))
-    plt.scatter(x = data[column[0]], y = data[column[1]], c=data[column[2]], alpha = 0.8, label = [1,2,3,4])
+    plt.scatter(x = data[column[0]], y = data[column[1]], c=data[column[2]], alpha = 0.8, label = u_labels)
     plt.grid()
     plt.title("2D CLuster")
 
     plt.savefig('img/cluster_plot2d.png')
+
+
+def clustering_result_two_dimension_nopca(d):
+    df = pd.DataFrame(d)
+    labels = df['CLUSTER']
+    df.pop('CLUSTER')
+    df.pop('ID')
+
+
+    pca = PCA(n_components=2)
+    pca_x = pca.fit_transform(df)
+
+    data = pd.concat([pd.DataFrame(pca_x), pd.DataFrame(labels)], axis=1) 
+
+    u_labels = pd.unique(data['CLUSTER'])
+    column = data.columns.values.tolist()
+
+    plt.figure(figsize = (10,10))
+    plt.scatter(x = data[column[0]], y = data[column[1]], c=data[column[2]], alpha = 0.8, label = u_labels)
+    plt.grid()
+    plt.title("2D CLuster")
+
+    plt.savefig('img/cluster_plot2d_nopca.png')
+
+
+    
     

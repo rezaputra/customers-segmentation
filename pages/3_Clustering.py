@@ -4,7 +4,8 @@ from components.get_clustering_parameter import *
 from components.detail_clustering_result import *
 from components.plotting_cluster import *
 from controller.clustering_controller import ClusteringController
-from components.plotting import clustering_result_two_dimension
+from components.plotting import clustering_result_two_dimension, clustering_result_two_dimension_nopca
+
 
 
 if 'dataPreparation' in st.session_state:
@@ -104,9 +105,29 @@ if 'dataPreparation' in st.session_state:
                             st.write('Computation time :',round(result['time'], 4))
                             st.write('Silhouette score :', round(result['score'], 4))    
                         
-                    case 2:
-                        st.write(st.session_state['algorithm parameter'])              
+                    case False:
+                        plotcol, recapcol = st.columns([3,1], gap='small')
+                        with plotcol:
+                            clustering_result_two_dimension_nopca(dpResult)
+                            st.caption(algorithm + " 2D Plotting")
+                            try:
+                                st.image('img/cluster_plot2d_nopca.png', width=700)
+                            except:
+                                st.warning('Something was wrong!')
+                        with recapcol:
+                            st.caption('')
+                            st.caption('')
+                            st.caption('')
+                            st.caption('')
+                            st.caption('')
+                            st.caption('')
+                            st.caption('Recaps')
+                            st.write('Total cluster :', max(result['result'].labels_) + 1)    
+                            st.write('Computation time :',round(result['time'], 4))
+                            st.write('Silhouette score :', round(result['score'], 4))             
     
+
+                        
             with tabDetailResult:
                 st.caption('')
                 match result['algorithm']:
