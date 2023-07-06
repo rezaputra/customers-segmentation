@@ -1,6 +1,4 @@
-
 import pandas as pd
-import streamlit as st
 
 class Clean:
 
@@ -10,3 +8,5 @@ class Clean:
         data = data.drop_duplicates()
 
         return data
+    
+

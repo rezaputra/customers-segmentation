@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
-
+import umap
 
 
 def dp_two_dimension(d, c):
@@ -64,10 +64,13 @@ def clustering_result_two_dimension_nopca(d):
     df.pop('ID')
 
 
-    pca = PCA(n_components=2)
-    pca_x = pca.fit_transform(df)
+    # pca = PCA(n_components=2)
+    # pca_x = pca.fit_transform(df)
 
-    data = pd.concat([pd.DataFrame(pca_x), pd.DataFrame(labels)], axis=1) 
+    reducer = umap.UMAP(n_components=2, metric='euclidean', min_dist=0.1)
+    embedding = reducer.fit_transform(df)
+
+    data = pd.concat([pd.DataFrame(embedding), pd.DataFrame(labels)], axis=1) 
 
     u_labels = pd.unique(data['CLUSTER'])
     column = data.columns.values.tolist()

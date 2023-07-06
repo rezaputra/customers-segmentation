@@ -50,6 +50,8 @@ if 'rawData' in st.session_state:
     st.caption('')
     st.caption('')
 
+    # st.json(column_headers)
+
     # column_headers.remove(dataset_id)
     attributes = st.multiselect('Please select attributes from dataset to use for clustering:', column_headers, column_headers)
     st.caption('Total selected attributes :  ' + str(len(attributes)))
@@ -80,4 +82,4 @@ if 'rawData' in st.session_state:
         with open('evaluation/dataset.json', 'w') as file:
             json.dump(json_data, file, indent=2)
 
-        detailDf(st.session_state['dataFrame'])
+        detailDf(st.session_state['dataFrame'], uploaded_file.name)

@@ -2,8 +2,8 @@ import pandas as pd
 import time
 import streamlit as st
 from hdbscan import HDBSCAN
-from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, AffinityPropagation
-from sklearn.metrics import silhouette_score
+from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, AffinityPropagation, OPTICS
+from sklearn.metrics import silhouette_score, davies_bouldin_score
 
 
 
@@ -14,7 +14,7 @@ class Clustering:
 
 
 
-    def hdbscan(self, min_samples, min_cluster_size, algorithm='boruvka_kdtree'):
+    def hdbscan(self, min_samples, min_cluster_size):
         startTime = time.time()
         hdb = HDBSCAN(min_samples=min_samples, min_cluster_size=min_cluster_size)
         fit = hdb.fit(self.data)
@@ -26,6 +26,26 @@ class Clustering:
             'algorithm' : 'HDBSCAN',
             'result' : fit,
             'score' : score,
+            'time' : endTime
+        }
+
+        return result
+    
+
+    def optics(self, min_samples, max_eps):
+        startTime = time.time()
+        opt = OPTICS(min_samples=min_samples, max_eps=max_eps)
+        fit = opt.fit(self.data)
+        endTime = time.time() - startTime
+
+        indexScore = silhouette_score(self.data, fit.labels_)
+        dbScore = davies_bouldin_score(self.data, fit.labels_)
+
+        result = {
+            'algorithm' : 'HDBSCAN',
+            'result' : fit,
+            'indexScore' : indexScore,
+            'indexScore' : indexScore,
             'time' : endTime
         }
 

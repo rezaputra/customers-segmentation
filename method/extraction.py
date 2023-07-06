@@ -5,7 +5,7 @@ from sklearn.decomposition import PCA
 # @st.cache
 class Extraction:
     def __init__(self, d, r):
-        self.data = pd.DataFrame(d)
+        self.data = pd.DataFrame(d.copy())
         self.reduction = r
 
 

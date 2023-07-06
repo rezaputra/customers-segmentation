@@ -1,0 +1,11 @@
+[
+  {
+    "dataset": "dwimedialestari.csv"
+  },
+  {
+    "dataset": "bankchurners.csv"
+  },
+  {
+    "dataset": "onlineretail.csv"
+  }
+]

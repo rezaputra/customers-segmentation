@@ -1,0 +1,4558 @@
+[
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.08628023197314506,
+        "time": 0.37482452392578125,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.18262820139166527,
+        "time": 0.5375878810882568,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.18262820139166527,
+        "time": 0.5396296977996826,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.049145638766320464,
+        "time": 0.5142605304718018,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.013793282608490625,
+        "time": 0.4983541965484619,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.035922904729484735,
+        "time": 0.4747011661529541,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.035922904729484735,
+        "time": 0.5026824474334717,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.0546866393706186,
+        "time": 0.49615025520324707,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                6
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.13978898968112788,
+        "time": 0.3422534465789795,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.20349539906101188,
+        "time": 0.345975399017334,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.20349539906101188,
+        "time": 0.3560488224029541,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.21255665893346615,
+        "time": 0.3458566665649414,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.07844094648153395,
+        "time": 0.35006093978881836,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                10
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.11885969324143647,
+        "time": 0.3311116695404053,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                19
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.11885969324143647,
+        "time": 0.3291199207305908,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                27
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.11885969324143647,
+        "time": 0.3370075225830078,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                29
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.11885969324143647,
+        "time": 0.34433960914611816,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.11885969324143647,
+        "time": 0.3273594379425049,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                34
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.09839643885042199,
+        "time": 0.259307861328125,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                34
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.5026552677154541,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.46571826934814453,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                60
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.12889126542812945,
+        "time": 0.4816889762878418,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.46378612518310547,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                95
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.5126445293426514,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.4996652603149414,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.4797496795654297,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                73
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12063977796297222,
+        "time": 0.3779783248901367,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                73
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12063977796297222,
+        "time": 0.3730297088623047,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12063977796297222,
+        "time": 0.37506794929504395,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                24
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12063977796297222,
+        "time": 0.3650243282318115,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                39
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12063977796297222,
+        "time": 0.37102842330932617,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                39
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.09565353750575431,
+        "time": 0.3809814453125,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                39
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12063977796297222,
+        "time": 0.40195250511169434,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                39
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12063977796297222,
+        "time": 0.39591288566589355,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                47
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12063977796297222,
+        "time": 0.3920438289642334,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                47
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.11885969324143647,
+        "time": 0.3550570011138916,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                47
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.0845660229930519,
+        "time": 0.2403557300567627,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                20,
+                47
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.08124842828429683,
+        "time": 0.3211400508880615,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                10,
+                47
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.10784338022729577,
+        "time": 0.289257287979126,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                10,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.0845660229930519,
+        "time": 0.2584989070892334,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                20,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.0845660229930519,
+        "time": 0.22735214233398438,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                20,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.47672438621520996,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.44266366958618164,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.46410679817199707,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.47675395011901855,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                62
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.5126280784606934,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                62
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.4671008586883545,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.4827444553375244,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                71
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.4547116756439209,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                71
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.45247817039489746,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                71
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.12138091685607863,
+        "time": 0.501983642578125,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                76
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.4425980765094693,
+        "time": 0.5346243381500244,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                65
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.4425980765094693,
+        "time": 0.5356018543243408,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                25
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.013793282608490625,
+        "time": 0.49976110458374023,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.21923926004513686,
+        "time": 0.02808852195739746,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                4
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.21923926004513686,
+        "time": 0.31020164489746094,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                75
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.21923926004513686,
+        "time": 0.31804418563842773,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                95
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.21923926004513686,
+        "time": 0.3087301254272461,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                99
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.4425980765094693,
+        "time": 0.5664823055267334,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                99
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.4425980765094693,
+        "time": 0.5275793075561523,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                89
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.4425980765094693,
+        "time": 0.49369168281555176,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                48
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.4425980765094693,
+        "time": 0.5196442604064941,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                57
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.3702690997493819,
+        "time": 0.37695908546447754,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                57
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.34532388951101484,
+        "time": 0.3639180660247803,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                57
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.4244212474288272,
+        "time": 0.45082592964172363,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                57
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2787571472069332,
+        "time": 0.3092041015625,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                9,
+                57
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2787571472069332,
+        "time": 0.31016969680786133,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                9,
+                81
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7186203176916378,
+        "time": 0.28751039505004883,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                9,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.31108965697221047,
+        "time": 0.3400874137878418,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                10,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7186203176916378,
+        "time": 0.2886655330657959,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                9,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7186203176916378,
+        "time": 0.29421257972717285,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                8,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7488604364970907,
+        "time": 0.309175968170166,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7479540678245042,
+        "time": 0.3028120708465576,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                6,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.29919998179532825,
+        "time": 0.30562281608581543,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.02839819271005205,
+        "time": 0.775352668762207,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.30283981927100523,
+        "time": 4.95789647102356,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                62
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2891857871991016,
+        "time": 3.3505775928497314,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2891857871991016,
+        "time": 3.2967638969421387,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2810367773230789,
+        "time": 3.093860387802124,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                9,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2810367773230789,
+        "time": 3.1682841777801514,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                9,
+                75
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.27582839965239536,
+        "time": 3.192425012588501,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                34
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2845173467385121,
+        "time": 5.582818031311035,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                34
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.02839819271005205,
+        "time": 4.868568658828735,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2845173467385121,
+        "time": 5.674661636352539,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2845173467385121,
+        "time": 5.5145487785339355,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                11
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.30839819271005203,
+        "time": 5.123013734817505,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                11
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.305865774196212,
+        "time": 3.9716312885284424,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                11
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.30168251821089237,
+        "time": 4.009039402008057,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                11
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.30168251821089237,
+        "time": 3.8465378284454346,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                16
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.30168251821089237,
+        "time": 4.1257476806640625,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                30
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2845173467385121,
+        "time": 5.487184524536133,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                30
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.012869357563088712,
+        "time": 29.6000633297461,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.012485724806288052,
+        "time": 92.61880278587341,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                40
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.0099771377790426,
+        "time": 86.0349588394165,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                72
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.10173674217054877,
+        "time": 10.3999502658844,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.03607097964035941,
+        "time": 47.587857484817505,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                18
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.03607097964035941,
+        "time": 47.41570568084717,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                56
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": -0.011407374888199323,
+        "time": 85.35210990905762,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                95
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4690110521609897,
+        "time": 0.12766242027282715,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27016049893863664,
+        "time": 0.11768269538879395,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                34
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.22066464925378204,
+        "time": 0.11967802047729492,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                56
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.342855614180729,
+        "time": 0.132643461227417,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2483252842862681,
+        "time": 0.09873247146606445,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.14553721464132738,
+        "time": 0.09874415397644043,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.29328198544077044,
+        "time": 0.1466057300567627,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                20,
+                3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.24083654178946928,
+        "time": 0.1187124252319336,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                20,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.14628549876328684,
+        "time": 0.13164710998535156,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                20,
+                22
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.14628549876328684,
+        "time": 0.11968016624450684,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                20,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2998585470053622,
+        "time": 0.12569499015808105,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                20,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2896808202588933,
+        "time": 0.1675562858581543,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.20513670967350084,
+        "time": 0.11369490623474121,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                43
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.16513670967350083,
+        "time": 0.1186826229095459,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.16513670967350083,
+        "time": 0.11472368240356445,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                75
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.24448426451591512,
+        "time": 0.11571884155273438,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                20
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27479655272348874,
+        "time": 0.16356444358825684,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                20
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.22066464925378204,
+        "time": 0.11970806121826172,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.22066464925378204,
+        "time": 0.1077113151550293,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                86
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.22066464925378204,
+        "time": 0.11369466781616211,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                59
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27016049893863664,
+        "time": 0.1147007942199707,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                33
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27016049893863664,
+        "time": 0.11768007278442383,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                25
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.11223473532423749,
+        "time": 0.07280611991882324,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                6
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.32458683504867636,
+        "time": 0.13764548301696777,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.20067034689741017,
+        "time": 0.13563776016235352,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.11877093848879142,
+        "time": 0.06483936309814453,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.22527648337559888,
+        "time": 0.05987429618835449,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2787790365176938,
+        "time": 0.05687427520751953,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                8,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.26654357157253483,
+        "time": 0.06281256675720215,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                11,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2465434413658462,
+        "time": 0.05983853340148926,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                13,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2502245812089577,
+        "time": 0.05986976623535156,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.16513670967350083,
+        "time": 0.12668323516845703,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                15,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27479655272348874,
+        "time": 0.1216726303100586,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                20
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.342855614180729,
+        "time": 0.12968134880065918,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.14378640515956306,
+        "time": 0.08871746063232422,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2483252842862681,
+        "time": 0.09278130531311035,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2777548186000812,
+        "time": 0.16672992706298828,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2759110521609897,
+        "time": 0.13161826133728027,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.28991582375272074,
+        "time": 0.12167477607727051,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2962949242136618,
+        "time": 0.11572051048278809,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2849615638306386,
+        "time": 0.1186830997467041,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.28871885965949645,
+        "time": 0.11471962928771973,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                6,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.11269760131835938,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.26790839568171987,
+        "time": 0.11365199089050293,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                8,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.21431593922391173,
+        "time": 0.11073565483093262,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                8,
+                18
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.1986142585254645,
+        "time": 0.11270928382873535,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                8,
+                40
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.26608343929709294,
+        "time": 0.12266993522644043,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                54
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.26608343929709294,
+        "time": 0.10771489143371582,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                41
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.256698749604197,
+        "time": 0.11571002006530762,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                41
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.28991582375272074,
+        "time": 0.11467194557189941,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                12
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": -0.038177922401094834,
+        "time": 0.07377243041992188,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": -0.009059881528004316,
+        "time": 0.07779049873352051,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4699110521609897,
+        "time": 0.15458035469055176,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2962949242136618,
+        "time": 0.11970639228820801,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2849615638306386,
+        "time": 0.12868142127990723,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.28871885965949645,
+        "time": 0.11671972274780273,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                6,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.11771202087402344,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.11672043800354004,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                10
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.26790839568171987,
+        "time": 0.11869287490844727,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                8,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.1296858787536621,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.11469244956970215,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                8
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.10774540901184082,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                11
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.10873985290527344,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                12
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.11469054222106934,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                13
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27870841121678963,
+        "time": 0.11074566841125488,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.342855614180729,
+        "time": 0.1266634464263916,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2483252842862681,
+        "time": 0.09477877616882324,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.14378640515956306,
+        "time": 0.07480430603027344,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27016049893863664,
+        "time": 0.10768246650695801,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                43
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27016049893863664,
+        "time": 0.12367796897888184,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                33
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27016049893863664,
+        "time": 0.12366795539855957,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                24
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.27479655272348874,
+        "time": 0.11771607398986816,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                20
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2777548186000812,
+        "time": 0.12067723274230957,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                13
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.2777548186000812,
+        "time": 0.11771106719970703,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                9
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.11223473532423749,
+        "time": 0.07181739807128906,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                6
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.342855614180729,
+        "time": 0.12164831161499023,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.20067034689741017,
+        "time": 0.09475588798522949,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": -0.009059881528004316,
+        "time": 0.08480572700500488,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.39058009204027744,
+        "time": 0.5425493717193604,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.30531030659386715,
+        "time": 0.5495579242706299,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.22982493340379131,
+        "time": 0.3730025291442871,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                3
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.40502160258499376,
+        "time": 0.6093404293060303,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4002257269506716,
+        "time": 0.6418044567108154,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.11750438304099026,
+        "time": 0.3730320930480957,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.395030656866386,
+        "time": 0.643280029296875,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4042934274265631,
+        "time": 0.6433405876159668,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                6,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.40502160258499376,
+        "time": 0.6685812473297119,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4056741550730761,
+        "time": 0.6202285289764404,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                8,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.40259603871470545,
+        "time": 0.6023638248443604,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                9,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4022904909994842,
+        "time": 0.5803658962249756,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                10,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4023698812493551,
+        "time": 0.5996456146240234,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                11,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.3926378812798323,
+        "time": 0.563523530960083,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.3926378812798323,
+        "time": 0.5779750347137451,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                24
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.24116995765484014,
+        "time": 0.6193695068359375,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                100
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.02846528969682803,
+        "time": 0.5804791450500488,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                73
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.40332643198343054,
+        "time": 0.637362003326416,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                10
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.09195108239158377,
+        "time": 0.2922177314758301,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.40332643198343054,
+        "time": 0.5588288307189941,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                13
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.3926378812798323,
+        "time": 0.5485637187957764,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                18
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.43559249700223285,
+        "time": 6.078437805175781,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.11462807775441293,
+        "time": 2.6858510971069336,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.448960829112925,
+        "time": 6.140790939331055,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.3900344687281585,
+        "time": 6.644270420074463,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.012869357563088712,
+        "time": 66.85600352287292,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4355924970022404,
+        "time": 6.91335129737854,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4355924970022404,
+        "time": 8.335504293441772,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.034039114108300725,
+        "time": 4.170261383056641,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.3004530677292841,
+        "time": 5.72919774055481,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.020820064430700603,
+        "time": 5.256325006484985,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.0605680165493112,
+        "time": 4.923879384994507,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                41
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.34987829759251354,
+        "time": 0.721174669265747,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.39236355323002264,
+        "time": 0.5924479961395264,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.034039114108300725,
+        "time": 4.354359149932861,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.2891857871991016,
+        "time": 3.368028402328491,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.0658323696271611,
+        "time": 76.9960424900055,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.013678249312073357,
+        "time": 113.89677429199219,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                41
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.1414333146620779,
+        "time": 26.33843994140625,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.04475336884200797,
+        "time": 49.13572812080383,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7488604364970907,
+        "time": 0.2997090816497803,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7488604364970907,
+        "time": 0.30873608589172363,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.18262820139166527,
+        "time": 0.5455384254455566,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.3428556136525048,
+        "time": 0.12902593612670898,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.08476996421813965,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06382441520690918,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06781482696533203,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.33201266144543484,
+        "time": 0.12668657302856445,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.059810638427734375,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                53
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.07480287551879883,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.0578463077545166,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.0688166618347168,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                38
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.06279683113098145,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.057874441146850586,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                31
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.0588536262512207,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                16
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.07280611991882324,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                12
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06482648849487305,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                11
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06585454940795898,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                9
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.08477783203125,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                6
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.07658720146613458,
+        "time": 0.07978558540344238,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.07082009315490723,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.0698096752166748,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                21
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.07080984115600586,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                22
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.055876731872558594,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                24
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06482672691345215,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                30
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.0608363151550293,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                33
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06183338165283203,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.05507493019104004,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                38
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06283044815063477,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                45
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06583285331726074,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                54
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.0747995376586914,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                3,
+                54
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.06181907653808594,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                54
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.07177448272705078,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                17
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.0817866325378418,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                4,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.06582260131835938,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                5,
+                26
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.05687403678894043,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                6,
+                26
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.41579587880618046,
+        "time": 0.06283187866210938,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                26
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4689832581314693,
+        "time": 0.06084418296813965,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                21
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.22530061038855234,
+        "time": 0.4248964786529541,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.22530061038855234,
+        "time": 0.43466925621032715,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.22530061038855234,
+        "time": 0.4198777675628662,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                7
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.20287712907188385,
+        "time": 0.321148157119751,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7488604364970904,
+        "time": 0.31618762016296387,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.7488604364970904,
+        "time": 0.3061642646789551,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "score": 0.012869357563088712,
+        "time": 66.7965145111084,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4355924970022316,
+        "time": 7.93381667137146,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4489608291129288,
+        "time": 10.078019380569458,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                7,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.4056741550730765,
+        "time": 0.7789154052734375,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                8,
+                2
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.5280036833202763,
+        "time": 0.13663530349731445,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                15
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.34197448539268077,
+        "time": 0.06582474708557129,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                2,
+                39
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.34307573035527533,
+        "time": 0.061835289001464844,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                39
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "score": 0.934488200152092,
+        "time": 0.08377623558044434,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size"
+            ],
+            "parameter_value": [
+                1,
+                2
+            ]
+        }
+    }
+]

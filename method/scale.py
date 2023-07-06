@@ -9,7 +9,6 @@ class Scale:
     def standardScaler(self):
         scaler = StandardScaler()
         data = scaler.fit_transform(self.data)
-        # scaled_data = pd.DataFrame(scaler.fit_transform(data), columns=scaler.get_feature_names_out())
         
         return data
 

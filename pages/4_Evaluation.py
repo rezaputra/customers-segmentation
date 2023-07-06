@@ -3,6 +3,29 @@ import json
 import pandas as pd
 
 
+
+def bestMainScoreDefault(json_data, dataset, pca):
+    desired_data = next(item for item in json_data if item["dataset"] == dataset and item["extraction"] == pca)
+
+    return desired_data
+
+
+def bestComparedScoreDefault(json_data, dataset):
+    desired_data = next((item for item in json_data if item["dataset"] == dataset))
+
+    return desired_data
+
+
+def bestComparedScore(json_data, dataset):
+    # Filter and select rows with dwimedialestari.csv dataset and extraction as PCA
+    filtered_data = [item for item in json_data if item["dataset"] == dataset and item["extraction"] == False]
+
+    # Find the item with the highest score among the filtered data
+    max_score_item = max(filtered_data, key=lambda x: x["score"])
+
+    return max_score_item
+
+
 def bestMainScore(json_data, dataset, pca):
     # Filter and select rows with dwimedialestari.csv dataset and extraction as PCA
     filtered_data = [item for item in json_data if item["dataset"] == dataset and item["extraction"] == pca]
@@ -25,7 +48,7 @@ def bestComparedScore(json_data, dataset):
 
 def bestMainTime(json_data, dataset, pca):
     # Filter and select rows with dwimedialestari.csv dataset and extraction as PCA
-    filtered_data = [item for item in json_data if item["dataset"] == dataset and item["extraction"] == pca]
+    filtered_data = [item for item in json_data if item["dataset"] == dataset and item["extraction"] == pca and item["time"] >=0]
 
     # Find the item with the highest score among the filtered data
     min_time_item = min(filtered_data, key=lambda x: x["time"])
@@ -35,12 +58,16 @@ def bestMainTime(json_data, dataset, pca):
 
 def bestComparedTime(json_data, dataset):
     # Filter and select rows with dwimedialestari.csv dataset and extraction as PCA
-    filtered_data = [item for item in json_data if item["dataset"] == dataset and item["extraction"] == False]
+    filtered_data = [item for item in json_data if item["dataset"] == dataset and item["extraction"] == False and item["time"] >=0]
 
     # Find the item with the highest score among the filtered data
-    min_time_item = min(filtered_data, key=lambda x: x["time"])
+    if len(filtered_data) >= 1:
+        min_time_item = min(filtered_data, key=lambda x: x["time"])
 
-    return min_time_item
+        return min_time_item
+    
+    else:
+        return filtered_data
 
 
 
@@ -65,12 +92,13 @@ with open('evaluation/kmeans.json', 'r') as file:
 
 
 
+
 st.subheader("Evaluate HDBSCAN Clustering")
 st.subheader("")
 
 colDataset, colPCA = st.columns([1,2], gap="large")
 with colDataset:
-     # Extract the "dataset" values into an array
+    # Extract the "dataset" values into an array
     dataset_array = [item["dataset"] for item in dataset_names]
 
     dataset = st.selectbox('Choose dataset name',dataset_array, index=0)
@@ -90,12 +118,12 @@ with colPCA:
 st.caption(''); st.caption('')
 
 
+default_hdbscan = bestMainScoreDefault(hdbscan, dataset, mode)
+default_kmeans = bestComparedScoreDefault(kmeans, dataset)
+default_ap = bestComparedScoreDefault(ap, dataset)
+default_agglomerative = bestComparedScoreDefault(agglomerative, dataset)
+default_dbscan = bestComparedScoreDefault(dbscan, dataset)
 
-# btnEval = st.button('Evaluate')
-
-
-
-# if btnEval:
 
 score_hdbscan = bestMainScore(hdbscan, dataset, mode)
 score_kmeans = bestComparedScore(kmeans, dataset)
@@ -110,7 +138,7 @@ time_ap = bestComparedTime(ap, dataset)
 time_agglomerative = bestComparedTime(agglomerative, dataset)
 time_dbscan = bestComparedTime(dbscan, dataset)
 
-plot_default_data = [hdbscan[0],kmeans[0], ap[0], agglomerative[0], dbscan[0]]
+plot_default_data = [default_hdbscan,default_kmeans, default_ap, default_agglomerative, default_dbscan]
 plot_tuning_data = [score_hdbscan,score_kmeans,score_ap,score_agglomerative,score_dbscan]
 
 sorted_default_score = sorted(plot_default_data, key=lambda x: x["score"], reverse=True)
@@ -132,6 +160,8 @@ chart_tuning_time = {"Time": {item["clustering"]: item["time"] for item in plot_
 st.caption('')
 st.caption('')
 
+
+# st.json(plot_tuning_data)
 
 st.markdown("#### **_Before Tuning Parameter_**")
 with st.expander('Default Result', expanded=False):
@@ -273,11 +303,11 @@ with st.expander('Optimize Result', expanded=False):
         colPlotTime, colRankTime = st.columns([3,1], gap="large")
         with colPlotTime:
             st.caption('Time : Lower is better')
-            st.bar_chart(chart_default_time)
+            st.bar_chart(chart_tuning_time)
 
         with colRankTime:
             st.caption('Ranked')
-            for i, item in enumerate(sorted_default_time, start=1):
+            for i, item in enumerate(sorted_tuning_time, start=1):
                 st.write(f"{i}. {item['clustering']} : {round(item['time'], 4)}s")
 
 
@@ -304,4 +334,3 @@ with st.expander('Optimize Result', expanded=False):
             st.caption('')
             st.caption(score_ap['clustering'])
             st.write(pd.DataFrame(time_ap['details']))
-
