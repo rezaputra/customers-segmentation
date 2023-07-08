@@ -37,7 +37,8 @@ def kmeans_result_detail(d):
         st.caption('More Information')
         st.write('Number of iterations run :', data['result'].n_iter_)
         st.write('Sum of squared distances of samples :', round(data['result'].inertia_, 0))
-        st.write('Silhouette score :', round(data['score'], 4)) 
+        st.write('Silhouette score :', round(data['indexScore'], 4)) 
+        st.write('DB score :', round(data['dbScore'], 4)) 
 
         st.caption('')
         st.caption('')
@@ -68,7 +69,8 @@ def agglomerative_result_detail(d):
         st.caption('')
         st.caption('More Information')
         st.write('Number of leaves in the hierarchical tree :', data['result'].n_leaves_)
-        st.write('Silhouette score :', round(data['score'], 4))
+        st.write('Silhouette score :', round(data['indexScore'], 4)) 
+        st.write('DB score :', round(data['dbScore'], 4)) 
 
         st.caption('')
         st.caption('')
@@ -98,7 +100,8 @@ def dbscan_detail(d):
         st.caption('')
         st.caption('')
         st.caption('More Information')
-        st.write('Silhouette score :', round(data['score'], 4))
+        st.write('Silhouette score :', round(data['indexScore'], 4)) 
+        st.write('DB score :', round(data['dbScore'], 4)) 
 
         st.caption('')
         st.caption('')
@@ -127,7 +130,8 @@ def hdbscan_detail(d):
         st.caption('')
         st.caption('')
         st.caption('More Information')
-        st.write('Silhouette score :', round(data['score'], 4))
+        st.write('Silhouette score :', round(data['indexScore'], 4)) 
+        st.write('DB score :', round(data['dbScore'], 4)) 
 
         st.caption('')
         st.caption('')
@@ -136,32 +140,32 @@ def hdbscan_detail(d):
 
 
 
-def affinity_propagation_detail(d):
-    data = d.copy()
-    col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
+# def affinity_propagation_detail(d):
+#     data = d.copy()
+#     col1, col2, col3 = st.columns([1.2,1,1.2], gap='large')
 
-    with col1:
-        st.caption('Clustering Result') 
-        st.write(data['labeled']) 
+#     with col1:
+#         st.caption('Clustering Result') 
+#         st.write(data['labeled']) 
 
-    with col2:
-         st.caption('Cluster centers', )
-         st.write(data['result'].cluster_centers_)
+#     with col2:
+#          st.caption('Cluster centers', )
+#          st.write(data['result'].cluster_centers_)
 
-    with col3:
-        st.caption('Computation Time')
-        st.write('Data preparation :',round(st.session_state['dpTimeProcessing']['total'], 4))     
-        st.write(data['algorithm'],' clustering :',round(data['time'], 4))     
-        st.write('Total time :',round(st.session_state['dpTimeProcessing']['total'] + data['time'], 4))
+#     with col3:
+#         st.caption('Computation Time')
+#         st.write('Data preparation :',round(st.session_state['dpTimeProcessing']['total'], 4))     
+#         st.write(data['algorithm'],' clustering :',round(data['time'], 4))     
+#         st.write('Total time :',round(st.session_state['dpTimeProcessing']['total'] + data['time'], 4))
         
-        st.caption('')
-        st.caption('')
-        st.caption('More Information')
-        st.write('Number of iterations run :', round(data['result'].n_iter_, 4))
-        st.write('Silhouette score :', round(data['score'], 4))
+#         st.caption('')
+#         st.caption('')
+#         st.caption('More Information')
+#         st.write('Number of iterations run :', round(data['result'].n_iter_, 4))
+#         st.write('Silhouette score :', round(data['score'], 4))
 
-        st.caption('')
-        st.caption('')
-        st.caption('Download Results')
-        download_with_label(data['labeled'])
+#         st.caption('')
+#         st.caption('')
+#         st.caption('Download Results')
+#         download_with_label(data['labeled'])
 

@@ -1,2135 +1,10 @@
 [
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "Agglomerative",
         "extraction": false,
-        "score": 0.1280196656752065,
-        "time": 0.23836326599121094,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.7525968434996462,
-        "time": 0.20145940780639648,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                2,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.19411731970191773,
-        "time": 0.22838640213012695,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                3,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1280196656752065,
-        "time": 0.2453622817993164,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11456699198971194,
-        "time": 0.23932766914367676,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                5,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11158743547848905,
-        "time": 0.24234986305236816,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                6,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.09421979977165448,
-        "time": 0.2044670581817627,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                7,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.09227817213605771,
-        "time": 0.22839903831481934,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                8,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.09488913179358342,
-        "time": 0.2433490753173828,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                9,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.10071412247999091,
-        "time": 0.2293541431427002,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                10,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11034015066131872,
-        "time": 0.2243974208831787,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                11,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.12013557226418041,
-        "time": 0.21638870239257812,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                12,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11992862651434003,
-        "time": 0.24136686325073242,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                13,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1282937859661579,
-        "time": 0.24735569953918457,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                14,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.12879781852933847,
-        "time": 0.24536871910095215,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                15,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.13183023440593772,
-        "time": 0.20046019554138184,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                16,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.12401512290481549,
-        "time": 0.25093960762023926,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                17,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.13011312711729478,
-        "time": 0.2493579387664795,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                18,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1344314405310825,
-        "time": 0.2403576374053955,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                19,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.13489596510847054,
-        "time": 0.2214212417602539,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                20,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.10195324392091003,
-        "time": 0.2184159755706787,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                20,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.10074734365458307,
-        "time": 0.22139716148376465,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                19,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.06349391117599715,
-        "time": 0.2633626461029053,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                18,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.06787464986072442,
-        "time": 0.22439813613891602,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                17,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.042633103355922804,
-        "time": 0.21542620658874512,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                16,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.04462055522949669,
-        "time": 0.19344758987426758,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                15,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05576085596404471,
-        "time": 0.1964259147644043,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                14,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05986941983191218,
-        "time": 0.19849681854248047,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                13,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08789803708007178,
-        "time": 0.17852210998535156,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                12,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.0977615320234634,
-        "time": 0.20644831657409668,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                11,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08421976007402024,
-        "time": 0.19647526741027832,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                10,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08515935761626711,
-        "time": 0.19846773147583008,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                9,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.13128976893419572,
-        "time": 0.21453285217285156,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                8,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.19231250439505296,
-        "time": 0.21739602088928223,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                7,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.19259891165463366,
-        "time": 0.21744084358215332,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                6,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.31432592245242463,
-        "time": 0.2234029769897461,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                5,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5955891741024858,
-        "time": 0.21741890907287598,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5956460548253969,
-        "time": 0.2533242702484131,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                3,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.7525968434996462,
-        "time": 0.2044522762298584,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                2,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.772033950608986,
-        "time": 0.24334716796875,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                2,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5956460548253969,
-        "time": 0.220383882522583,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                3,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5955891741024858,
-        "time": 0.22140884399414062,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.076229610505317,
-        "time": 0.2034435272216797,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                5,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.036631362626124826,
-        "time": 0.20446181297302246,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                6,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.04743534672337017,
-        "time": 0.2224407196044922,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                7,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.061046181889049166,
-        "time": 0.22838926315307617,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                8,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.056587412385659897,
-        "time": 0.22142577171325684,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                9,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05594433206044927,
-        "time": 0.2463688850402832,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                10,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05358205462213467,
-        "time": 0.22141027450561523,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                11,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05396287928701394,
-        "time": 0.21642041206359863,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                12,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.0622272320653664,
-        "time": 0.2682826519012451,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                13,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.051832181306597905,
-        "time": 0.22241663932800293,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                14,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05519402522668373,
-        "time": 0.2403566837310791,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                15,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.07928653224667993,
-        "time": 0.22243022918701172,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                16,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08632156486650343,
-        "time": 0.23337531089782715,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                17,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08526378307543694,
-        "time": 0.22536134719848633,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                18,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08757658086070481,
-        "time": 0.24135255813598633,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                19,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.09473142183665678,
-        "time": 0.1825096607208252,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                20,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.04829436451664827,
-        "time": 0.10853147506713867,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                20,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.04832996394638657,
-        "time": 0.07680296897888184,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                19,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.07475489526896557,
-        "time": 0.07280564308166504,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                18,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11053471053181575,
-        "time": 0.07380342483520508,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                17,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1184457065389424,
-        "time": 0.0818033218383789,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                16,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11868880082649377,
-        "time": 0.07381677627563477,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                15,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.12084343949640033,
-        "time": 0.06884312629699707,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                14,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.12817720011945852,
-        "time": 0.0777897834777832,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                13,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1284412251947176,
-        "time": 0.05773448944091797,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                12,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1967091367482859,
-        "time": 0.07779192924499512,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                11,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.2211956265918293,
-        "time": 0.0788118839263916,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                10,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.2706231842831472,
-        "time": 0.0717780590057373,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                9,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5786057868868206,
-        "time": 0.07479500770568848,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                8,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5783258377088131,
-        "time": 0.07265830039978027,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                7,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5783551635190863,
-        "time": 0.07680845260620117,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                6,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5792947610613332,
-        "time": 0.07578396797180176,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                5,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.5955891741024858,
-        "time": 0.07579684257507324,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.7598409142098531,
-        "time": 0.08477020263671875,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                3,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.772033950608986,
-        "time": 0.07579374313354492,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                2,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.16163653095657662,
-        "time": 3.0079853534698486,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11910133146859174,
-        "time": 3.2388594150543213,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                2,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.13472506209154467,
-        "time": 3.143594264984131,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                3,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.13634784498388938,
-        "time": 3.2792224884033203,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                5,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11014818580178715,
-        "time": 3.0937368869781494,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                6,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11083596716327263,
-        "time": 3.181104898452759,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                7,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11870158219080872,
-        "time": 3.132617473602295,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                8,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.11187461501284933,
-        "time": 3.1406309604644775,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                9,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.10659035059498742,
-        "time": 3.145599126815796,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                10,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.09819506587919567,
-        "time": 3.030231475830078,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                11,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.0928969756670627,
-        "time": 3.1166694164276123,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                12,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.0899486230213957,
-        "time": 3.099715232849121,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                13,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08955685634149521,
-        "time": 3.059845447540283,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                14,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.09062471257779575,
-        "time": 3.117664337158203,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                15,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.09068614257129615,
-        "time": 3.1017091274261475,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                16,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.09171803196605835,
-        "time": 3.1894724369049072,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                17,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08760392215765075,
-        "time": 3.1106839179992676,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                18,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.0897130368462547,
-        "time": 3.215430736541748,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                19,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08307504804307332,
-        "time": 3.3650314807891846,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                20,
-                "ward"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.029178373217505955,
-        "time": 3.2223830223083496,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                20,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.03567618829413336,
-        "time": 3.1396324634552,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                18,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.027728741338560105,
-        "time": 3.1545941829681396,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                16,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": -0.016697883258113232,
-        "time": 3.257319688796997,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                14,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": -0.007837990079617005,
-        "time": 3.0603904724121094,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                12,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.016879403550959845,
-        "time": 3.2313623428344727,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                10,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.03944501964963402,
-        "time": 3.2682619094848633,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                8,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.0738244528865568,
-        "time": 3.3121461868286133,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                6,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1143522527512542,
-        "time": 3.202500820159912,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.3136124185800565,
-        "time": 3.0956859588623047,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                2,
-                "average"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.3136633023214734,
-        "time": 2.979064464569092,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                2,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.055175013518345445,
-        "time": 2.9032680988311768,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.018947353736913992,
-        "time": 2.8382487297058105,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                6,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.020616034373221317,
-        "time": 2.936169385910034,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                8,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.03031477327201577,
-        "time": 2.932159185409546,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                10,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.034550796230027554,
-        "time": 2.981015682220459,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                12,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.02501616803490908,
-        "time": 3.0698728561401367,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                14,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.02618308986998326,
-        "time": 3.013949394226074,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                16,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.027424478423269342,
-        "time": 2.850404739379883,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                18,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.021814744870740435,
-        "time": 2.963630199432373,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                20,
-                "complete"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05396417030164541,
-        "time": 1.0469608306884766,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                20,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05439032018316822,
-        "time": 0.9993288516998291,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                18,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.05502347814420368,
-        "time": 0.9893543720245361,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                16,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.08456330801237108,
-        "time": 0.9989051818847656,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                14,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1037351349566884,
-        "time": 0.9115607738494873,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                12,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.10511410720478752,
-        "time": 0.8995950222015381,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                10,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.13690110736663005,
-        "time": 0.9075746536254883,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                8,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.1415834217474697,
-        "time": 0.8976256847381592,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                6,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.14697166716077992,
-        "time": 0.9873631000518799,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "linkage"
-            ],
-            "parameter_value": [
-                4,
-                "single"
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Agglomerative",
-        "extraction": false,
-        "score": 0.25396009990103824,
-        "time": 0.9534835815429688,
+        "score": 0.2609020104464325,
+        "time": 16.07701063156128,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -2145,8 +20,25 @@
         "dataset": "onlineretail.csv",
         "clustering": "Agglomerative",
         "extraction": false,
-        "score": -1,
-        "time": 1000,
+        "score": 0.17622370162728196,
+        "time": 15.840811491012573,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                3,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.06529671380445949,
+        "time": 15.51626443862915,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -2159,11 +51,385 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "Agglomerative",
         "extraction": false,
-        "score": 0.7720339506089857,
-        "time": 0.47262001037597656,
+        "score": 0.008539805798295037,
+        "time": 15.65916132926941,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                5,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.00033204381682099156,
+        "time": 15.574033737182617,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                6,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": -0.01996777958451721,
+        "time": 15.799872398376465,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                7,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": -0.049837842437628906,
+        "time": 15.768846035003662,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                8,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": -0.09302828611010627,
+        "time": 16.112541437149048,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                9,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": -0.11704217021103665,
+        "time": 16.084161520004272,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                10,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.18115765124399932,
+        "time": 3.188803195953369,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.19097918830331292,
+        "time": 2.868330955505371,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                4,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.17795886461496552,
+        "time": 2.8663597106933594,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                6,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.163119548700361,
+        "time": 2.9052412509918213,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                8,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.16065333066062065,
+        "time": 2.853400707244873,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                10,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.155690464495479,
+        "time": 2.7097809314727783,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                12,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.14487629341358732,
+        "time": 3.1533334255218506,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                12,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.1413456708842235,
+        "time": 3.0528621673583984,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                11,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.14540168860468025,
+        "time": 3.0288949012756348,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                9,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.14248121509885484,
+        "time": 2.971087694168091,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                8,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.08851486710743042,
+        "time": 2.989036798477173,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                7,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.08926127999780481,
+        "time": 2.9804630279541016,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                6,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.0940291240606004,
+        "time": 3.0997283458709717,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                5,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.1599603331475863,
+        "time": 2.9952168464660645,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                4,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.22948742065678732,
+        "time": 3.1116786003112793,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                3,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.3916844712224058,
+        "time": 2.942164659500122,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.39164803826189964,
+        "time": 2.955094337463379,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -2176,19 +442,19 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "bankchurners.csv",
         "clustering": "Agglomerative",
         "extraction": false,
-        "score": 0.12801966567520445,
-        "time": 0.2682807445526123,
+        "score": 0.11059781297908472,
+        "time": 2.8424201011657715,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
                 "linkage"
             ],
             "parameter_value": [
-                4,
-                "ward"
+                3,
+                "complete"
             ]
         }
     },
@@ -2196,8 +462,8 @@
         "dataset": "bankchurners.csv",
         "clustering": "Agglomerative",
         "extraction": false,
-        "score": 0.16163653095657662,
-        "time": 4.389049053192139,
+        "score": 0.11090511279028978,
+        "time": 2.8743464946746826,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -2205,7 +471,7 @@
             ],
             "parameter_value": [
                 4,
-                "ward"
+                "complete"
             ]
         }
     },
@@ -2213,8 +479,42 @@
         "dataset": "bankchurners.csv",
         "clustering": "Agglomerative",
         "extraction": false,
-        "score": 0.1415834217474697,
-        "time": 1.3747797012329102,
+        "score": 0.09756833506943059,
+        "time": 2.8294308185577393,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                5,
+                "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.08058261816695966,
+        "time": 2.8483827114105225,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                6,
+                "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.1423086119505106,
+        "time": 0.9985771179199219,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -2230,8 +530,76 @@
         "dataset": "bankchurners.csv",
         "clustering": "Agglomerative",
         "extraction": false,
-        "score": 0.25396009990103824,
-        "time": 1.2050228118896484,
+        "score": 0.14155683307241598,
+        "time": 0.7829334735870361,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                7,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.13573369964716023,
+        "time": 0.7968711853027344,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                8,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.18246814710117604,
+        "time": 0.80881667137146,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                5,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.18443510715180528,
+        "time": 0.777946949005127,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                4,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.3898817872944474,
+        "time": 0.7250590324401855,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -2247,8 +615,25 @@
         "dataset": "bankchurners.csv",
         "clustering": "Agglomerative",
         "extraction": false,
-        "score": 0.3136633023214734,
-        "time": 3.4858591556549072,
+        "score": 0.18830153446500011,
+        "time": 0.7480249404907227,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                3,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.19671827672203918,
+        "time": 0.2293851375579834,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -2256,7 +641,585 @@
             ],
             "parameter_value": [
                 2,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.18812625575335035,
+        "time": 0.24236154556274414,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                4,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.17337800172465903,
+        "time": 0.25232553482055664,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                6,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.17768440571589772,
+        "time": 0.2543520927429199,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                8,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.18341770225166196,
+        "time": 0.2373957633972168,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                9,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.16200371530805321,
+        "time": 0.23537063598632812,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                11,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.16457798459771747,
+        "time": 0.2373952865600586,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                12,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.15952436600939704,
+        "time": 0.25035524368286133,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                14,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.09898945624403283,
+        "time": 0.2074446678161621,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                14,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.12570318273217546,
+        "time": 0.21541953086853027,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                12,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.15392310360306272,
+        "time": 0.2373654842376709,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                10,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.1434728281564163,
+        "time": 0.21539783477783203,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                8,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.21729867557555316,
+        "time": 0.21541428565979004,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                6,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.1619027263861416,
+        "time": 0.21941161155700684,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                6,
                 "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.11440030656442814,
+        "time": 0.21840262413024902,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                8,
+                "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.09927097468020403,
+        "time": 0.24034619331359863,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                10,
+                "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.10486340945716084,
+        "time": 0.22739100456237793,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                11,
+                "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.09760897105851687,
+        "time": 0.19846868515014648,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                13,
+                "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.09755707016450241,
+        "time": 0.22442340850830078,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                15,
+                "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": -0.014371402029816327,
+        "time": 0.05784440040588379,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                15,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.045050816399312785,
+        "time": 0.06781792640686035,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                13,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.18638652601658467,
+        "time": 0.06781697273254395,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                11,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.2609020104464325,
+        "time": 15.85009765625,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.06529671380445949,
+        "time": 15.737926244735718,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                4,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": -0.25273855402589646,
+        "time": 16.30758285522461,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                20,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.2609020104464325,
+        "time": 15.527690410614014,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.3916844712224058,
+        "time": 3.268303871154785,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.2609020104464325,
+        "time": 16.105456590652466,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "single"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.6104703011818652,
+        "time": 0.21940946578979492,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                4,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.18812625575335035,
+        "time": 0.26927876472473145,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                4,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.16997951666118702,
+        "time": 0.21442723274230957,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                16,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.63043128143869,
+        "time": 0.20943760871887207,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                3,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.8108006142887534,
+        "time": 0.2992522716522217,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.1811576512441183,
+        "time": 4.411205291748047,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "score": 0.19671827672203918,
+        "time": 0.5415728092193604,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                2,
+                "ward"
             ]
         }
     }

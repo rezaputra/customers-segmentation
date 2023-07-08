@@ -1,10 +1,27 @@
 [
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.20609197048342023,
-        "time": 25.83995819091797,
+        "score": -1,
+        "time": 1000,
+        "details": {
+            "clustering_parameter": [
+                "dumping",
+                "max_iter"
+            ],
+            "parameter_value": [
+                0.5,
+                200
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Affinity Propagation",
+        "extraction": false,
+        "score": 0.18093149351929366,
+        "time": 374.95794200897217,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -17,28 +34,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "bankchurners.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.20609197048342023,
-        "time": 30.87843418121338,
-        "details": {
-            "clustering_parameter": [
-                "damping",
-                "max_iter"
-            ],
-            "parameter_value": [
-                0.5,
-                200
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "Affinity Propagation",
-        "extraction": false,
-        "score": 0.20894252006866262,
-        "time": 12.719030380249023,
+        "score": 0.21220821463377323,
+        "time": 369.6721725463867,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -46,16 +46,16 @@
             ],
             "parameter_value": [
                 0.6,
-                200
+                198
             ]
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "bankchurners.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.21152015735437835,
-        "time": 11.690779685974121,
+        "score": 0.24015840401853378,
+        "time": 265.92395639419556,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -63,16 +63,33 @@
             ],
             "parameter_value": [
                 0.7,
-                200
+                435
             ]
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "bankchurners.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.212253546362585,
-        "time": 24.958314180374146,
+        "score": 0.24276144071778827,
+        "time": 272.0455448627472,
+        "details": {
+            "clustering_parameter": [
+                "damping",
+                "max_iter"
+            ],
+            "parameter_value": [
+                0.7999999999999999,
+                435
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Affinity Propagation",
+        "extraction": false,
+        "score": 0.24127821535395755,
+        "time": 431.83750438690186,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -80,7 +97,7 @@
             ],
             "parameter_value": [
                 0.9,
-                200
+                435
             ]
         }
     },
@@ -88,25 +105,8 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.21152281313449545,
-        "time": 15.748900890350342,
-        "details": {
-            "clustering_parameter": [
-                "damping",
-                "max_iter"
-            ],
-            "parameter_value": [
-                0.8,
-                200
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Affinity Propagation",
-        "extraction": false,
-        "score": 0.11935941290017558,
-        "time": 120.83611989021301,
+        "score": 0.21873490373598486,
+        "time": 14.352624416351318,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -119,11 +119,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "dwimedialestari.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.11716272737219678,
-        "time": 106.76944231987,
+        "score": 0.22071409542059595,
+        "time": 10.336325883865356,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -136,11 +136,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "dwimedialestari.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.1188509759399368,
-        "time": 124.9430422782898,
+        "score": 0.2248819068995682,
+        "time": 9.92146897315979,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -153,11 +153,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "dwimedialestari.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.11936593938976837,
-        "time": 199.2473907470703,
+        "score": 0.2234018204018423,
+        "time": 13.260565519332886,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -170,28 +170,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "dwimedialestari.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.11943470008384653,
-        "time": 294.4202492237091,
-        "details": {
-            "clustering_parameter": [
-                "damping",
-                "max_iter"
-            ],
-            "parameter_value": [
-                0.8999999999999999,
-                200
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "Affinity Propagation",
-        "extraction": false,
-        "score": -1,
-        "time": 1000,
+        "score": 0.22398902318887765,
+        "time": 22.15871238708496,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -207,16 +190,33 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.20609197048314595,
-        "time": 28.083954572677612,
+        "score": 0.1845547511736953,
+        "time": 3.1545631885528564,
         "details": {
             "clustering_parameter": [
                 "damping",
                 "max_iter"
             ],
             "parameter_value": [
-                0.5,
+                0.9999999999999999,
                 200
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Affinity Propagation",
+        "extraction": false,
+        "score": 0.24265396524813806,
+        "time": 270.6261010169983,
+        "details": {
+            "clustering_parameter": [
+                "damping",
+                "max_iter"
+            ],
+            "parameter_value": [
+                0.8,
+                435
             ]
         }
     },
@@ -224,42 +224,8 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "Affinity Propagation",
         "extraction": false,
-        "score": 0.2122535463616462,
-        "time": 24.78516125679016,
-        "details": {
-            "clustering_parameter": [
-                "damping",
-                "max_iter"
-            ],
-            "parameter_value": [
-                0.9,
-                200
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Affinity Propagation",
-        "extraction": false,
-        "score": 0.11935941290017558,
-        "time": 154.13514375686646,
-        "details": {
-            "clustering_parameter": [
-                "damping",
-                "max_iter"
-            ],
-            "parameter_value": [
-                0.5,
-                200
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "Affinity Propagation",
-        "extraction": false,
-        "score": 0.1188509759399368,
-        "time": 148.12139129638672,
+        "score": 0.2248819068995682,
+        "time": 9.639209985733032,
         "details": {
             "clustering_parameter": [
                 "damping",
@@ -267,7 +233,75 @@
             ],
             "parameter_value": [
                 0.7,
-                538
+                200
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Affinity Propagation",
+        "extraction": false,
+        "score": 0.22071409542059595,
+        "time": 9.350014209747314,
+        "details": {
+            "clustering_parameter": [
+                "damping",
+                "max_iter"
+            ],
+            "parameter_value": [
+                0.6,
+                200
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Affinity Propagation",
+        "extraction": false,
+        "score": 0.2248819068995682,
+        "time": 10.862966060638428,
+        "details": {
+            "clustering_parameter": [
+                "damping",
+                "max_iter"
+            ],
+            "parameter_value": [
+                0.7,
+                200
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "Affinity Propagation",
+        "extraction": false,
+        "score": 0.19308288112852123,
+        "time": 391.72758412361145,
+        "details": {
+            "clustering_parameter": [
+                "damping",
+                "max_iter"
+            ],
+            "parameter_value": [
+                0.5,
+                200
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Affinity Propagation",
+        "extraction": false,
+        "score": 0.21873490373598486,
+        "time": 15.776810884475708,
+        "details": {
+            "clustering_parameter": [
+                "damping",
+                "max_iter"
+            ],
+            "parameter_value": [
+                0.5,
+                200
             ]
         }
     }

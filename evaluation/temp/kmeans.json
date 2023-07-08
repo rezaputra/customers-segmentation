@@ -1,10 +1,10 @@
 [
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.14008220234208926,
-        "time": 0.020944833755493164,
+        "score": 0.2927015851870018,
+        "time": 0.3426241874694824,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -17,11 +17,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.1558715025515991,
-        "time": 0.01795053482055664,
+        "score": 0.2613856821439644,
+        "time": 0.08739018440246582,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -34,11 +34,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.13740968387366237,
-        "time": 0.022936344146728516,
+        "score": 0.326221264296761,
+        "time": 0.05685281753540039,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -51,28 +51,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.13845230513331766,
-        "time": 0.01994609832763672,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.16180974876253312,
-        "time": 0.019919872283935547,
+        "score": 0.3045646557047308,
+        "time": 0.05040097236633301,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -85,11 +68,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.1406067888404304,
-        "time": 0.018947362899780273,
+        "score": 0.2818615462313435,
+        "time": 0.0608370304107666,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -102,11 +85,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.1469067321919502,
-        "time": 0.024931669235229492,
+        "score": 0.3153105349132231,
+        "time": 0.06280326843261719,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -119,11 +102,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.15783295543541423,
-        "time": 0.018950462341308594,
+        "score": 0.3191176815921286,
+        "time": 0.06380844116210938,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -136,11 +119,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.15691720021808023,
-        "time": 0.02393651008605957,
+        "score": 0.30426259376393133,
+        "time": 0.07679438591003418,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -153,11 +136,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.15404415230809437,
-        "time": 0.029886484146118164,
+        "score": 0.30743033029083844,
+        "time": 0.07827162742614746,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -170,11 +153,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.1625269758052129,
-        "time": 0.01994633674621582,
+        "score": 0.32750044890880026,
+        "time": 0.08676767349243164,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -187,11 +170,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.15942181735099442,
-        "time": 0.026926040649414062,
+        "score": 0.3208088909385272,
+        "time": 0.09557390213012695,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -204,266 +187,11 @@
         }
     },
     {
-        "dataset": "dwimedialestari.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.16448990008491782,
-        "time": 0.027913570404052734,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.15809387521798826,
-        "time": 0.01992940902709961,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                14,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.15959721910191121,
-        "time": 0.02891826629638672,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                19,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.13656684620888518,
-        "time": 0.017949342727661133,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.13658296814150067,
-        "time": 0.02892017364501953,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.17434181074174612,
-        "time": 0.43282532691955566,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.17204892756522341,
-        "time": 0.01892828941345215,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                3,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.13651159697068996,
-        "time": 0.12091002464294434,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.12870625470380198,
-        "time": 0.028920650482177734,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                5,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.14422367992023433,
-        "time": 0.029919147491455078,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                6,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.13443345300672901,
-        "time": 0.03389573097229004,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                7,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.1288719043767822,
-        "time": 0.034905195236206055,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                8,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.13382828225967638,
-        "time": 0.034903764724731445,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                9,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.12235195256431836,
-        "time": 0.04485154151916504,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                10,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.12221266510260932,
-        "time": 0.06881570816040039,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                12,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.12661806986198593,
-        "time": 0.050838470458984375,
+        "score": 0.33174545141350953,
+        "time": 0.10073065757751465,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -476,11 +204,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.12134071910891556,
-        "time": 0.05186104774475098,
+        "score": 0.32733250834151206,
+        "time": 0.08576846122741699,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -493,11 +221,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.11706302137119073,
-        "time": 0.06283187866210938,
+        "score": 0.3346859150630257,
+        "time": 0.11568975448608398,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -510,11 +238,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.12089818151868735,
-        "time": 0.05086374282836914,
+        "score": 0.3210672815274786,
+        "time": 0.12366890907287598,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -527,11 +255,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.11837423918238377,
-        "time": 0.046874284744262695,
+        "score": 0.3289511464638256,
+        "time": 0.11658000946044922,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -544,11 +272,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.11702834643417934,
-        "time": 0.059833526611328125,
+        "score": 0.34382410220697274,
+        "time": 0.7452541351318359,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -561,11 +289,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.11699500231414087,
-        "time": 0.06433749198913574,
+        "score": 0.32265928202231625,
+        "time": 0.12863826751708984,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -578,11 +306,11 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.11655924314507614,
-        "time": 0.06781840324401855,
+        "score": 0.31288149054278963,
+        "time": 0.15557074546813965,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -598,8 +326,25 @@
         "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.0660520287027761,
-        "time": 4.521672153472901,
+        "score": 0.3206090353335772,
+        "time": 0.12566375732421875,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                20,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.20039409826653076,
+        "time": 0.4992945194244385,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -612,11 +357,11 @@
         }
     },
     {
-        "dataset": "onlineretail.csv",
+        "dataset": "bankchurners.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.07440838825372008,
-        "time": 0.14679408073425293,
+        "score": 0.1993248894497462,
+        "time": 0.014959335327148438,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -629,11 +374,742 @@
         }
     },
     {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.16699656021639145,
+        "time": 0.020943880081176758,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                3,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.17056704919766227,
+        "time": 0.023936033248901367,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.17571934129078853,
+        "time": 0.02094244956970215,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                5,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.1706264294092736,
+        "time": 0.021915674209594727,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                6,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.15673493710073902,
+        "time": 0.03490591049194336,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                7,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.17643517121060773,
+        "time": 0.028930187225341797,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                8,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.18367163854965105,
+        "time": 0.030914783477783203,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                9,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.18572861931823872,
+        "time": 0.03889584541320801,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                10,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.19410712717887135,
+        "time": 0.03490281105041504,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                11,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.20248765635504004,
+        "time": 0.03590130805969238,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                12,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.20397397056415595,
+        "time": 0.03390812873840332,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                13,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.18424769170849253,
+        "time": 0.03396725654602051,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                14,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.19272325172079813,
+        "time": 0.03690958023071289,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                15,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.192691938268427,
+        "time": 0.056847572326660156,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                16,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.20052779946278604,
+        "time": 0.06682181358337402,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                17,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.19591862284731215,
+        "time": 0.054821014404296875,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                18,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.19727106415458226,
+        "time": 0.06083106994628906,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                19,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.19234342621986855,
+        "time": 0.06482505798339844,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                20,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21513762022744717,
+        "time": 0.023935794830322266,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.22169598967348259,
+        "time": 0.01595616340637207,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                2,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21694254273167227,
+        "time": 0.021940946578979492,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                3,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.2041612549790686,
+        "time": 0.014950275421142578,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                5,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21443904900527433,
+        "time": 0.013961553573608398,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                6,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21413877107876594,
+        "time": 0.018948793411254883,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                7,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.2041493673727029,
+        "time": 0.018948078155517578,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                8,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.2133261854108372,
+        "time": 0.01892256736755371,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                11,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.2215169476985525,
+        "time": 0.018949270248413086,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                12,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21417655335463842,
+        "time": 0.028922319412231445,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                14,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.22213204089352975,
+        "time": 0.032912254333496094,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                15,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.2215989096058828,
+        "time": 0.03690147399902344,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                16,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21509823008908352,
+        "time": 0.0338740348815918,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                17,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.24172554729173784,
+        "time": 0.021941423416137695,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                2,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21276535670952698,
+        "time": 0.019947052001953125,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                20,
+                300
+            ]
+        }
+    },
+    {
         "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.0708357670163687,
-        "time": 0.09973311424255371,
+        "score": 0.32779218585424874,
+        "time": 0.6515364646911621,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                18,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "K-means",
+        "extraction": "PCA",
+        "score": 0.5298018304031876,
+        "time": 0.15710234642028809,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.1974964475515133,
+        "time": 0.0388944149017334,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                13,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.202631230864714,
+        "time": 0.030918598175048828,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                13,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.2035692993916579,
+        "time": 0.060836076736450195,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                13,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.20039409826653076,
+        "time": 0.13463759422302246,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.1993248894497462,
+        "time": 0.01495981216430664,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                2,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.20153378878039022,
+        "time": 0.047869205474853516,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                13,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.1993248894497462,
+        "time": 0.01595783233642578,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                2,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.22786199096016893,
+        "time": 0.01495981216430664,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                3,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.22786199096016893,
+        "time": 0.02593064308166504,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -649,15 +1125,15 @@
         "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.07269718364090161,
-        "time": 0.12267732620239258,
+        "score": 0.30586160209751145,
+        "time": 0.05684661865234375,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
                 "max_iter"
             ],
             "parameter_value": [
-                5,
+                2,
                 300
             ]
         }
@@ -666,15 +1142,15 @@
         "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.06601150217858354,
-        "time": 0.1436159610748291,
+        "score": 0.2613856821439644,
+        "time": 0.03989362716674805,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
                 "max_iter"
             ],
             "parameter_value": [
-                6,
+                2,
                 300
             ]
         }
@@ -683,144 +1159,8 @@
         "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.0700952545904933,
-        "time": 0.1984424591064453,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                7,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.06818696872216244,
-        "time": 0.23736262321472168,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                8,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.06883876784841492,
-        "time": 0.20644760131835938,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                9,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.06828830546996532,
-        "time": 0.35173940658569336,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                10,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.06850101638678886,
-        "time": 0.2782566547393799,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                11,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.06963575368252616,
-        "time": 0.19046235084533691,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                12,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.07733380132906373,
-        "time": 4.334883689880371,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": "PCA",
-        "score": 0.4184276294536497,
-        "time": 0.15077614784240723,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": "PCA",
-        "score": 0.33277840928603747,
-        "time": 0.0249326229095459,
+        "score": 0.3411532445302796,
+        "time": 0.11844515800476074,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -835,298 +1175,9 @@
     {
         "dataset": "dwimedialestari.csv",
         "clustering": "K-means",
-        "extraction": "PCA",
-        "score": 0.43451489582201014,
-        "time": 0.011970281600952148,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                5,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": "PCA",
-        "score": 0.4782101760825582,
-        "time": 0.015955686569213867,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                3,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": "PCA",
-        "score": 0.46876464984693833,
-        "time": 0.008975982666015625,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": "PCA",
-        "score": 0.3857106519725881,
-        "time": 0.021939992904663086,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                7,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": "PCA",
-        "score": 0.3468682486529456,
-        "time": 0.013953685760498047,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
         "extraction": false,
-        "score": 0.15147018555695393,
-        "time": 0.02193593978881836,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                5,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.155991653389818,
-        "time": 0.14257168579101562,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.1473900952937949,
-        "time": 0.017950773239135742,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.15535477025815914,
-        "time": 0.014961004257202148,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                5,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.153778299206686,
-        "time": 0.14295185089111329,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.14922695069985054,
-        "time": 0.015957117080688477,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.14775599869207018,
-        "time": 0.017951250076293945,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.1559694626282393,
-        "time": 0.012937068939208984,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.15751953573624633,
-        "time": 0.010971784591674805,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                2,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.14519515429646526,
-        "time": 0.013930559158325195,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                3,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.14450077363158148,
-        "time": 0.019947052001953125,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.14882804521897064,
-        "time": 0.021939754486083984,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                5,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.12840979866861077,
-        "time": 0.019945621490478516,
+        "score": 0.2056714234669558,
+        "time": 0.014959573745727539,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -1142,15 +1193,15 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.14260748744131344,
-        "time": 0.025931358337402344,
+        "score": 0.22169598967348259,
+        "time": 0.018949508666992188,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
                 "max_iter"
             ],
             "parameter_value": [
-                8,
+                2,
                 300
             ]
         }
@@ -1159,8 +1210,8 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.16130730204941884,
-        "time": 0.01495981216430664,
+        "score": 0.21714043531973423,
+        "time": 0.015956878662109375,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -1176,8 +1227,76 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.15587150255159532,
-        "time": 0.015906333923339844,
+        "score": 0.22111277531657852,
+        "time": 0.01592397689819336,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                5,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.217279394770142,
+        "time": 0.027927160263061523,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                6,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21360009325945356,
+        "time": 0.025942325592041016,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                7,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21568032198482956,
+        "time": 0.02094101905822754,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                8,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.22169598967348259,
+        "time": 0.014959573745727539,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -1193,59 +1312,8 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.15385680032565474,
-        "time": 0.01695561408996582,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                5,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.10394772628095024,
-        "time": 0.029917478561401367,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                4,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.12221048984118747,
-        "time": 0.0668187141418457,
-        "details": {
-            "clustering_parameter": [
-                "n_cluster",
-                "max_iter"
-            ],
-            "parameter_value": [
-                11,
-                300
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "K-means",
-        "extraction": false,
-        "score": 0.174319714478013,
-        "time": 0.01595592498779297,
+        "score": 0.22169598967348259,
+        "time": 0.018943309783935547,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -1258,28 +1326,28 @@
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "dwimedialestari.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.13658296814150067,
-        "time": 0.021940946578979492,
+        "score": 0.21714043531973423,
+        "time": 0.0159759521484375,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
                 "max_iter"
             ],
             "parameter_value": [
-                4,
+                3,
                 300
             ]
         }
     },
     {
-        "dataset": "onlineretail.csv",
+        "dataset": "dwimedialestari.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.07800176854380692,
-        "time": 4.472017765045166,
+        "score": 0.22169598967348259,
+        "time": 0.01795029640197754,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
@@ -1295,15 +1363,134 @@
         "dataset": "onlineretail.csv",
         "clustering": "K-means",
         "extraction": false,
-        "score": 0.07814361218668103,
-        "time": 0.052858591079711914,
+        "score": 0.32018644311265504,
+        "time": 0.7348349094390869,
         "details": {
             "clustering_parameter": [
                 "n_cluster",
                 "max_iter"
             ],
             "parameter_value": [
-                2,
+                18,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.2867596663747925,
+        "time": 0.3859670162200928,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "K-means",
+        "extraction": "PCA",
+        "score": 0.42695241363219233,
+        "time": 0.13962483406066895,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "bankchurners.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.2003940982668031,
+        "time": 0.2962043285369873,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": false,
+        "score": 0.21278462381486937,
+        "time": 0.3320937156677246,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "K-means",
+        "extraction": "PCA",
+        "score": 0.4226079533885684,
+        "time": 0.2764606475830078,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": "PCA",
+        "score": 0.38178899631422425,
+        "time": 0.17441534996032715,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
+                300
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "K-means",
+        "extraction": "PCA",
+        "score": 0.3815969818259196,
+        "time": 0.1588287353515625,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "max_iter"
+            ],
+            "parameter_value": [
+                4,
                 300
             ]
         }

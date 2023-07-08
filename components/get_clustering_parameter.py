@@ -1,22 +1,15 @@
 import streamlit as st
 
-def k_kmean_parameter():
+def kmeans_parameter():
         n_cluster = st.slider('The number of clusters will be generate', 2, 20, 4)
         max_iter = st.number_input('Maximal iteration', step=10, max_value=1000, min_value=100, value=300)
         params = {
-                'algorithm' : 'K-means',
+                'algorithm' : 'K-Means',
                 'n_cluster' : n_cluster,
                 'max_iter' : max_iter
         }
         return params
 
-def ltkc_parameter():   
-        k_value = st.slider('The number of k-value', 2, 100, 20)
-        params = {
-                'algorithm' : 'LTKC',
-                'k_value' : k_value,
-        }
-        return params
 
 def am_parameter():
         linkage = st.selectbox('Which linkage criterion to use',
@@ -30,31 +23,53 @@ def am_parameter():
         return params
 
 def dbscan_parameter():
-        eps =  st.number_input('Epsilon', step=0.2, max_value=10.0, min_value=0.1, value=0.5)
-        min_p = st.slider('Minimal points', 2, 20, 5)
+        eps =  st.number_input('Epsilon', step=0.1, max_value=10.0, min_value=0.1, value=0.5)
+        min_s = st.slider('Minimal points', 2, 20, 5)
         params = {
                 'algorithm' : 'DBSCAN',
                 'eps' : eps,
-                'min_samples' : min_p,
+                'min_samples' : min_s
         }
         return params
 
 def hdbscan_parameter():
         min_samples = st.number_input('Minimal samples', step=1, max_value=20, min_value=1, value=2)
         min_cluster_size = st.slider('Minimal cluster size', 2, 100, 15)
+        eps =  st.number_input('Epsilon', step=0.1, max_value=10.0, min_value=0.1, value=0.5)
         params = {
                 'algorithm' : 'HDBSCAN',
                 'min_samples' : min_samples,
                 'min_cluster_size' : min_cluster_size,
+                "eps" : eps
         }
         return params
 
-def affinity_propagation_parameter():
-        damping = st.number_input('Damping factor', step=0.1, max_value=1.0, min_value=0.5, value=0.5)
-        max_iter = st.slider('Maximal iteration', 100, 1000, 200)
+def optics_parameter():
+        min_samples = st.slider('Minimal samples', 2, 100, 5)
+        max_eps = st.number_input('Maximal epsilon', step=0.2, max_value=10.0, min_value=0.1, value=0.5)
         params = {
-                'algorithm' : 'Affinity Propagation',
-                'damping' : damping,
-                'max_iter' : max_iter,
+                'algorithm' : 'OPTICs',
+                'min_samples' : min_samples,
+                'max_eps' : max_eps
         }
         return params
+
+def meanshift_parameter():
+        bandwidth = st.number_input('Bandwidth', step=0.1, max_value=10.0, min_value=0.1, value=0.2)
+        max_iter = st.slider('Maximal iteration', 2, 500, 300)
+        params = {
+                'algorithm' : 'MeanShift',
+                'bandwidth' : bandwidth,
+                'max_iter' : max_iter
+        }
+        return params
+
+# def affinity_propagation_parameter():
+#         damping = st.number_input('Damping factor', step=0.1, max_value=1.0, min_value=0.5, value=0.5)
+#         max_iter = st.slider('Maximal iteration', 100, 1000, 200)
+#         params = {
+#                 'algorithm' : 'Affinity Propagation',
+#                 'damping' : damping,
+#                 'max_iter' : max_iter,
+#         }
+#         return params

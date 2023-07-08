@@ -64,11 +64,11 @@ def clustering_result_two_dimension_nopca(d):
     df.pop('ID')
 
 
-    # pca = PCA(n_components=2)
-    # pca_x = pca.fit_transform(df)
-
-    reducer = umap.UMAP(n_components=2, metric='euclidean', min_dist=0.1)
+    reducer = PCA(n_components=2)
     embedding = reducer.fit_transform(df)
+
+    # reducer = umap.UMAP(n_components=2, metric='euclidean', min_dist=0.1)
+    # embedding = reducer.fit_transform(df)
 
     data = pd.concat([pd.DataFrame(embedding), pd.DataFrame(labels)], axis=1) 
 

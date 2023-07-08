@@ -20,8 +20,8 @@ if 'dataPreparation' in st.session_state:
 
     with columnInputAlgorithm:
         algorithm = st.radio("Please select clustering algorithm ",
-            ["K-Means", "Agglomerative","DBSCAN", "HDBSCAN", "Affinity Propagation"],
-            index=0, key="input_algo")
+            ["K-Means", "Agglomerative","DBSCAN", "HDBSCAN", "OPTICs", "MeanShift"],
+            index=3, key="input_algo")
         
         
         isPlot = st.checkbox('Plot ' + algorithm, value=1)
@@ -35,12 +35,8 @@ if 'dataPreparation' in st.session_state:
 
             match args:
                 case 'K-Means':
-                    km_p = k_kmean_parameter()
+                    km_p = kmeans_parameter()
                     st.session_state['algorithm parameter'] = km_p
-                    
-                # case 'LTKC':
-                #     ltkc_p = ltkc_parameter()
-                #     st.session_state['algorithm parameter'] = ltkc_p
 
                 case 'Agglomerative':
                     fcm_p = am_parameter()
@@ -54,9 +50,17 @@ if 'dataPreparation' in st.session_state:
                     hdbscan_p = hdbscan_parameter()
                     st.session_state['algorithm parameter'] = hdbscan_p
 
-                case 'Affinity Propagation':
-                    ap_p = affinity_propagation_parameter()
-                    st.session_state['algorithm parameter'] = ap_p
+                case 'OPTICs':
+                    optics_p = optics_parameter()
+                    st.session_state['algorithm parameter'] = optics_p
+
+                case 'MeanShift':
+                    meanshift = meanshift_parameter()
+                    st.session_state['algorithm parameter'] = meanshift
+
+                # case 'Affinity Propagation':
+                #     ap_p = affinity_propagation_parameter()
+                #     st.session_state['algorithm parameter'] = ap_p
 
                 case _:
                     st.warning("Error")
@@ -103,7 +107,8 @@ if 'dataPreparation' in st.session_state:
                             st.caption('Recaps')
                             st.write('Total cluster :', max(result['result'].labels_) + 1)    
                             st.write('Computation time :',round(result['time'], 4))
-                            st.write('Silhouette score :', round(result['score'], 4))    
+                            st.write('Silhouette score :', round(result['indexScore'], 4))    
+                            st.write('DB score :', round(result['dbScore'], 4))    
                         
                     case False:
                         plotcol, recapcol = st.columns([3,1], gap='small')
@@ -124,7 +129,8 @@ if 'dataPreparation' in st.session_state:
                             st.caption('Recaps')
                             st.write('Total cluster :', max(result['result'].labels_) + 1)    
                             st.write('Computation time :',round(result['time'], 4))
-                            st.write('Silhouette score :', round(result['score'], 4))             
+                            st.write('Silhouette score :', round(result['indexScore'], 4))             
+                            st.write('Silhouette score :', round(result['dbScore'], 4))             
     
 
                         
@@ -139,8 +145,8 @@ if 'dataPreparation' in st.session_state:
                         dbscan_detail(result)
                     case 'HDBSCAN':
                         hdbscan_detail(result)
-                    case 'Affinity Propagation':
-                        affinity_propagation_detail(result)
+                    # case 'Affinity Propagation':
+                    #     affinity_propagation_detail(result)
 
         else:
             st.caption('')

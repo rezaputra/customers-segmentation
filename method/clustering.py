@@ -2,7 +2,7 @@ import pandas as pd
 import time
 import streamlit as st
 from hdbscan import HDBSCAN
-from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, AffinityPropagation, OPTICS
+from sklearn.cluster import KMeans, AgglomerativeClustering, DBSCAN, OPTICS, MeanShift
 from sklearn.metrics import silhouette_score, davies_bouldin_score
 
 
@@ -14,57 +14,61 @@ class Clustering:
 
 
 
-    def hdbscan(self, min_samples, min_cluster_size):
+    def hdbscan(self, ms, mcs, eps):
         startTime = time.time()
-        hdb = HDBSCAN(min_samples=min_samples, min_cluster_size=min_cluster_size)
+        hdb = HDBSCAN(min_samples=ms, max_cluster_size=mcs, cluster_selection_epsilon=eps, algorithm='boruvka_kdtree')
         fit = hdb.fit(self.data)
         endTime = time.time() - startTime
 
-        score = silhouette_score(self.data, fit.labels_)
+        indexScore = silhouette_score(st.session_state['data_scale'], fit.labels_)
+        dbScore = davies_bouldin_score(st.session_state['data_scale'], fit.labels_)
 
         result = {
             'algorithm' : 'HDBSCAN',
             'result' : fit,
-            'score' : score,
+            'indexScore' : indexScore,
+            'dbScore' : dbScore,
             'time' : endTime
         }
 
         return result
     
 
-    def optics(self, min_samples, max_eps):
+    
+    def kmeans(self, k, mi):
         startTime = time.time()
-        opt = OPTICS(min_samples=min_samples, max_eps=max_eps)
-        fit = opt.fit(self.data)
-        endTime = time.time() - startTime
-
-        indexScore = silhouette_score(self.data, fit.labels_)
-        dbScore = davies_bouldin_score(self.data, fit.labels_)
-
-        result = {
-            'algorithm' : 'HDBSCAN',
-            'result' : fit,
-            'indexScore' : indexScore,
-            'indexScore' : indexScore,
-            'time' : endTime
-        }
-
-        return result
-
-
-
-    def kMeans(self, n_cluster, max_iter):
-        startTime = time.time()
-        km = KMeans(n_clusters=n_cluster, max_iter=max_iter, n_init='auto')
+        km = KMeans(n_clusters=k, max_iter=mi)
         fit = km.fit(self.data)
         endTime = time.time() - startTime
-        
-        score = silhouette_score(self.data, fit.labels_)
+
+        indexScore = silhouette_score(st.session_state['data_scale'], fit.labels_)
+        dbScore = davies_bouldin_score(st.session_state['data_scale'], fit.labels_)
 
         result = {
             'algorithm' : 'K-Means',
             'result' : fit,
-            'score' : score,
+            'indexScore' : indexScore,
+            'dbScore' : dbScore,
+            'time' : endTime
+        }
+
+        return result
+    
+
+    def optics(self, ms, me):
+        startTime = time.time()
+        cluster = OPTICS(min_samples=ms, max_eps=me)
+        fit = cluster.fit(self.data)
+        endTime = time.time() - startTime
+
+        indexScore = silhouette_score(st.session_state['data_scale'], fit.labels_)
+        dbScore = davies_bouldin_score(st.session_state['data_scale'], fit.labels_)
+
+        result = {
+            'algorithm' : 'OPTICs',
+            'result' : fit,
+            'indexScore' : indexScore,
+            'dbScore' : dbScore,
             'time' : endTime
         }
 
@@ -72,59 +76,105 @@ class Clustering:
     
 
     
-    def agglomerative(self, n_cluster, linkage):
+    def agglomerative(self, nc, li):
         startTime = time.time()
-        agglo = AgglomerativeClustering(n_clusters=n_cluster, linkage=linkage)
-        fit = agglo.fit(self.data)
+        cluster = AgglomerativeClustering(n_clusters=nc, linkage=li)
+        fit = cluster.fit(self.data)
         endTime = time.time() - startTime
 
-        score = silhouette_score(self.data, fit.labels_)
+        indexScore = silhouette_score(st.session_state['data_scale'], fit.labels_)
+        dbScore = davies_bouldin_score(st.session_state['data_scale'], fit.labels_)
 
         result = {
             'algorithm' : 'Agglomerative',
             'result' : fit,
-            'score' : score,
+            'indexScore': indexScore,
+            'dbScore' : dbScore,
             'time' : endTime
         }
-
         return result
     
     
-    def dbscan(self, eps, min_samples):
+    def dbscan(self, eps, ms):
         startTime = time.time()
-        db = DBSCAN(eps=eps, min_samples=min_samples)
-        fit = db.fit(self.data)
+        cluster = DBSCAN(eps=eps, min_samples=ms)
+        fit = cluster.fit(self.data)
         endTime = time.time() - startTime
         
-        score = silhouette_score(self.data, fit.labels_)
+        indexScore = silhouette_score(st.session_state['data_scale'], fit.labels_)
+        dbScore = davies_bouldin_score(st.session_state['data_scale'], fit.labels_)
 
         result = {
             'algorithm' : 'DBSCAN',
             'result' : fit,
-            'score' : score,
+            'indexScore': indexScore,
+            'dbScore' : dbScore,
             'time' : endTime
         }
 
         return result
     
-    
-    
-    def affinity_propagation(self, damping, max_iter):
-        startTime = time.time()
-        ap = AffinityPropagation(damping=damping, max_iter=max_iter)
-        fit = ap.fit(self.data)
-        endTime = time.time() - startTime
 
-        score = silhouette_score(self.data, fit.labels_)
+    def meanshift(self,bw, mi):
+        startTime = time.time()
+        cluster = MeanShift(bandwidth=bw, max_iter=mi)
+        fit = cluster.fit(self.data)
+        endTime = time.time() - startTime
+        
+        indexScore = silhouette_score(st.session_state['data_scale'], fit.labels_)
+        dbScore = davies_bouldin_score(st.session_state['data_scale'], fit.labels_)
 
         result = {
-            'algorithm' : 'Affinity Propagation',
+            'algorithm' : 'Mean Shift',
             'result' : fit,
-            'score' : score,
+            'indexScore': indexScore,
+            'dbScore' : dbScore,
             'time' : endTime
         }
 
         return result
+    
+    
+
+
+    
+    # def denclue(self, eps, ms):
+    #     startTime = time.time()
+    #     cluster = DBSCAN(eps=eps, min_samples=ms)
+    #     fit = cluster.fit(self.data)
+    #     endTime = time.time() - startTime
+        
+    #     indexScore = silhouette_score(st.session_state['data_scale'], fit.labels_)
+    #     dbScore = davies_bouldin_score(st.session_state['data_scale'], fit.labels_)
+
+    #     result = {
+    #         'algorithm' : 'DBSCAN',
+    #         'result' : fit,
+    #         'indexScore': indexScore,
+    #         'dbScore' : dbScore,
+    #         'time' : endTime
+    #     }
+
+    #     return result
+
+    
+    
+    # def affinity_propagation(self, damping, max_iter):
+    #     startTime = time.time()
+    #     ap = AffinityPropagation(damping=damping, max_iter=max_iter)
+    #     fit = ap.fit(self.data)
+    #     endTime = time.time() - startTime
+
+    #     score = silhouette_score(self.data, fit.labels_)
+
+    #     result = {
+    #         'algorithm' : 'Affinity Propagation',
+    #         'result' : fit,
+    #         'score' : score,
+    #         'time' : endTime
+    #     }
+
+    #     return result
     
 
     # def ltkc(self, k_value):

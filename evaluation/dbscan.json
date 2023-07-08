@@ -1,10 +1,11 @@
 [
     {
-        "dataset": "onlineretail.csv",
+        "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.2884788368954474,
-        "time": 3.819819211959839,
+        "extraction": "PCA",
+        "indexScore": 0.2300419207553673,
+        "dbScore": 0.9484000440904751,
+        "time": 0.057861328125,
         "details": {
             "clustering_parameter": [
                 "eps",
@@ -12,1486 +13,25 @@
             ],
             "parameter_value": [
                 0.5,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.24732391843666776,
-        "time": 5.283870220184326,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.017164298623715938,
-        "time": 7.538865804672241,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.016037888755596065,
-        "time": 9.97531509399414,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.17622370162728196,
-        "time": 13.555750370025635,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.2532521912743515,
-        "time": 17.361007690429688,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.23775059233333132,
-        "time": 21.14545726776123,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.23775059233333132,
-        "time": 20.91508936882019,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                15
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.23775059233333132,
-        "time": 21.253166437149048,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.2532521912743515,
-        "time": 17.68969440460205,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.2532521912743515,
-        "time": 17.28481101989746,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                15
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.17872213358659492,
-        "time": 13.465836763381958,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                15
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.17872213358659492,
-        "time": 13.59866189956665,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.04542898859832209,
-        "time": 9.981784582138062,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.03099519099247288,
-        "time": 10.539934873580933,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                15
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.042562164823108456,
-        "time": 7.318516492843628,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                15
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.04413989220839058,
-        "time": 7.6478235721588135,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.047151304346461864,
-        "time": 7.582733392715454,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.13830405793544706,
-        "time": 5.348193883895874,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.09834979992573947,
-        "time": 5.233631372451782,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.03175836890230478,
-        "time": 5.2200400829315186,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                14
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.12722654609564155,
-        "time": 0.6502609252929688,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.5,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.033775059272404546,
-        "time": 0.6272890567779541,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.5,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.10203559841520786,
-        "time": 0.8627026081085205,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.034604303207862494,
-        "time": 0.6921768188476562,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.5,
-                3
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.08569021776190705,
-        "time": 0.7011237144470215,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.5,
-                4
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.12722654609564155,
-        "time": 0.6851677894592285,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.5,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.21040185160033556,
-        "time": 0.672215461730957,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.5,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.10203559841520786,
-        "time": 0.8587350845336914,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.07231917331148291,
-        "time": 0.8417494297027588,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                3
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.06679969700163822,
-        "time": 0.8357951641082764,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.08321256417724417,
-        "time": 0.834791898727417,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                6
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.10307852297470717,
-        "time": 0.7829370498657227,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.053754244492608606,
-        "time": 1.0283019542694092,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.06230929179368633,
-        "time": 1.1070384979248047,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                7
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.06274236628515818,
-        "time": 1.0232880115509033,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                6
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.042910359404677745,
-        "time": 1.0831348896026611,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.000165911980944979,
-        "time": 1.0811362266540527,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                4
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.046172513822852854,
-        "time": 1.0462050437927246,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                3
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.10777534542980742,
-        "time": 1.0182762145996094,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.9,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.027395501789989972,
-        "time": 1.2636139392852783,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.01795404336553239,
-        "time": 1.2895786762237549,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                3
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.05829923274355212,
-        "time": 1.2221577167510986,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                4
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.06619837779360063,
-        "time": 1.2546701431274414,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.0624536972616578,
-        "time": 1.181837797164917,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                6
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.08277729998991444,
-        "time": 1.1928033828735352,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                7
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.10325904546730563,
-        "time": 1.2825698852539062,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.09157569688976942,
-        "time": 1.1828362941741943,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                9
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.10194823012229669,
-        "time": 1.2496559619903564,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.09075692842773048,
-        "time": 1.220735788345337,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                11
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.0965827894323747,
-        "time": 1.324493169784546,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                12
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.09354160180684225,
-        "time": 1.2865855693817139,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                13
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.09105807586621191,
-        "time": 1.2267110347747803,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                14
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.08150212145351111,
-        "time": 1.2476892471313477,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                15
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.07570415564154223,
-        "time": 1.2097949981689453,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                16
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.10951666594885819,
-        "time": 1.4102590084075928,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                16
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.11138766062608083,
-        "time": 1.3264789581298828,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                14
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.11469810091102409,
-        "time": 1.4202256202697754,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                12
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.11790857649824307,
-        "time": 1.4262163639068604,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.08699506134364617,
-        "time": 1.426218032836914,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.08855469690740184,
-        "time": 1.3982570171356201,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                6
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.07780376154532172,
-        "time": 1.402254581451416,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                4
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.002343197582094796,
-        "time": 1.4481258392333984,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.3,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.18243443181348687,
-        "time": 1.9418048858642578,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.19568768967294065,
-        "time": 1.817141056060791,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                4
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.19482112450701997,
-        "time": 1.8460769653320312,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                6
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.1929793687301687,
-        "time": 1.8540749549865723,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                9
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.19219470578668404,
-        "time": 1.8540315628051758,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                11
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.1920795686922234,
-        "time": 1.762314796447754,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                12
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.1915328876556607,
-        "time": 1.7892422676086426,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                13
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.1901777028698276,
-        "time": 1.7862486839294434,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                15
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.18988921827907948,
-        "time": 1.7543063163757324,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
                 17
             ]
         }
     },
     {
-        "dataset": "bankchurners.csv",
+        "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.15696045008637047,
-        "time": 2.22308087348938,
+        "extraction": "PCA",
+        "indexScore": 0.0908891518842266,
+        "dbScore": 3.940562992122309,
+        "time": 0.0468754768371582,
         "details": {
             "clustering_parameter": [
                 "eps",
                 "min_samples"
             ],
             "parameter_value": [
-                1.7,
-                17
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.15696045008637047,
-        "time": 2.201138973236084,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                16
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.1433863564460888,
-        "time": 2.219090700149536,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                14
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.1434768369459318,
-        "time": 2.270951509475708,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                12
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.14363114856628995,
-        "time": 2.2180960178375244,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.14380121124147482,
-        "time": 2.206127166748047,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.14359476115431788,
-        "time": 2.3895957469940186,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                6
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.14451304530386172,
-        "time": 2.3577280044555664,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                4
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.14477012261379407,
-        "time": 2.2207672595977783,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.7,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.14435802076964785,
-        "time": 2.618028163909912,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.9,
-                2
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.14435802076964785,
-        "time": 2.65193510055542,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.9,
-                3
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.14328732736968475,
-        "time": 2.559154748916626,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.9,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.3898817872944474,
-        "time": 2.9042515754699707,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                2.1,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.0662962809056362,
-        "time": 1.31550931930542,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.2,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.07541664867965941,
-        "time": 1.34041428565979,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.2,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.10941393138232602,
-        "time": 1.320493221282959,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.2,
-                12
+                0.29999999999999993,
+                20
             ]
         }
     },
@@ -1499,8 +39,9 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
         "extraction": false,
-        "score": -0.26318816053335664,
-        "time": 0.14064908027648926,
+        "indexScore": -0.3891776814324548,
+        "dbScore": 1.4877226056616415,
+        "time": 0.066864013671875,
         "details": {
             "clustering_parameter": [
                 "eps",
@@ -1516,15 +57,16 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
         "extraction": false,
-        "score": -0.437063329669962,
-        "time": 0.11269664764404297,
+        "indexScore": 0.019556649379302998,
+        "dbScore": 2.6787832520267436,
+        "time": 0.12437748908996582,
         "details": {
             "clustering_parameter": [
                 "eps",
                 "min_samples"
             ],
             "parameter_value": [
-                0.3,
+                0.8999999999999999,
                 5
             ]
         }
@@ -1533,15 +75,124 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
         "extraction": false,
-        "score": -0.090951967245826,
-        "time": 0.11572146415710449,
+        "indexScore": -0.3891776814324548,
+        "dbScore": 1.4877226056616415,
+        "time": 0.07081151008605957,
         "details": {
             "clustering_parameter": [
                 "eps",
                 "min_samples"
             ],
             "parameter_value": [
-                0.3,
+                0.49999999999999994,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "DBSCAN",
+        "extraction": false,
+        "indexScore": -0.04879993298521817,
+        "dbScore": 2.7903978603545894,
+        "time": 0.0981588363647461,
+        "details": {
+            "clustering_parameter": [
+                "eps",
+                "min_samples"
+            ],
+            "parameter_value": [
+                0.7,
+                12
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "DBSCAN",
+        "extraction": false,
+        "indexScore": 0.10193069209777368,
+        "dbScore": 3.8061506707883126,
+        "time": 0.09474539756774902,
+        "details": {
+            "clustering_parameter": [
+                "eps",
+                "min_samples"
+            ],
+            "parameter_value": [
+                0.7,
+                19
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "DBSCAN",
+        "extraction": false,
+        "indexScore": -0.24321217135636178,
+        "dbScore": 1.0084774470883742,
+        "time": 0.06283402442932129,
+        "details": {
+            "clustering_parameter": [
+                "eps",
+                "min_samples"
+            ],
+            "parameter_value": [
+                0.29999999999999993,
+                19
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "DBSCAN",
+        "extraction": false,
+        "indexScore": -0.23695985364029556,
+        "dbScore": 1.027838016517278,
+        "time": 0.05485701560974121,
+        "details": {
+            "clustering_parameter": [
+                "eps",
+                "min_samples"
+            ],
+            "parameter_value": [
+                0.29999999999999993,
+                20
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "DBSCAN",
+        "extraction": false,
+        "indexScore": -0.4529674082580822,
+        "dbScore": 1.1229133699398435,
+        "time": 0.042886972427368164,
+        "details": {
+            "clustering_parameter": [
+                "eps",
+                "min_samples"
+            ],
+            "parameter_value": [
+                0.1,
+                5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "DBSCAN",
+        "extraction": false,
+        "indexScore": -0.3942463689845511,
+        "dbScore": 1.0926294915455397,
+        "time": 0.043897151947021484,
+        "details": {
+            "clustering_parameter": [
+                "eps",
+                "min_samples"
+            ],
+            "parameter_value": [
+                0.1,
                 2
             ]
         }
@@ -1550,15 +201,16 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
         "extraction": false,
-        "score": -0.437063329669962,
-        "time": 0.12367033958435059,
+        "indexScore": -0.4529674082580822,
+        "dbScore": 1.1229133699398435,
+        "time": 0.04495048522949219,
         "details": {
             "clustering_parameter": [
                 "eps",
                 "min_samples"
             ],
             "parameter_value": [
-                0.3,
+                0.1,
                 5
             ]
         }
@@ -1567,16 +219,17 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
         "extraction": false,
-        "score": -0.39914964554762344,
-        "time": 0.11569070816040039,
+        "indexScore": -0.3891776814324548,
+        "dbScore": 1.4877226056616415,
+        "time": 0.32807135581970215,
         "details": {
             "clustering_parameter": [
                 "eps",
                 "min_samples"
             ],
             "parameter_value": [
-                0.3,
-                9
+                0.5,
+                5
             ]
         }
     },
@@ -1584,15 +237,52 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
         "extraction": false,
-        "score": -0.26619302343114265,
-        "time": 0.12368249893188477,
+        "indexScore": 0.1007245786392718,
+        "dbScore": 3.8034211758066983,
+        "time": 0.20903611183166504,
         "details": {
             "clustering_parameter": [
                 "eps",
                 "min_samples"
             ],
             "parameter_value": [
-                0.3,
+                0.7,
+                20
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "DBSCAN",
+        "extraction": false,
+        "indexScore": -0.017984829050266455,
+        "dbScore": 3.346126766978102,
+        "time": 0.143585205078125,
+        "details": {
+            "clustering_parameter": [
+                "eps",
+                "min_samples"
+            ],
+            "parameter_value": [
+                0.7,
+                14
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "DBSCAN",
+        "extraction": false,
+        "indexScore": -0.04817983633051282,
+        "dbScore": 2.7969926917865546,
+        "time": 0.17720270156860352,
+        "details": {
+            "clustering_parameter": [
+                "eps",
+                "min_samples"
+            ],
+            "parameter_value": [
+                0.7,
                 11
             ]
         }
@@ -1601,8 +291,9 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
         "extraction": false,
-        "score": -0.45459338220534784,
-        "time": 0.14062261581420898,
+        "indexScore": -0.2388558053077235,
+        "dbScore": 1.8715017061791874,
+        "time": 0.10076451301574707,
         "details": {
             "clustering_parameter": [
                 "eps",
@@ -1610,7 +301,7 @@
             ],
             "parameter_value": [
                 0.7,
-                2
+                9
             ]
         }
     },
@@ -1618,339 +309,17 @@
         "dataset": "dwimedialestari.csv",
         "clustering": "DBSCAN",
         "extraction": false,
-        "score": -0.363985302066781,
-        "time": 0.1545870304107666,
+        "indexScore": -0.034201665578730674,
+        "dbScore": 2.235932026311115,
+        "time": 0.11402344703674316,
         "details": {
             "clustering_parameter": [
                 "eps",
                 "min_samples"
             ],
             "parameter_value": [
-                0.7,
-                4
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.423098914996624,
-        "time": 0.14959955215454102,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                3
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.30256095147506906,
-        "time": 0.15461301803588867,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
+                0.7999999999999999,
                 10
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.23638896941512405,
-        "time": 0.15561723709106445,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.3051164957339803,
-        "time": 0.15159320831298828,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                6
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.33640770530547853,
-        "time": 0.1526014804840088,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.7,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.36576681930337357,
-        "time": 0.14557218551635742,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.6,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.36576681930337357,
-        "time": 0.1446082592010498,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.6,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.423955209396676,
-        "time": 0.2184147834777832,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.2,
-                12
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.03677009466356191,
-        "time": 0.20046305656433105,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.2,
-                15
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.2532521912743515,
-        "time": 19.57111382484436,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.3898817872944474,
-        "time": 3.097865104675293,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                2.1,
-                8
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.2532521912743515,
-        "time": 17.318673372268677,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.5,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.423955209396676,
-        "time": 0.19750428199768066,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.2,
-                12
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.13695249374775895,
-        "time": 0.19347429275512695,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.0,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.09709981810898327,
-        "time": 0.18652653694152832,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.1,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.4288093037612783,
-        "time": 0.18852829933166504,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.2,
-                10
-            ]
-        }
-    },
-    {
-        "dataset": "dwimedialestari.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": 0.423955209396676,
-        "time": 0.20345854759216309,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                1.2,
-                12
-            ]
-        }
-    },
-    {
-        "dataset": "onlineretail.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.2884788368954474,
-        "time": 3.7788941860198975,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.5,
-                5
-            ]
-        }
-    },
-    {
-        "dataset": "bankchurners.csv",
-        "clustering": "DBSCAN",
-        "extraction": false,
-        "score": -0.12722654601167702,
-        "time": 0.7170820236206055,
-        "details": {
-            "clustering_parameter": [
-                "eps",
-                "min_samples"
-            ],
-            "parameter_value": [
-                0.5,
-                5
             ]
         }
     }
