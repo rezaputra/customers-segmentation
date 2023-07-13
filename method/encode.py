@@ -9,7 +9,11 @@ class Encode:
         self.num = self.data.drop(self.ctg_cols,axis=1)
 
     def labelEncoding(self):
-        data = self.data.apply(LabelEncoder().fit_transform)
+        categorical_features_dataset = pd.DataFrame(self.data.select_dtypes(include=['object']))
+        numeric_features_dataset = pd.DataFrame(self.data.select_dtypes(include=['int64', 'float64']))
+
+        encoded = categorical_features_dataset.apply(LabelEncoder().fit_transform)
+        data = pd.concat([encoded, numeric_features_dataset], axis=1) 
 
         return data
 
@@ -26,6 +30,7 @@ class Encode:
         data = pd.concat([self.num, encoded], axis=1, join='inner')
 
         return 
+    
     
 
     

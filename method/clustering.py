@@ -14,9 +14,9 @@ class Clustering:
 
 
 
-    def hdbscan(self, ms, mcs, eps):
+    def hdbscan(self,mcs, ms, cse):
         startTime = time.time()
-        hdb = HDBSCAN(min_samples=ms, max_cluster_size=mcs, cluster_selection_epsilon=eps, algorithm='boruvka_kdtree')
+        hdb = HDBSCAN(max_cluster_size=mcs, min_samples=ms, cluster_selection_epsilon=cse, algorithm='boruvka_kdtree')
         fit = hdb.fit(self.data)
         endTime = time.time() - startTime
 

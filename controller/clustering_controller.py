@@ -15,11 +15,13 @@ class ClusteringController:
         match self.algo['algorithm']:
             case 'K-Means':
                 cluster = clustering.kmeans(self.algo['n_cluster'], self.algo['max_iter'])
+                count_cluster = int(max(cluster['result'].labels_)+1)
 
                 new_eval =  {         
                     "dataset": st.session_state['fileName'],
                     "clustering": self.algo['algorithm'],
                     "extraction": st.session_state['dpMethod'][ 'extraction'],
+                    "cluster": count_cluster,
                     "indexScore": cluster['indexScore'],
                     "dbScore": cluster['dbScore'],
                     "time": cluster['time'],
@@ -51,10 +53,13 @@ class ClusteringController:
 
             case 'Agglomerative':
                 cluster = clustering.agglomerative(self.algo['n_cluster'], self.algo['linkage'])
+                count_cluster = int(max(cluster['result'].labels_)+1)
+
                 new_eval =  {         
                     "dataset": st.session_state['fileName'],
                     "clustering": self.algo['algorithm'],
                     "extraction": st.session_state['dpMethod'][ 'extraction'],
+                    "cluster": count_cluster,
                     "indexScore": cluster['indexScore'],
                     "dbScore": cluster['dbScore'],
                     "time": cluster['time'],
@@ -85,10 +90,13 @@ class ClusteringController:
 
             case 'DBSCAN':
                 cluster = clustering.dbscan(self.algo['eps'], self.algo['min_samples'])
+                count_cluster = int(max(cluster['result'].labels_)+1)
+
                 new_eval =  {         
                     "dataset": st.session_state['fileName'],
                     "clustering": self.algo['algorithm'],
                     "extraction": st.session_state['dpMethod'][ 'extraction'],
+                    "cluster": count_cluster,
                     "indexScore": cluster['indexScore'],
                     "dbScore": cluster['dbScore'],
                     "time": cluster['time'],
@@ -118,11 +126,14 @@ class ClusteringController:
             
 
             case 'HDBSCAN':
-                cluster = clustering.hdbscan(self.algo['min_samples'], self.algo['min_cluster_size'], self.algo['eps'])
+                cluster = clustering.hdbscan(self.algo['min_samples'], self.algo['min_cluster_size'], self.algo['cluster_selection_epsilon'])
+                count_cluster = int(max(cluster['result'].labels_)+1)
+
                 new_eval =  {         
                     "dataset": st.session_state['fileName'],
                     "clustering": self.algo['algorithm'],
                     "extraction": st.session_state['dpMethod'][ 'extraction'],
+                    "cluster": count_cluster,
                     "indexScore": cluster['indexScore'],
                     "dbScore": cluster['dbScore'],
                     "time": cluster['time'],
@@ -130,12 +141,12 @@ class ClusteringController:
                         "clustering_parameter": [
                             "min_samples",
                             "min_cluster_size"
-                            "eps"
+                            "cluster_selection_epsilon"
                         ],
                         "parameter_value": [
                             self.algo['min_samples'],
                             self.algo['min_cluster_size'],
-                            self.algo['eps']
+                            self.algo['cluster_selection_epsilon']
                         ]
                     }
                 }
@@ -156,10 +167,13 @@ class ClusteringController:
             
             case 'OPTICs':
                 cluster = clustering.optics(self.algo['min_samples'], self.algo['max_eps'])
+                count_cluster = int(max(cluster['result'].labels_)+1)
+
                 new_eval =  {         
                     "dataset": st.session_state['fileName'],
                     "clustering": self.algo['algorithm'],
                     "extraction": st.session_state['dpMethod'][ 'extraction'],
+                    "cluster": count_cluster,
                     "indexScore": cluster['indexScore'],
                     "dbScore": cluster['dbScore'],
                     "time": cluster['time'],
@@ -189,10 +203,13 @@ class ClusteringController:
             
             case 'MeanShift':
                 cluster = clustering.meanshift(self.algo['bandwidth'], self.algo['max_iter'])
+                count_cluster = int(max(cluster['result'].labels_)+1)
+                
                 new_eval =  {         
                     "dataset": st.session_state['fileName'],
                     "clustering": self.algo['algorithm'],
                     "extraction": st.session_state['dpMethod'][ 'extraction'],
+                    "cluster": count_cluster,
                     "indexScore": cluster['indexScore'],
                     "dbScore": cluster['dbScore'],
                     "time": cluster['time'],

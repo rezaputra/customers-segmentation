@@ -24,7 +24,7 @@ def am_parameter():
 
 def dbscan_parameter():
         eps =  st.number_input('Epsilon', step=0.1, max_value=10.0, min_value=0.1, value=0.5)
-        min_s = st.slider('Minimal points', 2, 20, 5)
+        min_s = st.slider('Minimal points', 2, 100, 5)
         params = {
                 'algorithm' : 'DBSCAN',
                 'eps' : eps,
@@ -33,19 +33,19 @@ def dbscan_parameter():
         return params
 
 def hdbscan_parameter():
-        min_samples = st.number_input('Minimal samples', step=1, max_value=20, min_value=1, value=2)
-        min_cluster_size = st.slider('Minimal cluster size', 2, 100, 15)
-        eps =  st.number_input('Epsilon', step=0.1, max_value=10.0, min_value=0.1, value=0.5)
+        min_cluster_size = st.slider('Minimal cluster size', 10, 200, 15)
+        min_samples = st.number_input('Minimal samples', step=5, max_value=50, min_value=1, value=5)
+        cluster_selection_epsilon =  st.number_input('Cluster selection epsilon', step=0.1, max_value=10.0, min_value=0.1, value=0.5)
         params = {
                 'algorithm' : 'HDBSCAN',
-                'min_samples' : min_samples,
                 'min_cluster_size' : min_cluster_size,
-                "eps" : eps
+                'min_samples' : min_samples,
+                "cluster_selection_epsilon" : cluster_selection_epsilon
         }
         return params
 
 def optics_parameter():
-        min_samples = st.slider('Minimal samples', 2, 100, 5)
+        min_samples = st.slider('Minimal samples', 2, 500, 5)
         max_eps = st.number_input('Maximal epsilon', step=0.2, max_value=10.0, min_value=0.1, value=0.5)
         params = {
                 'algorithm' : 'OPTICs',
@@ -56,7 +56,7 @@ def optics_parameter():
 
 def meanshift_parameter():
         bandwidth = st.number_input('Bandwidth', step=0.1, max_value=10.0, min_value=0.1, value=0.2)
-        max_iter = st.slider('Maximal iteration', 2, 500, 300)
+        max_iter = st.slider('Maximal iteration', 2, 1000, 300)
         params = {
                 'algorithm' : 'MeanShift',
                 'bandwidth' : bandwidth,
