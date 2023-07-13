@@ -967,5 +967,119 @@
                 8.7
             ]
         }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 431,
+        "indexScore": -0.16329766016715636,
+        "dbScore": 1.0913183894890781,
+        "time": 152.77885723114014,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                29,
+                9.0
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 431,
+        "indexScore": -0.16329766016715636,
+        "dbScore": 1.0913183894890781,
+        "time": 143.8951711654663,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                29,
+                9.0
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 3,
+        "indexScore": -0.12109306531171123,
+        "dbScore": 1.412787748707194,
+        "time": 155.02569460868835,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                500,
+                9.0
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 7,
+        "indexScore": 0.04902940045755881,
+        "dbScore": 1.4063793093414445,
+        "time": 28.74008536338806,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                869,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 2,
+        "indexScore": -0.02778784758051519,
+        "dbScore": 1.4657700658455874,
+        "time": 153.06133365631104,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                869,
+                9.0
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 2,
+        "indexScore": -0.02778784758051519,
+        "dbScore": 1.4657700658455874,
+        "time": 154.12168264389038,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                869,
+                9.0
+            ]
+        }
     }
 ]

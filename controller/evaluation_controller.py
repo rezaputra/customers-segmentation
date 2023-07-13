@@ -44,17 +44,17 @@ class Evaluation:
 
             case "Agglomerative":
                 with open('evaluation/agglomerative.json', 'r') as file:
-                    dataEval = json.load(file)
+                    json_data = json.load(file)
                     dataEval = self.getBest(json_data)
 
             case "DBSCAN":
                 with open('evaluation/dbscan.json', 'r') as file:
-                    dataEval = json.load(file)
+                    json_data = json.load(file)
                     dataEval = self.getBest(json_data)
 
             case "HDBSCAN":
                 with open('evaluation/hdbscan.json', 'r') as file:
-                    dataEval = json.load(file)
+                    json_data = json.load(file)
                     if extraction == "PCA":
                         dataEval = self.getBestPCA(json_data)
                     else:
@@ -62,12 +62,12 @@ class Evaluation:
 
             case "OPTICs":
                 with open('evaluation/optics.json', 'r') as file:
-                    dataEval = json.load(file)
+                    json_data = json.load(file)
                     dataEval = self.getBest(json_data)
 
             case "MeanShift":
                 with open('evaluation/meanshift.json', 'r') as file:
-                    dataEval = json.load(file)
+                    json_data = json.load(file)
                     dataEval = self.getBest(json_data)
 
         return dataEval
@@ -84,13 +84,13 @@ class Evaluation:
                 max_dataset2 = max(filter_dataset2, key=lambda x: x["indexScore"])
                 max_dataset3 = max(filter_dataset3, key=lambda x: x["indexScore"])
             case "Davies–Bouldin score":
-                max_dataset1 = max(filter_dataset1, key=lambda x: x["dbScore"])
-                max_dataset2 = max(filter_dataset2, key=lambda x: x["dbScore"])
-                max_dataset3 = max(filter_dataset3, key=lambda x: x["dbScore"])
+                max_dataset1 = min(filter_dataset1, key=lambda x: x["dbScore"])
+                max_dataset2 = min(filter_dataset2, key=lambda x: x["dbScore"])
+                max_dataset3 = min(filter_dataset3, key=lambda x: x["dbScore"])
             case "Computation time":
-                max_dataset1 = max(filter_dataset1, key=lambda x: x["time"])
-                max_dataset2 = max(filter_dataset2, key=lambda x: x["time"])
-                max_dataset3 = max(filter_dataset3, key=lambda x: x["time"])
+                max_dataset1 = min(filter_dataset1, key=lambda x: x["time"])
+                max_dataset2 = min(filter_dataset2, key=lambda x: x["time"])
+                max_dataset3 = min(filter_dataset3, key=lambda x: x["time"])
 
         best_data = {
             'onlineretail.csv' : max_dataset1, 

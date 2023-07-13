@@ -834,5 +834,62 @@
                 300
             ]
         }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "MeanShift",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": 0.2924132834446829,
+        "dbScore": 1.2726237343331717,
+        "time": 1303.1145310401917,
+        "details": {
+            "clustering_parameter": [
+                "bandwidth",
+                "max_iter"
+            ],
+            "parameter_value": [
+                2.0,
+                1000
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "MeanShift",
+        "extraction": false,
+        "cluster": 3,
+        "indexScore": 0.2909858836778864,
+        "dbScore": 1.3587043663770988,
+        "time": 2378.741090297699,
+        "details": {
+            "clustering_parameter": [
+                "bandwidth",
+                "max_iter"
+            ],
+            "parameter_value": [
+                2.3,
+                1000
+            ]
+        }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "MeanShift",
+        "extraction": false,
+        "cluster": 2,
+        "indexScore": 0.3397075566274478,
+        "dbScore": 1.355395345260722,
+        "time": 1261.4471831321716,
+        "details": {
+            "clustering_parameter": [
+                "bandwidth",
+                "max_iter"
+            ],
+            "parameter_value": [
+                2.4,
+                1000
+            ]
+        }
     }
 ]

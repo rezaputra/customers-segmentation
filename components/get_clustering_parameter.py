@@ -45,7 +45,7 @@ def hdbscan_parameter():
         return params
 
 def optics_parameter():
-        min_samples = st.slider('Minimal samples', 2, 500, 5)
+        min_samples = st.slider('Minimal samples', 2, 1000, 5)
         max_eps = st.number_input('Maximal epsilon', step=0.2, max_value=10.0, min_value=0.1, value=0.5)
         params = {
                 'algorithm' : 'OPTICs',

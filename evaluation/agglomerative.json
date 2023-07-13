@@ -131,5 +131,81 @@
                 "single"
             ]
         }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": 0.29054618993771436,
+        "dbScore": 1.158670784769007,
+        "time": 0.30278944969177246,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                5,
+                "ward"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": 0.7278171078500116,
+        "dbScore": 0.2530519628697661,
+        "time": 0.22691035270690918,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                5,
+                "average"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": 0.697619960924075,
+        "dbScore": 0.576375934603314,
+        "time": 0.23272085189819336,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                5,
+                "complete"
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "Agglomerative",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": 0.7003429747845801,
+        "dbScore": 0.4625705605178849,
+        "time": 0.11028838157653809,
+        "details": {
+            "clustering_parameter": [
+                "n_cluster",
+                "linkage"
+            ],
+            "parameter_value": [
+                5,
+                "single"
+            ]
+        }
     }
 ]
