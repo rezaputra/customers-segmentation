@@ -1,6 +1,6 @@
 import streamlit as st
 import json
-from components.detail_evaluation import dataset_based
+from components.detail_evaluation import dataset_based_view, algorithm_based_view
 
 
 class Evaluation:
@@ -21,16 +21,26 @@ class Evaluation:
         dataset2 = [kmeans['bankchurners.csv'], agglomerative['bankchurners.csv'], dbscan['bankchurners.csv'], hdbscan['bankchurners.csv'], optics['bankchurners.csv'], meanshift['bankchurners.csv'], hdbcsan_pca['bankchurners.csv']]
         dataset3 = [kmeans['dwimedialestari.csv'], agglomerative['dwimedialestari.csv'], dbscan['dwimedialestari.csv'], hdbscan['dwimedialestari.csv'], optics['dwimedialestari.csv'], meanshift['dwimedialestari.csv'], hdbcsan_pca['dwimedialestari.csv']]
 
-        dataset_based(dataset1, dataset2, dataset3)
+        sort_dataset1 = self.sortingData(dataset1)
+        sort_dataset2 = self.sortingData(dataset2)
+        sort_dataset3 = self.sortingData(dataset3)
+
+        dataset_based_view(sort_dataset1, sort_dataset2, sort_dataset3, self.basedOn['rank_type'])
+
+        # dataset_based_view(dataset1, dataset2, dataset3, self.basedOn['rank_type'])
 
     def algorithmBased(self):
-        kmeans = self.openEvalData('K-Means', False)
-        agglomerative = self.openEvalData('Agglomerative', False)
-        dbscan = self.openEvalData('DBSCAN', False)
-        hdbscan = self.openEvalData('HDBSCAN', False)
-        optics = self.openEvalData('OPTICs', False)
-        meanshift = self.openEvalData('MeanShift', False)
-        hdbcsan_pca = self.openEvalData('HDBSCAN', "PCA")
+        jd = {
+            'kmeans' : self.openEvalData('K-Means', False),
+            'agglomerative' : self.openEvalData('Agglomerative', False),
+            'dbscan' : self.openEvalData('DBSCAN', False),
+            'hdbscan' : self.openEvalData('HDBSCAN', False),
+            'optics' : self.openEvalData('OPTICs', False),
+            'meanshift' : self.openEvalData('MeanShift', False),
+            'hdbscan_pca' : self.openEvalData('HDBSCAN', "PCA")
+        }
+
+        algorithm_based_view(jd, self.basedOn['rank_type'])
 
 
     def openEvalData(self, a, e):
@@ -107,7 +117,7 @@ class Evaluation:
         filter_dataset3 = [item for item in json_d if item["dataset"] == "dwimedialestari.csv" and item["cluster"] == self.basedOn['cluster_dataset3'] and item["extraction"] == "PCA"]
         match self.basedOn['rank_type']:
             case "Silhouette score":
-                max_dataset1 = max(filter_dataset1, key=lambda x: x["indexScore"])
+                max_dataset1 = max(filter_dataset1, key=lambda x: x["indexScore"])               
                 max_dataset2 = max(filter_dataset2, key=lambda x: x["indexScore"])
                 max_dataset3 = max(filter_dataset3, key=lambda x: x["indexScore"])
             case "Davies–Bouldin score":
@@ -119,6 +129,10 @@ class Evaluation:
                 max_dataset2 = max(filter_dataset2, key=lambda x: x["time"])
                 max_dataset3 = max(filter_dataset3, key=lambda x: x["time"])
 
+        max_dataset1['clustering'] = max_dataset1['clustering'] + " + " + max_dataset1['extraction']
+        max_dataset2['clustering'] = max_dataset2['clustering'] + " + " + max_dataset2['extraction']
+        max_dataset3['clustering'] = max_dataset3['clustering'] + " + " + max_dataset3['extraction']
+
         best_data = {
             'onlineretail.csv' : max_dataset1, 
             'bankchurners.csv' : max_dataset2, 
@@ -126,5 +140,19 @@ class Evaluation:
         }
 
         return best_data
+    
+
+    def sortingData(self, od):
+        object_data = od
+        match self.basedOn['rank_type']:
+            case "Silhouette score":
+                sort_data = sorted(object_data, key=lambda x: x['indexScore'], reverse=True)                
+            case "Davies–Bouldin score":
+                sort_data = sorted(object_data, key=lambda x: x['dbScore'], reverse=False)
+            case "Computation time":
+                sort_data = sorted(object_data, key=lambda x: x['time'], reverse=False)
+
+        
+        return sort_data
 
     

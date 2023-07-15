@@ -83,5 +83,59 @@ def clustering_result_two_dimension_nopca(d):
     plt.savefig('img/cluster_plot2d_nopca.png')
 
 
+def plot_dataset_based(jd, vb, fd):
+    value_based = vb
+    figure_details = fd
+    json_data = jd
+
+    algo_names = [entry['clustering'] for entry in json_data]
+    values = [entry[value_based] for entry in json_data]
+    colors = ['#fdcce5' if algorithm == 'HDBSCAN' else '#ffb55a' if algorithm == 'HDBSCAN + PCA' else '#54bebe' for algorithm in algo_names]
+    font = {'family': 'Roboto',
+        'color':  'black',
+        'weight': 'light',
+        'size': 14,
+        }
+
+    plt.figure(figsize = (10,12))
+    plt.bar(range(len(json_data)), values, tick_label=algo_names, color=colors)
+    plt.title(figure_details['title'], fontdict={'size' : 19}, pad=35)
+    plt.ylabel(figure_details['y_label'], fontdict=font, style='italic')
+    plt.xlabel(figure_details['x_label'], fontdict=font)
+    plt.xticks(rotation=45) 
+
+    plt.savefig(figure_details['file_path'])
+
+
+def plot_algorithm_based(jd, vb, fd):
+    json_data = jd
+    figure_details = fd
+    value_based = vb
+
+    json_keys = list(json_data.keys())
+    dataset_names = [f"Dataset {i+1}" for i in range(len(json_keys))]
+    values = [entry[value_based] for entry in json_data.values()]
+    colors = ['#FF9B9B' if dataset == dataset_names[0] else '#78C1F3' if dataset == dataset_names[1] else '#FFD966' for dataset in dataset_names]
+    font = {'family': 'Roboto',
+        'color':  'black',
+        'weight': 'light',
+        'size': 14,
+        }
+    
+    plt.figure(figsize = (10,15))
+    plt.bar(range(len(json_data)), values, tick_label=dataset_names, color=colors)
+    plt.title(figure_details['title'], fontdict={'size' : 20}, pad=35)
+    plt.ylabel(figure_details['y_label'], fontdict=font, style='italic')
+    plt.xlabel(figure_details['x_label'], fontdict=font)
+    plt.xticks(rotation=45) 
+
+    plt.savefig(figure_details['file_path'])
+
+
+
+
+
+
+
     
     

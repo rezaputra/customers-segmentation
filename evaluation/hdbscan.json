@@ -10,9 +10,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [27, 52, 0.9999999999999999]
+            "parameter_value": [
+                27,
+                52,
+                0.9999999999999999
+            ]
         }
     },
     {
@@ -26,9 +30,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 52, 0.9999999999999999]
+            "parameter_value": [
+                12,
+                52,
+                0.9999999999999999
+            ]
         }
     },
     {
@@ -42,9 +50,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 35, 0.9999999999999999]
+            "parameter_value": [
+                12,
+                35,
+                0.9999999999999999
+            ]
         }
     },
     {
@@ -58,9 +70,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 35, 0.8]
+            "parameter_value": [
+                12,
+                35,
+                0.8
+            ]
         }
     },
     {
@@ -74,9 +90,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 35, 0.8]
+            "parameter_value": [
+                7,
+                35,
+                0.8
+            ]
         }
     },
     {
@@ -90,9 +110,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 19, 0.8]
+            "parameter_value": [
+                7,
+                19,
+                0.8
+            ]
         }
     },
     {
@@ -106,9 +130,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 10, 0.8]
+            "parameter_value": [
+                7,
+                10,
+                0.8
+            ]
         }
     },
     {
@@ -122,9 +150,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 10, 0.8]
+            "parameter_value": [
+                5,
+                10,
+                0.8
+            ]
         }
     },
     {
@@ -138,9 +170,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [40, 10, 0.8]
+            "parameter_value": [
+                40,
+                10,
+                0.8
+            ]
         }
     },
     {
@@ -154,9 +190,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [30, 10, 0.8]
+            "parameter_value": [
+                30,
+                10,
+                0.8
+            ]
         }
     },
     {
@@ -170,9 +210,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [30, 27, 0.8]
+            "parameter_value": [
+                30,
+                27,
+                0.8
+            ]
         }
     },
     {
@@ -186,9 +230,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [30, 21, 0.8]
+            "parameter_value": [
+                30,
+                21,
+                0.8
+            ]
         }
     },
     {
@@ -202,9 +250,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [30, 16, 0.8]
+            "parameter_value": [
+                30,
+                16,
+                0.8
+            ]
         }
     },
     {
@@ -218,9 +270,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [30, 16, 0.9]
+            "parameter_value": [
+                30,
+                16,
+                0.9
+            ]
         }
     },
     {
@@ -234,9 +290,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [30, 16, 0.7000000000000001]
+            "parameter_value": [
+                30,
+                16,
+                0.7000000000000001
+            ]
         }
     },
     {
@@ -250,9 +310,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 16, 0.7000000000000001]
+            "parameter_value": [
+                25,
+                16,
+                0.7000000000000001
+            ]
         }
     },
     {
@@ -266,9 +330,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 16, 0.7]
+            "parameter_value": [
+                25,
+                16,
+                0.7
+            ]
         }
     },
     {
@@ -282,9 +350,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 20, 0.7]
+            "parameter_value": [
+                25,
+                20,
+                0.7
+            ]
         }
     },
     {
@@ -298,9 +370,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 15, 0.7]
+            "parameter_value": [
+                25,
+                15,
+                0.7
+            ]
         }
     },
     {
@@ -314,9 +390,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [20, 15, 0.7]
+            "parameter_value": [
+                20,
+                15,
+                0.7
+            ]
         }
     },
     {
@@ -330,9 +410,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 54, 0.7]
+            "parameter_value": [
+                25,
+                54,
+                0.7
+            ]
         }
     },
     {
@@ -346,9 +430,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 45, 0.7]
+            "parameter_value": [
+                25,
+                45,
+                0.7
+            ]
         }
     },
     {
@@ -362,9 +450,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 38, 0.7]
+            "parameter_value": [
+                25,
+                38,
+                0.7
+            ]
         }
     },
     {
@@ -378,9 +470,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 29, 0.7]
+            "parameter_value": [
+                25,
+                29,
+                0.7
+            ]
         }
     },
     {
@@ -394,9 +490,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 29, 0.6]
+            "parameter_value": [
+                25,
+                29,
+                0.6
+            ]
         }
     },
     {
@@ -410,9 +510,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 29, 0.7999999999999999]
+            "parameter_value": [
+                25,
+                29,
+                0.7999999999999999
+            ]
         }
     },
     {
@@ -426,9 +530,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 23, 0.7999999999999999]
+            "parameter_value": [
+                25,
+                23,
+                0.7999999999999999
+            ]
         }
     },
     {
@@ -442,9 +550,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 23, 0.9]
+            "parameter_value": [
+                25,
+                23,
+                0.9
+            ]
         }
     },
     {
@@ -458,9 +570,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [20, 23, 0.9]
+            "parameter_value": [
+                20,
+                23,
+                0.9
+            ]
         }
     },
     {
@@ -474,9 +590,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [20, 18, 0.9]
+            "parameter_value": [
+                20,
+                18,
+                0.9
+            ]
         }
     },
     {
@@ -490,9 +610,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [20, 20, 0.9]
+            "parameter_value": [
+                20,
+                20,
+                0.9
+            ]
         }
     },
     {
@@ -506,9 +630,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 20, 0.9]
+            "parameter_value": [
+                15,
+                20,
+                0.9
+            ]
         }
     },
     {
@@ -522,9 +650,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 17, 0.9]
+            "parameter_value": [
+                15,
+                17,
+                0.9
+            ]
         }
     },
     {
@@ -538,9 +670,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 17, 0.8]
+            "parameter_value": [
+                15,
+                17,
+                0.8
+            ]
         }
     },
     {
@@ -554,9 +690,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 21, 0.8]
+            "parameter_value": [
+                15,
+                21,
+                0.8
+            ]
         }
     },
     {
@@ -570,9 +710,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [18, 21, 0.8]
+            "parameter_value": [
+                18,
+                21,
+                0.8
+            ]
         }
     },
     {
@@ -586,9 +730,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [19, 21, 0.8]
+            "parameter_value": [
+                19,
+                21,
+                0.8
+            ]
         }
     },
     {
@@ -602,9 +750,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [19, 21, 0.9]
+            "parameter_value": [
+                19,
+                21,
+                0.9
+            ]
         }
     },
     {
@@ -618,9 +770,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [19, 21, 0.7000000000000001]
+            "parameter_value": [
+                19,
+                21,
+                0.7000000000000001
+            ]
         }
     },
     {
@@ -634,9 +790,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [19, 21, 0.75]
+            "parameter_value": [
+                19,
+                21,
+                0.75
+            ]
         }
     },
     {
@@ -650,9 +810,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [24, 21, 0.75]
+            "parameter_value": [
+                24,
+                21,
+                0.75
+            ]
         }
     },
     {
@@ -666,9 +830,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 15, 0.5]
+            "parameter_value": [
+                12,
+                15,
+                0.5
+            ]
         }
     },
     {
@@ -682,9 +850,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 15, 0.8]
+            "parameter_value": [
+                12,
+                15,
+                0.8
+            ]
         }
     },
     {
@@ -698,9 +870,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 40, 0.8]
+            "parameter_value": [
+                12,
+                40,
+                0.8
+            ]
         }
     },
     {
@@ -714,9 +890,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 40, 0.9]
+            "parameter_value": [
+                12,
+                40,
+                0.9
+            ]
         }
     },
     {
@@ -730,9 +910,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 40, 0.9]
+            "parameter_value": [
+                17,
+                40,
+                0.9
+            ]
         }
     },
     {
@@ -746,9 +930,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 40, 1.0]
+            "parameter_value": [
+                17,
+                40,
+                1.0
+            ]
         }
     },
     {
@@ -762,9 +950,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 40, 1.1]
+            "parameter_value": [
+                17,
+                40,
+                1.1
+            ]
         }
     },
     {
@@ -778,9 +970,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 55, 1.1]
+            "parameter_value": [
+                17,
+                55,
+                1.1
+            ]
         }
     },
     {
@@ -794,9 +990,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 80, 1.1]
+            "parameter_value": [
+                17,
+                80,
+                1.1
+            ]
         }
     },
     {
@@ -810,9 +1010,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 80, 1.3]
+            "parameter_value": [
+                17,
+                80,
+                1.3
+            ]
         }
     },
     {
@@ -826,9 +1030,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 80, 1.5]
+            "parameter_value": [
+                17,
+                80,
+                1.5
+            ]
         }
     },
     {
@@ -842,9 +1050,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 90, 1.5]
+            "parameter_value": [
+                12,
+                90,
+                1.5
+            ]
         }
     },
     {
@@ -858,9 +1070,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 15, 1.2]
+            "parameter_value": [
+                12,
+                15,
+                1.2
+            ]
         }
     },
     {
@@ -874,9 +1090,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 30, 1.2]
+            "parameter_value": [
+                7,
+                30,
+                1.2
+            ]
         }
     },
     {
@@ -890,9 +1110,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 30, 1.2]
+            "parameter_value": [
+                17,
+                30,
+                1.2
+            ]
         }
     },
     {
@@ -906,9 +1130,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 23, 1.0]
+            "parameter_value": [
+                17,
+                23,
+                1.0
+            ]
         }
     },
     {
@@ -922,9 +1150,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [17, 23, 1.1]
+            "parameter_value": [
+                17,
+                23,
+                1.1
+            ]
         }
     },
     {
@@ -938,9 +1170,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 15, 0.5]
+            "parameter_value": [
+                7,
+                15,
+                0.5
+            ]
         }
     },
     {
@@ -954,9 +1190,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 15, 0.5]
+            "parameter_value": [
+                12,
+                15,
+                0.5
+            ]
         }
     },
     {
@@ -970,9 +1210,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 15, 0.6]
+            "parameter_value": [
+                12,
+                15,
+                0.6
+            ]
         }
     },
     {
@@ -986,9 +1230,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 15, 0.4]
+            "parameter_value": [
+                12,
+                15,
+                0.4
+            ]
         }
     },
     {
@@ -1002,9 +1250,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 15, 0.4]
+            "parameter_value": [
+                7,
+                15,
+                0.4
+            ]
         }
     },
     {
@@ -1018,9 +1270,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 57, 0.4]
+            "parameter_value": [
+                7,
+                57,
+                0.4
+            ]
         }
     },
     {
@@ -1034,9 +1290,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 57, 0.4]
+            "parameter_value": [
+                12,
+                57,
+                0.4
+            ]
         }
     },
     {
@@ -1050,9 +1310,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 57, 0.30000000000000004]
+            "parameter_value": [
+                12,
+                57,
+                0.30000000000000004
+            ]
         }
     },
     {
@@ -1066,9 +1330,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 57, 0.2]
+            "parameter_value": [
+                12,
+                57,
+                0.2
+            ]
         }
     },
     {
@@ -1082,9 +1350,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 57, 0.1]
+            "parameter_value": [
+                12,
+                57,
+                0.1
+            ]
         }
     },
     {
@@ -1098,9 +1370,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 17, 0.3]
+            "parameter_value": [
+                12,
+                17,
+                0.3
+            ]
         }
     },
     {
@@ -1114,9 +1390,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 10, 0.3]
+            "parameter_value": [
+                12,
+                10,
+                0.3
+            ]
         }
     },
     {
@@ -1130,9 +1410,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 10, 0.19999999999999998]
+            "parameter_value": [
+                12,
+                10,
+                0.19999999999999998
+            ]
         }
     },
     {
@@ -1146,9 +1430,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 10, 0.19999999999999998]
+            "parameter_value": [
+                7,
+                10,
+                0.19999999999999998
+            ]
         }
     },
     {
@@ -1162,9 +1450,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 12, 0.19999999999999998]
+            "parameter_value": [
+                7,
+                12,
+                0.19999999999999998
+            ]
         }
     },
     {
@@ -1178,9 +1470,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 12, 0.2]
+            "parameter_value": [
+                7,
+                12,
+                0.2
+            ]
         }
     },
     {
@@ -1194,9 +1490,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 17, 0.2]
+            "parameter_value": [
+                7,
+                17,
+                0.2
+            ]
         }
     },
     {
@@ -1210,9 +1510,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 14, 0.2]
+            "parameter_value": [
+                7,
+                14,
+                0.2
+            ]
         }
     },
     {
@@ -1226,9 +1530,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 14, 0.2]
+            "parameter_value": [
+                12,
+                14,
+                0.2
+            ]
         }
     },
     {
@@ -1242,9 +1550,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [12, 14, 0.30000000000000004]
+            "parameter_value": [
+                12,
+                14,
+                0.30000000000000004
+            ]
         }
     },
     {
@@ -1258,9 +1570,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 14, 0.30000000000000004]
+            "parameter_value": [
+                15,
+                14,
+                0.30000000000000004
+            ]
         }
     },
     {
@@ -1274,9 +1590,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 14, 0.4]
+            "parameter_value": [
+                15,
+                14,
+                0.4
+            ]
         }
     },
     {
@@ -1290,9 +1610,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 16, 0.4]
+            "parameter_value": [
+                15,
+                16,
+                0.4
+            ]
         }
     },
     {
@@ -1306,9 +1630,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 16, 0.35]
+            "parameter_value": [
+                15,
+                16,
+                0.35
+            ]
         }
     },
     {
@@ -1322,9 +1650,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 14, 0.35]
+            "parameter_value": [
+                15,
+                14,
+                0.35
+            ]
         }
     },
     {
@@ -1338,9 +1670,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 15, 0.5]
+            "parameter_value": [
+                7,
+                15,
+                0.5
+            ]
         }
     },
     {
@@ -1354,9 +1690,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 15, 0.4]
+            "parameter_value": [
+                7,
+                15,
+                0.4
+            ]
         }
     },
     {
@@ -1370,9 +1710,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 15, 0.3]
+            "parameter_value": [
+                7,
+                15,
+                0.3
+            ]
         }
     },
     {
@@ -1386,9 +1730,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 12, 0.3]
+            "parameter_value": [
+                7,
+                12,
+                0.3
+            ]
         }
     },
     {
@@ -1402,9 +1750,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 12, 0.3]
+            "parameter_value": [
+                5,
+                12,
+                0.3
+            ]
         }
     },
     {
@@ -1418,9 +1770,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 10, 0.3]
+            "parameter_value": [
+                5,
+                10,
+                0.3
+            ]
         }
     },
     {
@@ -1434,9 +1790,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 10, 0.2]
+            "parameter_value": [
+                5,
+                10,
+                0.2
+            ]
         }
     },
     {
@@ -1450,9 +1810,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 10, 0.1]
+            "parameter_value": [
+                5,
+                10,
+                0.1
+            ]
         }
     },
     {
@@ -1466,9 +1830,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 10, 0.15]
+            "parameter_value": [
+                5,
+                10,
+                0.15
+            ]
         }
     },
     {
@@ -1482,9 +1850,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [10, 10, 0.15]
+            "parameter_value": [
+                10,
+                10,
+                0.15
+            ]
         }
     },
     {
@@ -1498,9 +1870,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 10, 0.15]
+            "parameter_value": [
+                15,
+                10,
+                0.15
+            ]
         }
     },
     {
@@ -1514,9 +1890,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 20, 0.15]
+            "parameter_value": [
+                15,
+                20,
+                0.15
+            ]
         }
     },
     {
@@ -1530,9 +1910,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 20, 0.25]
+            "parameter_value": [
+                15,
+                20,
+                0.25
+            ]
         }
     },
     {
@@ -1546,9 +1930,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 20, 0.25]
+            "parameter_value": [
+                25,
+                20,
+                0.25
+            ]
         }
     },
     {
@@ -1562,9 +1950,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [20, 20, 0.25]
+            "parameter_value": [
+                20,
+                20,
+                0.25
+            ]
         }
     },
     {
@@ -1578,9 +1970,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 20, 0.25]
+            "parameter_value": [
+                15,
+                20,
+                0.25
+            ]
         }
     },
     {
@@ -1594,9 +1990,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 20, 0.15]
+            "parameter_value": [
+                15,
+                20,
+                0.15
+            ]
         }
     },
     {
@@ -1610,9 +2010,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 20, 0.25]
+            "parameter_value": [
+                15,
+                20,
+                0.25
+            ]
         }
     },
     {
@@ -1626,9 +2030,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 20, 0.2]
+            "parameter_value": [
+                15,
+                20,
+                0.2
+            ]
         }
     },
     {
@@ -1642,9 +2050,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 20, 0.22]
+            "parameter_value": [
+                15,
+                20,
+                0.22
+            ]
         }
     },
     {
@@ -1658,9 +2070,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 25, 0.22]
+            "parameter_value": [
+                15,
+                25,
+                0.22
+            ]
         }
     },
     {
@@ -1674,9 +2090,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 25, 0.2]
+            "parameter_value": [
+                15,
+                25,
+                0.2
+            ]
         }
     },
     {
@@ -1690,9 +2110,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [10, 25, 0.2]
+            "parameter_value": [
+                10,
+                25,
+                0.2
+            ]
         }
     },
     {
@@ -1706,9 +2130,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 25, 0.2]
+            "parameter_value": [
+                5,
+                25,
+                0.2
+            ]
         }
     },
     {
@@ -1722,9 +2150,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 171, 0.1]
+            "parameter_value": [
+                5,
+                171,
+                0.1
+            ]
         }
     },
     {
@@ -1738,9 +2170,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 10, 0.1]
+            "parameter_value": [
+                5,
+                10,
+                0.1
+            ]
         }
     },
     {
@@ -1754,9 +2190,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 10, 0.2]
+            "parameter_value": [
+                5,
+                10,
+                0.2
+            ]
         }
     },
     {
@@ -1770,9 +2210,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [7, 15, 0.5]
+            "parameter_value": [
+                7,
+                15,
+                0.5
+            ]
         }
     },
     {
@@ -1786,9 +2230,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 15, 0.4]
+            "parameter_value": [
+                5,
+                15,
+                0.4
+            ]
         }
     },
     {
@@ -1802,9 +2250,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [15, 15, 0.4]
+            "parameter_value": [
+                15,
+                15,
+                0.4
+            ]
         }
     },
     {
@@ -1818,9 +2270,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 15, 0.5]
+            "parameter_value": [
+                5,
+                15,
+                0.5
+            ]
         }
     },
     {
@@ -1834,9 +2290,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 171, 0.4]
+            "parameter_value": [
+                5,
+                171,
+                0.4
+            ]
         }
     },
     {
@@ -1850,9 +2310,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 21, 0.4]
+            "parameter_value": [
+                5,
+                21,
+                0.4
+            ]
         }
     },
     {
@@ -1866,9 +2330,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 15, 0.4]
+            "parameter_value": [
+                5,
+                15,
+                0.4
+            ]
         }
     },
     {
@@ -1882,9 +2350,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 79, 0.4]
+            "parameter_value": [
+                5,
+                79,
+                0.4
+            ]
         }
     },
     {
@@ -1898,9 +2370,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 99, 0.4]
+            "parameter_value": [
+                5,
+                99,
+                0.4
+            ]
         }
     },
     {
@@ -1914,9 +2390,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 99, 0.20000000000000004]
+            "parameter_value": [
+                5,
+                99,
+                0.20000000000000004
+            ]
         }
     },
     {
@@ -1930,9 +2410,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 99, 0.3]
+            "parameter_value": [
+                5,
+                99,
+                0.3
+            ]
         }
     },
     {
@@ -1946,9 +2430,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 86, 0.3]
+            "parameter_value": [
+                5,
+                86,
+                0.3
+            ]
         }
     },
     {
@@ -1962,9 +2450,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 128, 0.3]
+            "parameter_value": [
+                5,
+                128,
+                0.3
+            ]
         }
     },
     {
@@ -1978,9 +2470,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [5, 65, 0.3]
+            "parameter_value": [
+                5,
+                65,
+                0.3
+            ]
         }
     },
     {
@@ -1994,9 +2490,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 65, 0.3]
+            "parameter_value": [
+                25,
+                65,
+                0.3
+            ]
         }
     },
     {
@@ -2010,9 +2510,13 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 78, 0.3]
+            "parameter_value": [
+                25,
+                78,
+                0.3
+            ]
         }
     },
     {
@@ -2026,9 +2530,914 @@
         "details": {
             "clustering_parameter": [
                 "min_samples",
-                "min_cluster_sizecluster_selection_epsilon"
+                "min_cluster_size","cluster_selection_epsilon"
             ],
-            "parameter_value": [25, 97, 0.3]
+            "parameter_value": [
+                25,
+                97,
+                0.3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 2,
+        "indexScore": 0.08599182916440981,
+        "dbScore": 2.4232739313407685,
+        "time": 0.3029956817626953,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                5,
+                15,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 1,
+        "indexScore": 0.18394821204826461,
+        "dbScore": 2.8510686305040016,
+        "time": 0.24536848068237305,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                5,
+                10,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 1,
+        "indexScore": 0.11004269616555468,
+        "dbScore": 3.007713822110218,
+        "time": 0.21691083908081055,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                5,
+                10,
+                0.4
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 4,
+        "indexScore": -0.4553785364319128,
+        "dbScore": 1.1738713622929011,
+        "time": 0.21054434776306152,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                5,
+                10,
+                0.10000000000000003
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 4,
+        "indexScore": -0.4553785364319128,
+        "dbScore": 1.1738713622929011,
+        "time": 0.2055203914642334,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                5,
+                10,
+                0.1
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 2,
+        "indexScore": -0.25216868562047406,
+        "dbScore": 1.3670649827182144,
+        "time": 0.19957828521728516,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                5,
+                45,
+                0.1
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 9,
+        "indexScore": -0.5039153216955382,
+        "dbScore": 1.6564913978171116,
+        "time": 0.2174851894378662,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                17,
+                0.1
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 14,
+        "indexScore": -0.5102485938966514,
+        "dbScore": 1.617957035273052,
+        "time": 0.23426461219787598,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                20,
+                17,
+                0.1
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 12,
+        "indexScore": -0.4431547097187174,
+        "dbScore": 1.6482186147660518,
+        "time": 0.23437190055847168,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                20,
+                17,
+                0.30000000000000004
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 3,
+        "indexScore": -0.013729913567611876,
+        "dbScore": 2.106446765350885,
+        "time": 0.24476289749145508,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                20,
+                17,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 4,
+        "indexScore": -0.018908286089902967,
+        "dbScore": 2.04997280590337,
+        "time": 0.2189321517944336,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                25,
+                17,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": -0.06750135869551677,
+        "dbScore": 1.9066462550236445,
+        "time": 0.2362515926361084,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                30,
+                17,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 2,
+        "indexScore": 0.01054411915642599,
+        "dbScore": 2.158999138409682,
+        "time": 0.21242570877075195,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                30,
+                34,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 2,
+        "indexScore": 0.01054411915642599,
+        "dbScore": 2.158999138409682,
+        "time": 0.19402503967285156,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                30,
+                34,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 12,
+        "indexScore": -0.17922865407155048,
+        "dbScore": 1.4149698154232948,
+        "time": 0.2283945083618164,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                30,
+                10,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 12,
+        "indexScore": -0.17922865407155048,
+        "dbScore": 1.4149698154232948,
+        "time": 0.2529032230377197,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                35,
+                10,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 12,
+        "indexScore": -0.17922865407155048,
+        "dbScore": 1.4149698154232948,
+        "time": 0.2386326789855957,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                40,
+                10,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": -0.20847784954508525,
+        "dbScore": 1.910706191858494,
+        "time": 0.1870889663696289,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                40,
+                21,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 2,
+        "indexScore": 0.7085726978143457,
+        "dbScore": 1.6341574312060514,
+        "time": 0.06186246871948242,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                5,
+                15,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 2,
+        "indexScore": 0.7085726978143457,
+        "dbScore": 1.6341574312060514,
+        "time": 0.06582355499267578,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                10,
+                15,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 2,
+        "indexScore": 0.7085726978143457,
+        "dbScore": 1.6341574312060514,
+        "time": 0.06781125068664551,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                15,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 2,
+        "indexScore": 0.5170027266037456,
+        "dbScore": 2.8234382637902153,
+        "time": 0.06182575225830078,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                18,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.3836244013403564,
+        "dbScore": 3.266107593309146,
+        "time": 0.06782126426696777,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                18,
+                0.30000000000000004
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.3836244013403564,
+        "dbScore": 3.266107593309146,
+        "time": 0.0638573169708252,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                18,
+                0.20000000000000004
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.3836244013403564,
+        "dbScore": 3.266107593309146,
+        "time": 0.06486392021179199,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                20,
+                18,
+                0.20000000000000004
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.3836244013403564,
+        "dbScore": 3.266107593309146,
+        "time": 0.07779121398925781,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                25,
+                18,
+                0.20000000000000004
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.21007103374246935,
+        "dbScore": 2.7465421147807683,
+        "time": 0.07181239128112793,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                25,
+                24,
+                0.20000000000000004
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 8,
+        "indexScore": -0.33139849231257984,
+        "dbScore": 2.8872708425237628,
+        "time": 0.06579089164733887,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                25,
+                24,
+                0.10000000000000003
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 7,
+        "indexScore": -0.29260202173030847,
+        "dbScore": 2.988964367309668,
+        "time": 0.05599355697631836,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                20,
+                24,
+                0.10000000000000003
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 5,
+        "indexScore": -0.27527068571589913,
+        "dbScore": 3.0560693922231486,
+        "time": 0.06794500350952148,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                24,
+                0.10000000000000003
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 12,
+        "indexScore": -0.15483559282793827,
+        "dbScore": 2.618812553953816,
+        "time": 0.06456804275512695,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                15,
+                0.10000000000000003
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 14,
+        "indexScore": -0.08301647642067718,
+        "dbScore": 3.2378154552138017,
+        "time": 0.06186938285827637,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                10,
+                0.10000000000000003
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 8,
+        "indexScore": 0.07071351633304149,
+        "dbScore": 2.990486865168855,
+        "time": 0.06183648109436035,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                10,
+                0.20000000000000004
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.3747205094016651,
+        "dbScore": 3.1644347330549207,
+        "time": 0.06582427024841309,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                10,
+                0.30000000000000004
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 2,
+        "indexScore": 0.5111075830227264,
+        "dbScore": 1.3445727498538298,
+        "time": 0.05884146690368652,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                10,
+                0.35
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 3,
+        "indexScore": 0.4041507371049518,
+        "dbScore": 2.328278154447313,
+        "time": 0.07285332679748535,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                15,
+                10,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 2,
+        "indexScore": 0.4009965808060705,
+        "dbScore": 2.5424986639803326,
+        "time": 0.061832427978515625,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                10,
+                10,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.40110784561859486,
+        "dbScore": 3.101315394909327,
+        "time": 0.08277726173400879,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                20,
+                10,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.40110784561859486,
+        "dbScore": 3.101315394909327,
+        "time": 0.07384324073791504,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                25,
+                10,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.40110784561859486,
+        "dbScore": 3.101315394909327,
+        "time": 0.061833858489990234,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                45,
+                10,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 6,
+        "indexScore": 0.10080431550769314,
+        "dbScore": 3.266838288853539,
+        "time": 0.0608365535736084,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                45,
+                15,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 6,
+        "indexScore": 0.13364058086777506,
+        "dbScore": 3.278560641315966,
+        "time": 0.06087017059326172,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                45,
+                12,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 4,
+        "indexScore": 0.40110784561859486,
+        "dbScore": 3.101315394909327,
+        "time": 0.07181787490844727,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                45,
+                10,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 6,
+        "indexScore": 0.13364058086777506,
+        "dbScore": 3.278560641315966,
+        "time": 0.06489443778991699,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size","cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                45,
+                12,
+                0.32
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "HDBSCAN",
+        "extraction": "PCA",
+        "cluster": 5,
+        "indexScore": 0.3539342009636708,
+        "dbScore": 3.1330765535164455,
+        "time": 0.08676719665527344,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "min_cluster_size",
+                "cluster_selection_epsilon"
+            ],
+            "parameter_value": [
+                45,
+                12,
+                0.35
+            ]
         }
     }
 ]

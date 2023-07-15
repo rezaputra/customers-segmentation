@@ -1081,5 +1081,252 @@
                 9.0
             ]
         }
+    },
+    {
+        "dataset": "onlineretail.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": 0.009822804830474187,
+        "dbScore": 1.4574538947646802,
+        "time": 32.8393714427948,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                1000,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 143,
+        "indexScore": -0.17089959289928053,
+        "dbScore": 1.3875611799086593,
+        "time": 1.6304867267608643,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                5,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 143,
+        "indexScore": -0.17089959289928053,
+        "dbScore": 1.3875611799086593,
+        "time": 1.4872465133666992,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                5,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 3,
+        "indexScore": -0.32800058775850693,
+        "dbScore": 1.358339284645591,
+        "time": 0.8049814701080322,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                39,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 14,
+        "indexScore": -0.32430654890677996,
+        "dbScore": 1.5309185088358759,
+        "time": 1.0113990306854248,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                25,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 15,
+        "indexScore": -0.31912806455428033,
+        "dbScore": 1.5159005644354224,
+        "time": 1.553091287612915,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                25,
+                0.9
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 7,
+        "indexScore": -0.35730019439750427,
+        "dbScore": 1.2670565254107893,
+        "time": 1.4933381080627441,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                32,
+                0.9
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 7,
+        "indexScore": -0.35730019439750427,
+        "dbScore": 1.2670565254107893,
+        "time": 1.5749237537384033,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                32,
+                1.1
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 7,
+        "indexScore": -0.35730019439750427,
+        "dbScore": 1.2670565254107893,
+        "time": 1.6341466903686523,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                32,
+                1.3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 4,
+        "indexScore": -0.32623795720816234,
+        "dbScore": 2.0403126553877438,
+        "time": 1.6346824169158936,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                46,
+                1.3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": -0.3174600820316125,
+        "dbScore": 1.8938101858597658,
+        "time": 0.7600014209747314,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                46,
+                0.5
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 2,
+        "indexScore": -0.19968274965703975,
+        "dbScore": 1.4608321121558197,
+        "time": 0.26561856269836426,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                46,
+                0.3
+            ]
+        }
+    },
+    {
+        "dataset": "dwimedialestari.csv",
+        "clustering": "OPTICs",
+        "extraction": false,
+        "cluster": 5,
+        "indexScore": -0.3328968041987437,
+        "dbScore": 1.277414264232714,
+        "time": 0.30423450469970703,
+        "details": {
+            "clustering_parameter": [
+                "min_samples",
+                "max_eps"
+            ],
+            "parameter_value": [
+                34,
+                0.3
+            ]
+        }
     }
 ]

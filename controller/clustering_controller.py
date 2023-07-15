@@ -140,7 +140,7 @@ class ClusteringController:
                     "details":{
                         "clustering_parameter": [
                             "min_samples",
-                            "min_cluster_size"
+                            "min_cluster_size",
                             "cluster_selection_epsilon"
                         ],
                         "parameter_value": [

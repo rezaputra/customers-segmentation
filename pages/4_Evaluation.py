@@ -9,6 +9,7 @@ with open('evaluation/dataset.json', 'r') as file:
 
 if len(dataset_names) != 0:
     st.subheader("Comparing Clustering Results")
+    st.caption("")
 
     colCluster, colDataset, colInfo = st.columns([1,1,1], gap="large")
 
@@ -41,8 +42,15 @@ if len(dataset_names) != 0:
         eval = Evaluation(based_on)
 
         if based_on['group_by'] == "Dataset":
-            eval.datasetBased()
+            try:
+                eval.datasetBased()
+            except:
+                st.warning("Either of the algorithms does not have the desired number of clusters😅")
+
 
         if based_on['group_by'] == "Algorithm":
-            eval.algorithmBased()
+            try:
+                eval.algorithmBased()
+            except:
+                st.warning("Either of the algorithms does not have the desired number of clusters😅")
 
